@@ -20,7 +20,7 @@
       </div>
     </mj-raw>
     <!-- /* Content Block Standard Header Start */ -->
-    <mj-section background-color="#fff" padding-top="30px" padding-bottom="8px" border-top="4px #6c0 solid">
+    <mj-section background-color="#fff" padding-top="32px" padding-bottom="8px" border-top="4px #6c0 solid">
       <!-- Logo -->
       <mj-column>
         <mj-image width="200px" align="center" src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/6b6b5efa-b41c-4c15-b36a-5fddb37415a5.png" href="https://www.greenpeace.org/eastasia/" padding="0px" alt="綠色和平 Greenpeace">
@@ -351,12 +351,12 @@ Copy + Img w/ CTA End */ -->
     </mj-section>
     <!-- /* Content Block 19. TW Share End */ -->
     <!-- /* Content Block 20. Thank you Donate */ -->
-    <mj-section background-color="#fff" padding="20px">
+    <mj-section background-color="#fff" padding-bottom="15px" padding-bottom="15px">
       <mj-column width="100%" padding="0px">
         <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" css-class="lrPad20">在守護大嶼的路上，我們迫切需要您的力量！您的支持能幫助我們，促使政府重新審視和規劃使用棕地等，滿足市民住屋需求的同時，保留具有生態及社會價值的海洋。香港的未來，由您我並肩守護！</mj-text>
       </mj-column>
       <mj-column padding="0px">
-        <mj-button background-color="#FF8100" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="right" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">捐助支持</mj-button>
+        <mj-button background-color="#FF8100" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">捐助支持</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 20. FR message End */ -->
