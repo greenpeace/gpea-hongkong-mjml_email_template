@@ -217,7 +217,7 @@ Copy + Img w/ CTA End */ -->
         <mj-image src="https://via.placeholder.com/560x560.png?text=560x560+Retina+Image" alt="ACT NOW" align="center" width="280px" fluid-on-mobile="true" padding-left="0px" padding-right="20px" padding-bottom="0px" padding-top="10px" css-class="lrPad20"></mj-image>
       </mj-column>
       <mj-column>
-        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="20px"> Headline (optional, 16pt 35 chars max) </mj-text>
+        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="20px"> Left Headline (optional, 16pt 35 chars max) </mj-text>
         <mj-text color="#000" align="left" font-weight="normal" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="20px"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
         <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
       </mj-column>
@@ -229,7 +229,7 @@ Copy + Img w/ CTA End */ -->
         <mj-image src="https://via.placeholder.com/560x560.png?text=560x560+Retina+Image" width="280px" fluid-on-mobile="true" alt="ACT NOW" align="center" padding-left="20px" padding-right="0px" padding-bottom="10px" padding-top="10px" css-class="lrPad20"></mj-image>
       </mj-column>
       <mj-column>
-        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="20px"> Headline (optional, 16pt 35 chars max) </mj-text>
+        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="20px"> Right Headline (optional, 16pt 35 chars max) </mj-text>
         <mj-text color="#000" align="left" font-weight="normal" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="20px"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
         <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
       </mj-column>
@@ -360,21 +360,67 @@ Copy + Img w/ CTA End */ -->
       </mj-column>
     </mj-section>
     <!-- /* Content Block 20. FR message End */ -->
+    <!-- /* Content Block 21. Special Ask */ -->
+    <mj-section background-color="#ecf0f1" padding-bottom="10px" padding-top="10px" padding-left="20px" padding-right="20px">
+      <mj-column width="100%" padding-top="20px" padding-bottom="20px" border="1px solid #eee">
+        <!-- Your columns go here -->
+        <mj-text color="#074365" align="center" font-weight="bold" font-size="28px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="10px">您有3分鐘的時間嗎？</mj-text>
+        <mj-text color="#000" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" align="center">
+          <p>整裝待發迎接2021年的，當然還有綠色和平項目團隊！邀請你填寫3分鐘問卷發表寶貴意見，我們定必細心聆聽，並按此調整來年項目方向，同時讓活動規劃及會員服務更貼近你的需求，一起實現更多為地球許下的願望。</p>
+          <a href="http://greenpeace.org" target="_blank">填寫3分鐘項目問卷</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /* Content Block 21. Special Ask End */ -->
+    <!-- /* Content Block 22. Monthly Newsletter */ -->
+    <mj-section background-color="#fff" padding-top="10px" padding-bottom="10px">
+      <mj-group>
+        <mj-column width="33%" padding-left="0px" padding-right="0px">
+          <mj-image src="https://via.placeholder.com/560x560.png?text=200x200+Retina+Image" width="200px" alt="ACT NOW" align="center" padding-left="20px" padding-right="0px" padding-bottom="10px" padding-top="10px"></mj-image>
+        </mj-column>
+        <mj-column width="66%" padding-top="4px">
+          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="10px">
+            <p>氣候 / 應對氣候危機，亞洲晉身進擊的巨人</p>
+          </mj-text>
+          <mj-text color="#000" align="left" font-size="14px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="10px" css-class="mobHide">
+            <p>當科學家費煞思量探索海洋萬米深淵的奧秘，早有企業聞風而至攻佔地盤。</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- /* Content Block 22. Left Monthly Newsletter End */ -->
+    <!-- /* Content Block 23. Monthly Newsletter */ -->
+    <mj-section background-color="#fff" padding-top="10px" padding-bottom="10px">
+      <mj-group>
+        <mj-column width="66%" padding-top="10px">
+          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="10px">
+            <p>氣候 / 應對氣候危機，亞洲晉身進擊的巨人</p>
+          </mj-text>
+          <mj-text color="#000" align="left" font-size="14px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="10px" css-class="mobHide">
+            <p>當科學家費煞思量探索海洋萬米深淵的奧秘，早有企業聞風而至攻佔地盤。</p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="33%" padding-left="0px" padding-right="0px">
+          <mj-image src="https://via.placeholder.com/560x560.png?text=200x200+Retina+Image" width="200px" alt="ACT NOW" align="center" padding-left="20px" padding-right="0px" padding-bottom="10px" padding-top="10px"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- /* Content Block 23. Left Monthly Newsletter End */ -->
     <!-- Footer Start-->
     <mj-section padding="0px" background-color="#fff" padding="20px">
       <!--Social Icons-->
       <mj-column>
         <mj-divider />
-        <mj-social icon-size="25px" mode="horizontal" align="left" padding-left="6px">
-          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/b2b4450e-c93b-4c63-90fd-d88b355ed0f4.jpg" padding="0px 5px 5px 15px" href="https://www.facebook.com/greenpeacehk/" target="_blank">
+        <mj-social icon-size="25px" mode="horizontal" align="left" padding-left="8px">
+          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/b2b4450e-c93b-4c63-90fd-d88b355ed0f4.jpg" padding="0px 4px 4px 16px" href="https://www.facebook.com/greenpeacehk/" target="_blank">
           </mj-social-element>
-          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/7981574e-f49f-4267-a745-f9be52ebb3b0.jpg" padding="0px 5px 5px 15px" href="https://www.instagram.com/greenpeace_hk/" target="_blank">
+          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/7981574e-f49f-4267-a745-f9be52ebb3b0.jpg" padding="0px 4px 4px 16px" href="https://www.instagram.com/greenpeace_hk/" target="_blank">
           </mj-social-element>
-          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/eca3ae2b-016f-4ad2-9447-1987c82d3b55.jpg" padding="0px 5px 5px 15px" href="https://www.youtube.com/user/GreenpeaceChina" target="_blank">
+          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/eca3ae2b-016f-4ad2-9447-1987c82d3b55.jpg" padding="0px 4px 4px 16px" href="https://www.youtube.com/user/GreenpeaceChina" target="_blank">
           </mj-social-element>
-          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/a6649ed4-94bd-475f-8607-1d895fa23aed.jpg" padding="0px 5px 5px 15px" href="https://twitter.com/greenpeace_hk" target="_blank">
+          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/a6649ed4-94bd-475f-8607-1d895fa23aed.jpg" padding="0px 4px 4px 16px" href="https://twitter.com/greenpeace_hk" target="_blank">
           </mj-social-element>
-          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/428bfc94-352d-41f5-b2e9-1fd2089832fb.png" padding="0px 5px 5px 15px" href="https://medium.com/greenpeace-east-asia" target="_blank">
+          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/428bfc94-352d-41f5-b2e9-1fd2089832fb.png" padding="0px 4px 4px 16px" href="https://medium.com/greenpeace-east-asia" target="_blank">
           </mj-social-element>
         </mj-social>
       </mj-column>
