@@ -47,9 +47,9 @@ Copy Start */ -->
     <!-- /* Content Block 00. Single Column Center Align
 Copy End */ -->
     <!-- /* Content Block 1. Hero Image Start */ -->
-    <mj-section background-color="#000" background-repeat="no-repeat" text-align="center" padding="0px">
+    <mj-section text-align="center" padding="0px">
       <mj-column>
-        <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/1200x400.png?text=1200x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px"></mj-image>
+        <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/1200x400.png?text=1200x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px" padding-bottom="20px"></mj-image>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 1. Hero Image End */ -->
@@ -121,13 +121,13 @@ Copy w/ Headline End */ -->
     <mj-section background-color="#fff" padding-top="0px" padding-left="0px" padding-right="0px" padding-bottom="20px">
       <mj-group>
         <mj-column padding-top="0px" padding-left="0px" padding-right="0px">
-          <mj-image src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" alt="ACT NOW" align="center" padding-left="20px" padding-right="10px" padding-bottom="0px" padding-top="5px"></mj-image>
-          <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Single Column Copy Bold 16pt </mj-text>
+          <mj-image src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" alt="ACT NOW" align="center" padding-left="20px" padding-right="10px" padding-bottom="0px" padding-top="4px"></mj-image>
+          <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px"> Single Column Copy Bold 16pt </mj-text>
           <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-right="0px"> In critical times, compassion, courage and community bind us. Let’s take care of each other, and unite for a safe and just world for everyone. </mj-text>
         </mj-column>
         <mj-column padding-left="0px" padding-right="0px">
           <mj-image src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" alt="ACT NOW" align="center" padding-left="10px" padding-right="20px" padding-bottom="0px" padding-top="5px"></mj-image>
-          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-weight="bold" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="10px"> Single Column Copy Bold 16pt </mj-text>
+          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-weight="bold" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="10px" padding-top="10px"> Single Column Copy Bold 16pt </mj-text>
           <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="10px"> In critical times, compassion, courage and community bind us. Let’s take care of each other, and unite for a safe and just world for everyone. </mj-text>
         </mj-column>
       </mj-group>
@@ -330,10 +330,10 @@ Copy + Img w/ CTA End */ -->
         <mj-text color="#000" align="center" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" css-class="lrPad20">守護大嶼，促請政府公允規劃，您願意號召身邊的親友一起加入嗎？</mj-text>
       </mj-column>
       <mj-column padding="0px">
-        <mj-button background-color="#4267B2" color="#fff" width="180px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Facebook 分享</mj-button>
+        <mj-button background-color="#4267B2" color="#fff" width="180px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.facebook.com/sharer/sharer.php?u=https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Facebook 分享</mj-button>
       </mj-column>
       <mj-column padding="0px">
-        <mj-button background-color="#25d366" color="#fff" width="180px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Whatsapp 分享</mj-button>
+        <mj-button background-color="#25d366" color="#fff" width="180px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://api.whatsapp.com/send?text=https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Whatsapp 分享</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 18. HK Share End */ -->
@@ -343,7 +343,7 @@ Copy + Img w/ CTA End */ -->
         <mj-text color="#000" align="center" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" css-class="lrPad20">您願意號召身邊的親友一起加入嗎？</mj-text>
       </mj-column>
       <mj-column padding="0px">
-        <mj-button background-color="#4267B2" color="#fff" width="180px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Facebook 分享</mj-button>
+        <mj-button background-color="#4267B2" color="#fff" width="180px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.facebook.com/sharer/sharer.php?u=https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Facebook 分享</mj-button>
       </mj-column>
       <mj-column padding="0px">
         <mj-button background-color="#00B900" color="#fff" width="180px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Line 分享 </mj-button>
@@ -389,23 +389,35 @@ Copy + Img w/ CTA End */ -->
       </mj-group>
     </mj-section>
     <!-- /* Content Block 22. Left Monthly Newsletter End */ -->
-    <!-- /* Content Block 23. Monthly Newsletter */ -->
+    <!-- /* Content Block 24. Event Confirmation */ -->
     <mj-section background-color="#fff" padding-top="10px" padding-bottom="10px">
-      <mj-group>
-        <mj-column width="66%" padding-top="10px">
-          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="10px">
-            <p>氣候 / 應對氣候危機，亞洲晉身進擊的巨人</p>
-          </mj-text>
-          <mj-text color="#000" align="left" font-size="14px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="10px" css-class="mobHide">
-            <p>當科學家費煞思量探索海洋萬米深淵的奧秘，早有企業聞風而至攻佔地盤。</p>
-          </mj-text>
-        </mj-column>
-        <mj-column width="33%" padding-left="0px" padding-right="0px">
-          <mj-image src="https://via.placeholder.com/560x560.png?text=200x200+Retina+Image" width="200px" alt="ACT NOW" align="center" padding-left="20px" padding-right="0px" padding-bottom="10px" padding-top="10px"></mj-image>
-        </mj-column>
-      </mj-group>
+      <mj-column>
+        <mj-image src="https://www.greenpeace.org/static/planet4-hongkong-stateless/2021/02/8213fc79-icons8-calendar.gif" alt="" align="center" border="none" width="48px"></mj-image>
+        <mj-text color="#000" align="center" font-size="20px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="0px" font-weight="bold">
+          <p>2021年2月27日 星期六</p>
+          <p>11am- 12pm</p>
+        </mj-text>
+        <mj-divider padding-top="8px" />
+        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="20px">
+          <p>這是您進入Zoom線上分享會的個人鏈結。<br /> 密碼將於活動當天透過電郵和短訊傳送給你。<br /> 如欲邀請好友參加是次活動，請分享此訪客報名鏈結。</p>
+        </mj-text>
+        <mj-text color="#000" align="left" font-size="14px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="10px"> 為確保您的網絡安全及活動順利舉行，請注意以下事項： <ul>
+            <li>請勿將個人鏈結公開，或傳給陌生人</li>
+            <li>請先下載應用程式（<a href="https://itunes.apple.com/us/app/id546505307" target="_blank" style="color:#074365; text-decoration:underline;">IOS</a>、<a href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings" target="_blank" style="color:#074365; text-decoration:underline;">Android</a>、<a href="https://zoom.us/client/latest/Zoom.pkg" target="_blank" style="color:#074365; text-decoration:underline;">電腦</a>）</li>
+            <li>活動將準時於早上11時正開始，請提早3-5分鐘進入Zoom</li>
+            <li>活動將會被錄影</li>
+            <li>活動設有問答環節，如欲發問，請在「Chat」中舉手示意，待主持示意後再發言 </li>
+          </ul>
+        </mj-text>
+        <mj-divider padding-top="8px" />
+        <mj-image src="https://www.greenpeace.org/static/planet4-hongkong-stateless/2021/02/d8d6e645-icons8-calendar-80.png" alt="" align="center" border="none" width="48px"></mj-image>
+        <mj-text color="#000" align="center" font-size="20px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="0px" font-weight="bold">
+          <p>2021年2月27日 星期六</p>
+          <p>11am- 12pm</p>
+        </mj-text>
+      </mj-column>
     </mj-section>
-    <!-- /* Content Block 23. Left Monthly Newsletter End */ -->
+    <!-- /* Content Block 24. Event Confirmation End */ -->
     <!-- Footer Start-->
     <mj-section padding="0px" background-color="#fff" padding="20px">
       <!--Social Icons-->
