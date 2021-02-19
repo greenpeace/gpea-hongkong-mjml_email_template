@@ -1,0 +1,209 @@
+// -----------------------------------------------------------------------------
+// This file contains typo styles.
+// -----------------------------------------------------------------------------
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  @media only screen and (min-width: 320px) {
+    font-size: 50%;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  @include font-smoothing(on);
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-content;
+  font-size: 100%;
+  min-width: 320px;
+  &.modal__active {
+    .disable-scroll {
+      /* disable scrollbar on both x and y axis */
+      overflow: hidden;
+      /* disable scrollbar on x-axis only */
+      overflow-x: hidden;
+      /* disable scrollbar on y-axis only */
+      overflow-y: hidden;
+      /* disable scroll */
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      /* OPTIONAL: none of dom element will be click-able */
+      pointer-events: none;
+    }
+  }
+}
+
+p,
+strong,
+button,
+span,
+a,
+input,
+select,
+textarea,
+label {
+  font-family: $font-content;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-header;
+}
+
+// font-size
+body {
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3.157rem;
+}
+
+h2 {
+  font-size: 2.369rem;
+}
+
+h3 {
+  font-size: 1.777rem;
+}
+
+h4 {
+  font-size: 1.333rem;
+}
+
+p {
+  font-size: 1.6rem;
+  margin-bottom: 1.3rem;
+}
+
+button {
+  font-size: 1.6rem;
+}
+
+div,
+a {
+  font-size: 1.4rem;
+}
+
+span {
+  font-size: 1.4rem;
+}
+
+table {
+  font-size: 1.4rem;
+}
+
+small,
+.font_small {
+  font-size: 0.75em;
+}
+
+.material-icons {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  font-size: 16px;
+}
+
+// Type Scale 1.333 - Perfect Fourth
+
+/*
+h1,
+h2 {
+  letter-spacing: .5rem;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 2.3rem;
+}
+
+button {
+  font-size: 1.6rem;
+}
+
+div,
+p,
+a {
+  font-size: 1.6rem;
+}
+
+span {
+  font-size: 1.4rem;
+}
+
+table {
+  font-size: 1.4rem;
+}
+
+.material-icons {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  font-size: 16px;
+}
+*/
+
+// appearance
+input[type="text"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, .3);
+}
+
+button {
+  border: none;
+  outline: none;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  user-select: none;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,575 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="x-apple-disable-message-reformatting; width=device-width,initial-scale=1,maximum-scale=1," />
+    <style type="text/css">
+    * {
+        border-radius: 0;
+        border: none;
+        outline: none;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        -webkit-padding-before: 0;
+        -webkit-padding-start: 0;
+        -webkit-padding-end: 0;
+        -webkit-padding-after: 0;
+    }
+
+    /* WAT IS THIS?! We inherit box-sizing: border-box; from our <html> selector Apparently this is a bit better than applying box-sizing: border-box; directly to the * selector */
+    *,
+    *:before,
+    *:after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+    }
+
+    * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        -webkit-font-smoothing: antialiased;
+        background-color: #eeeeee;
+        font-family: 'Microsoft JhengHei', 'Heiti TC', Helvetica, sans-serif !important;
+        font-size: 100%;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    html {
+        width: 100%;
+    }
+
+    p {
+        padding: 0 !important;
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+
+    a {
+        color: #58b006;
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: #467F0D;
+    }
+
+    table[class=mobile] {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    </style>
+    <!-- @media only screen and (max-width: 640px){*/-->
+    <style type="text/css">
+    @media only screen and (max-width: 640px) {
+        body {
+            width: auto !important;
+        }
+
+        table[class=full] {
+            width: 100% !important;
+            clear: both;
+        }
+
+        table[class=mobile] {
+            width: 100% !important;
+            padding-left: 10px;
+            padding-right: 10px;
+            clear: both;
+        }
+
+        table[class=fullCenter] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+        }
+
+        td[class=fullCenter] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+        }
+
+        td[class=fullCenterDisplay] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+            display: inline-block;
+        }
+
+        td[class=mobile] {
+            width: 100% !important;
+            padding: 0 !important;
+            text-align: center !important
+        }
+    }
+    </style>
+    <!--@media only screen and (max-width: 479px){-->
+    <style type="text/css">
+    @media only screen and (max-width: 479px) {
+        body {
+            width: auto !important;
+        }
+
+        table[class=full] {
+            width: 100% !important;
+            clear: both;
+        }
+
+        table[class=mobile] {
+            width: 100% !important;
+            padding-left: 10px;
+            padding-right: 10px;
+            clear: both;
+        }
+
+        table[class=fullCenter] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+        }
+
+        td[class=fullCenter] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+        }
+
+        td[class=mobile] {
+            width: 100% !important;
+            padding: 0 !important;
+            text-align: center !important
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <!-- template -->
+    <!--
+        <tr>
+         <td align="left" height="16" valign="top" width="100%"></td>
+        </tr>
+    -
+        <span  style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 20px; line-height: 1; font-weight: bold; color: #443e39;">
+          headline
+        </span>
+    --
+        <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 16px; font-weight: bold;line-height: 1.5em;color: #58b006; text-decoration: underline;">
+          <a href="{external_url~https://act.gp/2P3wOuy~main_btn_1}">
+        </span>
+    --
+        <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 2em; margin-top: 4px; color: #0a0a0a;"> 
+          demo 
+        </spon>
+    --
+    -->
+    <!-- end of template -->
+    <!-- preview text -->
+    <div style="display: none; opacity: 0;">
+        <span>Plastic Free NOW！Together we have to make this happen.</span>
+    </div>
+    <!-- end preview -->
+    <!--  logo -->
+    <table class="mobile" style="background-color: rgb(255,255,255);" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tbody>
+            <tr>
+                <td align="left" valign="top" width="100%">
+                    <table style="background-color: rgb(255,255,255);" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="left" height="4" valign="top" width="100%" style="border-top: 4px solid #66cc00;"></td>
+                            </tr>
+                            <tr>
+                                <td align="left" height="16" valign="top" width="100%"></td>
+                            </tr>
+                            <tr>
+                                <td align="center" width="100%">
+                                    <table class="fullCenter" style="border-collapse:collapse; " align="center" border="0" cellpadding="0" cellspacing="0" width="100
+                                        <tbody>
+                                            <tr>
+                                                <td align=" center" valign="top" width="100%">
+                                        <table class="fullCenter" style="border-collapse:collapse; " align="center" border="0" cellpadding="0" cellspacing="0" width="100
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class=" fullCenter" valign="top" width="100%" <a href="#">
+                                            <img alt="Greenpeace" border="0" src="https://api.greenpeace.org.hk/general/email/images/Greenpeace_HK_green.png" style="width: 200px; border: 0px none;" />
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </td>
+    </tr>
+    <tr>
+        <td align="left" height="16" valign="top" width="100%"></td>
+    </tr>
+    </tbody>
+    </table>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    <!--  end logo -->
+    <!-- banner -->
+    <table class="mobile" style="background-color: rgb(255,255,255);" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tbody>
+            <tr>
+                <td align="left" style="padding: 0px;">
+                    <a href="{external_url~https://twitter.com/greenpeace_hk/status/1053511125575196675~main_img_1}" target="_blank">
+                    <img src="https://secured-static.greenpeace.org/hk/Global/hk/artworks/ebulletins/2018/11/SHINGMUN.jpg" style="width:100%;" />
+                </a>
+                    </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--
+    end banner
+      -->
+    <!-- main story -->
+    <table class="mobile" style="background-color: rgb(255,255,255);" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tbody>
+            <tr>
+                <td class="fullCenter" align="center" valign="top" width="600">
+                    <table style="background-color: rgb(255,255,255); border-collapse:collapse; " align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span  style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 20px; line-height: 1; font-weight: bold; color: #443e39;">Plastic Free NOW！Together we have to make this happen.</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 2em; margin-top: 4px;
+    color: #0a0a0a;">{salutation~HK Dear Eng first_name}</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 2em; margin-top: 4px;
+    color: #0a0a0a;">As a frontier to protect the environment, the horrifying imagery of "plastic flood" along Heng Fa Chuen waterfront during super typhoon Mangkhut might still be haunting you.
+</span>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 13px; line-height: 2em; margin-top: 4px; color: #333;">A recent Greenpeace field investigation could give you some ideas about how were the plastic trashes being discharged into the sea: <strong>For the Tai Wai Nullah of the Shing Mun River alone there are more than 17.5 million pieces of plastic that flow directly into the sea each year.</strong></span></td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 16px; font-weight: bold; line-height: 1.5em;color: #58b006; text-decoration: underline;"><a href="{external_url~https://secured-static.greenpeace.org/hk/Global/hk/publications/oceans/2018/201801018-supplementary-info-eng.pdf~main_btn_1}">
+                      Detailed analysis of River Plastic Runoff</a></span></td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 13px; line-height: 2em; margin-top: 4px; color: #333;">While fast food chains started taking steps such as ditching plastic straws, Greenpeace believes they can do much more! Let us join hands to push local fast food chain leaders Café de Coral and Fairwood to eliminate disposable plastic utensils in dine-in restaurants for good!</span></td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- end main story -->
+    <!--  first block  -->
+    <table class="mobile" style="background-color: rgb(255,255,255);" class="mobile" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tbody>
+            <tr>
+                <td class="fullCenter" align="center" valign="top" width="600">
+                    <table class="fullCenter" style="background-color: rgb(255,255,255); border-collapse:collapse; " align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td class="fullCenter" align="center" valign="top" width="600">
+                                    <table class="full" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td class="mobile" align="left" valign="top">
+                                                    <table class="full" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="mobile story-banner" style="background-image: url(https://secured-static.greenpeace.org/hk/Global/hk/artworks/ebulletins/2018/11/IPCC.jpg); height: 200px; background-size: cover;  background-repeat: no-repeat; border-collapse:collapse; background-position: 50% 50%!important;
+    " align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span class="black-text heading_title" style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 20px; line-height: 1; font-weight: bold; color: #222; ">💪Our mission is possible - Hope, Action & Change!</span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 13px; line-height: 2em; margin-top: 4px;
+    color: #0a0a0a;">2018 has been marked with tragic extreme weather events, but this is not the moment to give up! The Intergovernmental Panel on Climate Change (IPCC) has revealed what needs to be done to limit global warming to 1.5°C. At this crucial time, we want to know your #ReasonsForHope to help shift the debate on climate change!</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 16px; font-weight: bold; line-height: 1.5em;color: #58b006; text-decoration: underline;"><a href="{external_url~https://act.greenpeace.org/page/29778/petition/1~sub_btn_1}">Share your #ReasonsForHope with us</a></span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="mobile story-banner" style="background-image: url(https://secured-static.greenpeace.org/hk/Global/hk/artworks/ebulletins/2018/11/GP0STSKTO_Web_size_with_credit_line.jpg); height: 200px; background-size: cover;  background-repeat: no-repeat; border-collapse:collapse; background-position: 50% 50%!important;
+    " align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 20px; line-height: 1; font-weight: bold; color: #222; ">Protect the Antarctic: This isn't over.</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 13px; line-height: 2em; margin-top: 4px; color: #333;">Antarctic Ocean Commission meeting came to an end with 22 countries supported the Antarctic Ocean Sanctuary proposal, unfortunately, Norwegian, Chinese and Russian negotiators stopped it from going ahead. Thank you for joining this movement with 2.7 million others. And we are coming back stronger to battle again!</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 16px; font-weight: bold; line-height: 1.5em;color: #58b006; text-decoration: underline;"><a href="{external_url~https://www.greenpeace.org/international/story/19163/governments-have-failed-to-protect-the-antarctic-but-this-isnt-over/~sub_btn_2}">We're not losing hope for the oceans</a></span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="mobile story-banner" style="background-image: url(https://secured-static.greenpeace.org/hk/Global/hk/artworks/ebulletins/2018/11/2017_GPEA_Annual_Report_ENG_1011_Page_01.jpg); height: 200px; background-size: cover;  background-repeat: no-repeat; border-collapse:collapse; background-position: 50% 50%!important;
+    " align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <img src="https://secured-static.greenpeace.org/hk/Global/hk/artworks/ebulletins/2018/11/2017_GPEA_Annual_Report_ENG_1011_Page_01.jpg" style="width:100%;" />
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 20px; line-height: 1; font-weight: bold; color: #222; ">Our efforts in saving the Earth last year. Check this!</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 13px; line-height: 2em; margin-top: 4px;
+    color: #0a0a0a;">Only with your valuable and continued support can Greenpeace uphold our independence and impartiality to accomplish environmental missions. From our latest report, you can read about how we're putting your generous donations to good use. Thank you :)</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 16px; font-weight: bold;line-height: 1.5em;color: #58b006; text-decoration: underline;"><a href="{external_url~http://www.greenpeace.org/eastasia/Global/eastasia/publications/annual-reports/2017/2017%20GPEA%20Annual%20Report_EN_web%20final_single.pdf~sub_btn_3}">Check out what You and Greenpeace achieved together</a></span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--  end first block  -->
+    <!--
+    end content bg
+    -->
+    <!-- social -->
+    <table class="mobile" style="background-color: rgb(255,255,255);" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tbody>
+            <tr>
+                <td align="left" valign="top" width="100%">
+                    <table class="fullCenter" style="border-collapse:collapse; " align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tbody>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td align="center" width="100%">
+                                    <span><a href="{external_url~https://www.facebook.com/greenpeace.international/~sns_facebook} " target="_blank " title="Greenpeace Facebook ">
+                        <img src="https://api.greenpeace.org.hk/general/email/images/001-facebook.png" alt="" border="0" width="24"></a>&nbsp;&nbsp;&nbsp;</span>
+                                    <span style="padding: 0 8px;"></span>
+                                    <span><a href="{external_url~https://www.instagram.com/greenpeace/~sns_instagram} " target="_blank " title="Greenpeace instagram ">
+                        <img src="https://api.greenpeace.org.hk/general/email/images/002-instagram.png" alt="" border="0" width="24"></a>&nbsp;&nbsp;&nbsp;</span>
+                                    <span style="padding: 0 8px;"></span>
+                                    <span><a href="{external_url~https://www.youtube.com/user/greenpeaceeastasia~sns_youtube} " target="_blank " title="Greenpeace YouTube ">
+                        <img src="https://api.greenpeace.org.hk/general/email/images/003-youtube.png" alt="" border="0" width="24"></a>&nbsp;&nbsp;&nbsp;</span>
+                                    <span style="padding: 0 8px;"></span>
+                                    <span><a href="{external_url~https://twitter.com/greenpeace_hk~sns_twitter} " target="_blank " title="Greenpeace Twitter ">
+                        <img src="https://api.greenpeace.org.hk/general/email/images/004-twitter.png" alt="" border="0" width="24"></a></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- end social -->
+    <!--
+    footer
+    -->
+    <table class="mobile" style="background-color: #f6f6f6;" align="center" bgcolor="#f6f6f6" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tbody>
+            <tr>
+                <td align="left" valign="top" width="100%">
+                    <table class="fullCenter" style="border-collapse:collapse; " align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tbody>
+                            <tr>
+                                <td align="left" height="20" valign="top" width="100%" bgcolor="#f6f6f6 " style="background-color: #f6f6f6;"></td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#f6f6f6 " style="background-color: #f6f6f6; padding-left: 10px; padding-right: 10px; ">
+                                    <table bgcolor="#f6f6f6 " border="0 " cellpadding="0 " cellspacing="0 " class="container" style="background-color: #f6f6f6; padding-top: 5px; padding-bottom: 5px; padding-left: 0px; padding-right: 0px; " width="100% ">
+                                        <tbody>
+                                            <tr>
+                                                <td style="text-align: center; font-size: 11px; line-height: 1.5em; color: #333; ">
+                                                    <span style="padding-right: 8px; color: #333;">Member Hotline: (852) 2854-8318 </span>
+                                                    <a href="mailto:donor.services.hk@greenpeace.org " style="text-decoration: none; letter-spacing: 0px; " title="Member">donor.services.hk@greenpeace.org</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center; font-size: 11px; line-height: 1.5em; color: #333; ">
+                                                    <span style="padding-right: 8px; color: #333;">General Enquiry: (852) 2854-8300 </span>
+                                                    <a href="mailto:enquiry.hk@greenpeace.org " style="text-decoration: none; letter-spacing: 0px; " title="General Enquiry">enquiry.hk@greenpeace.org</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" height="10" valign="top" width="100%" style="background-color: #f6f6f6;"></td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#f6f6f6 " style="background-color: #f6f6f6; padding-left: 10px; padding-right: 10px; ">
+                                    <table bgcolor="#f6f6f6 " border="0 " cellpadding="0 " cellspacing="0 " class="container" style="text-align: center; background-color: #f6f6f6; padding-top: 5px; padding-bottom: 5px; padding-left: 0px; padding-right: 0px; " width="100% ">
+                                        <tbody>
+                                            <tr>
+                                                <td style="font-size: 11px; line-height: 1.5em; color: #333; ">Copyright &copy;Greenpeace East Asia</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-size: 11px; line-height: 1.5em; color: #333; ">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-size: 11px; line-height: 1.5em; color: #333; ">10/F, Stelux House, 698 Prince Edward Road East, San Po Kong, Kowloon, Hong Kong</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" height="20" valign="top" width="100%" bgcolor="#f6f6f6 " style="background-color: #f6f6f6;"></td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#f6f6f6 " style="background-color: #f6f6f6; padding-left: 10px; padding-right: 10px; text-align: center;">
+                                    <table bgcolor="#f6f6f6 " border="0 " cellpadding="0 " cellspacing="0 " style="background-color: #f6f6f6; padding: 5px 0px; font-size: 11px; line-height: 1em; " width="100% ">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" style="text-align: center; width: 100%; " valign="top ">
+                                                    <span style="padding: 0 3px; font-size: 11px; ">
+                              <a href="{external_url~http://www.greenpeace.org/eastasia/~footer_link_home} " style="text-decoration: none; color: #333; " target="_blank " title="Home">Home</a>
+                            </span>
+                                                    <span style="padding: 0 5px; color: #333;">|</span>
+                                                    <span style="padding: 0 3px; font-size: 11px; ">
+                              <a href="{external_url~https://act.greenpeace.org/page/8046/donate/1?ea.tracking.id=fromemail~footer_donate_link} " style="text-decoration: none; color: #333; " target="_blank " title="Donate">Donate</a>
+                            </span>
+                                                    <span style="padding: 0 5px; color: #333;">|</span>
+                                                    <span style="padding: 0 3px; font-size: 11px; ">
+                              <a href="{external_url~http://www.greenpeace.org/eastasia/get-involved/subscribe/~footer_subscripte}" style="text-decoration: none; color: #333; " target="_blank " title="Subscribe">Subscribe</a>
+                            </span>
+                                                    <span style="padding: 0 5px; color: #333;">|</span>
+                                                    <span style="padding: 0 3px; font-size: 11px; ">
+                              <a href="{campaign_url~58085~https://act.greenpeace.org/ea-action/action?ea.client.id=1853&amp;ea.campaign.id=58085&amp;ea.tracking.id=fromemail~unsubscribe}" style="text-decoration: none; color: #333; " title="Unsubscribe">Unsubscribe</a>
+                            </span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" height="20" valign="top" width="100%" style="background-color: #f6f6f6;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--
+    end footer
+    -->
+    <p>&nbsp;</p>
+</body>
+
+</html>

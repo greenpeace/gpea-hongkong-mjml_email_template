@@ -1,0 +1,477 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="x-apple-disable-message-reformatting; width=device-width,initial-scale=1,maximum-scale=1," />
+    <style type="text/css">
+    * {
+        border-radius: 0;
+        border: none;
+        outline: none;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        -webkit-padding-before: 0;
+        -webkit-padding-start: 0;
+        -webkit-padding-end: 0;
+        -webkit-padding-after: 0;
+    }
+
+    /* WAT IS THIS?! We inherit box-sizing: border-box; from our <html> selector Apparently this is a bit better than applying box-sizing: border-box; directly to the * selector */
+
+    *,
+    *:before,
+    *:after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+    }
+
+    * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        -webkit-font-smoothing: antialiased;
+        background-color: #eeeeee;
+        font-family: 'Microsoft JhengHei', 'Heiti TC', Helvetica, sans-serif !important;
+        font-size: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    html {
+        width: 100%;
+    }
+
+    p {
+        padding: 0 !important;
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+
+    a {
+        color: #58b006;
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: #467F0D;
+    }
+
+    table[class=mobile] {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    </style>
+    <!-- @media only screen and (max-width: 640px){*/-->
+    <style type="text/css">
+    @media only screen and (max-width: 640px) {
+        body {
+            width: auto !important;
+        }
+
+        table[class=full] {
+            width: 100% !important;
+            clear: both;
+        }
+
+        table[class=mobile] {
+            width: 100% !important;
+            padding-left: 10px;
+            padding-right: 10px;
+            clear: both;
+        }
+
+        table[class=fullCenter] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+        }
+
+        td[class=fullCenter] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+        }
+
+        td[class=fullCenterDisplay] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+            display: inline-block;
+        }
+
+        td[class=mobile] {
+            width: 100% !important;
+            padding: 0 !important;
+            text-align: center !important
+        }
+    }
+    </style>
+    <!--@media only screen and (max-width: 479px){-->
+    <style type="text/css">
+    @media only screen and (max-width: 479px) {
+        body {
+            width: auto !important;
+        }
+
+        table[class=full] {
+            width: 100% !important;
+            clear: both;
+        }
+
+        table[class=mobile] {
+            width: 100% !important;
+            padding-left: 10px;
+            padding-right: 10px;
+            clear: both;
+        }
+
+        table[class=fullCenter] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+        }
+
+        td[class=fullCenter] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+        }
+
+        td[class=mobile] {
+            width: 100% !important;
+            padding: 0 !important;
+            text-align: center !important
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <!-- template -->
+    <!-- end of template -->
+    <!--  logo -->
+    <table class="mobile" align="center" cellspacing="0" cellpadding="0" border="0" width="600" style="margin: 0 auto; background-color: rgb(255,255,255);" bgcolor="#ffffff">
+        <tbody>
+            <tr>
+                <td align="left" valign="top" width="100%">
+                    <table style="background-color: rgb(255,255,255);" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" width="100%">
+                                    <img alt="Greenpeace 綠色和平" border="0" src="https://api.greenpeace.org.hk/general/email/images/email-green-topline.png" style="width: 100%; margin: 0 auto;" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" width="100%">
+                                    <a href="{external_url~https://act.gp/2JBm9me~header_logo}"><img alt="Greenpeace 綠色和平" border="0" src="https://api.greenpeace.org.hk/general/logo/GP-logo-2019-TC-green-[web]-01.png" style="width: 150px; border: 0px none;" /></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" height="12" valign="top" width="100%"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    <!--  end logo -->
+    <!-- banner -->
+    <table class="mobile" align="center" cellspacing="0" cellpadding="0" border="0" width="600" style="margin: 0 auto; background-color: rgb(255,255,255);" bgcolor="#ffffff">
+        <tbody>
+            <tr>
+                <td align="left" style="padding: 0px;"><img src="https://storage.googleapis.com/planet4-hongkong-stateless/2019/11/76d60477-sammul_ocean_email.jpg" style="width:100%;" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--
+    end banner
+      -->
+    <!-- main story -->
+    <table class="mobile" align="center" cellspacing="0" cellpadding="0" border="0" width="600" style="margin: 0 auto; background-color: rgb(255,255,255);" bgcolor="#ffffff">
+        <tbody>
+            <tr>
+                <td class="fullCenter" align="center" valign="top" width="600">
+                    <table style="background-color: rgb(255,255,255); border-collapse:collapse; " align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 2em; margin-top: 4px;
+    color: #0a0a0a;">{salutation~HK Dear Chi full_name}</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 1.4; letter-spacing: 1px;  margin-top: 3px; color: #2b2b2b;">海洋總是不斷地帶給我們無盡的驚喜和感動，但我們能帶給海洋什麼呢？藝人陳鍵鋒熱愛海洋，也因此成為潛水教練，他說：「水底世界神奇得令人驚嘆，但現時不受保護的海洋無限大，受保護的範圍卻這麼少... 」。<strong>因此，陳鍵鋒想特別和您分享，3個一起守護海洋的方法。</strong></span></td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+<tr>
+  <td class="fullCenter" valign="top" width="100%">
+    <p style="text-align: center; width: 100%; ">
+      <strong>
+        <a href="{external_url~https://act.gp/35GGajJ~main_btn_1}" style="margin-right:5px; margin-bottom:5px;display: inline-block; background: #66cc00; padding:8px 20px; color: #ffffff; font-family: 'Microsoft JhengHei', 'Heiti TC', Helvetica, sans-serif; font-size: 16px;  line-height: 1.5em; font-weight: bold; text-align: center; text-decoration: none; border-radius: 3px; " target="_blank ">陳鍵鋒贈您，3件可以為海洋做的事</a>
+      </strong>
+    </p>
+  </td>
+</tr>
+<tr>
+  <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+</tr>
+
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 1.4; letter-spacing: 1px;  margin-top: 3px; color: #2b2b2b;">最近，綠色和平船艦「希望號」在亞馬遜珊瑚礁區進行研究，發現那裡不只是海洋生物的遷徙路線，更是座頭鯨覓食和哺育幼鯨的珍貴場所。過往，這裡曾多次受到Total法國石油公司的勘探威脅，幸好當時我們發起緊急聯署，集結全球200萬位支持者，同時展開海底研究調查，並帶著研究報告，多次會面遊說巴西政府。<strong>最後，我們成功駁回Total法國石油公司5次的勘探申請，這就是群眾力量的實證！</strong></span></td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td align="left" style="padding: 0px;"><img src="https://storage.googleapis.com/planet4-hongkong-stateless/2019/11/ef426531-oceamf2.jpg" style="width:100%;" /></td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%"> <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 1.4; letter-spacing: 1px;  margin-top: 3px; color: #2b2b2b;">雖然暫時成功守住這片珍貴的珊瑚礁，但我們不能鬆懈，因為一日未有完整的海洋保育機制，石油公司就不會放棄申請勘探許可：最近BP英國石油公司便正式提出鑽油計劃。因此，想要海洋得到長期和全面的保護，唯有由全球守護海洋的政策改變，推動成立強而有力的全球海洋公約，建立包含監管、審議及處分的保育機制。</span></td>
+                            </tr>
+                            <tr>
+                              <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+<tr>
+  <td align="center" style="padding: 0px;">
+    <a href="{external_url~https://act.gp/2OLCW7v~img_1} " target="_blank"><img src="https://storage.googleapis.com/planet4-hongkong-stateless/2019/11/262a0dc7-oceanfr3.jpg" style="width:100%;" />
+    </a>
+
+  </td>
+</tr>
+
+                            
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%"> <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 1.4; letter-spacing: 1px;  margin-top: 3px; color: #2b2b2b;">群眾力量是推動正面改變的關鍵！過往在您和眾多海洋守護者的支持下，我們成功取得以下成果：</span></td>
+                            </tr>
+                           
+                            <tr>
+                              <td class="fullCenter" valign="top" width="100%">
+                                <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 14px; line-height: 1.4;  vertical-align: baseline; margin-top: 3px; color: #2b2b2b;">
+                                  <ul style="list-style: none; padding: 0; margin: 0;">
+                                    <li style="margin-bottom: 8px;">- 2015年，成功令蜆殼石油公司宣佈在可預見的未來停止在阿拉斯加北極的進一步勘探</li>
+                                    <li style="margin-bottom: 8px;">- 2017年，推動全球9個捕魚大國及歐盟代表通過，未來16年禁止在北冰洋中部工業捕魚</li>
+                                    <li style="margin-bottom: 8px;">- 2018年，令85%南極磷蝦捕撈企業承諾大幅減少捕撈作業</li>
+                                  </ul>
+                                </span></td>
+                            </tr>
+
+                            <tr>
+                              <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                           
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 1.4; letter-spacing: 1px;  margin-top: 3px; color: #2b2b2b;">陳鍵鋒說： 「在環境議題上，我認為有同行的人非常重要，一直以來我也希望能和綠色和平合作，因為綠色和平從不接受任何政商界資助，保持公正獨立的精神，是我十分欣賞和願意加入支持的原因！希望您能與我們一起行動，加入支持守護海洋！」</span></td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            
+                          
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 1.4; letter-spacing: 1px;  margin-top: 3px; color: #2b2b2b;">2019年將迎來尾聲，代表我們已踏入最後階段，亦是最不容有失的時間： 聯合國將於2020上半年在美國紐約總部，舉行最後一次會議，各國領袖將決定會否成立全球海洋公約。由推動聯合國開啟討論，籌備遠征研究旅程、以研究報告遊說企業和各國領袖，現在拯救危機四伏海洋的方法就在我們眼前，希望您能帶著陳鍵鋒3個守護海洋的方法，<strong>與我們一起達成期盼已久的目標：成立全球海洋公約，合力守住我們珍而重之的海洋！</strong></span></td>
+                            </tr>
+                            
+                            <tr>
+                                <td style="line-height: 32px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            
+                          
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 1.4; letter-spacing: 1px;  margin-top: 3px; color: #2b2b2b;">再次感謝您的支持！</span></td>
+                            </tr>
+
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 1.4; letter-spacing: 1px;  margin-top: 3px; color: #2b2b2b;">李緻兒<br />綠色和平數碼媒體募款主任
+                                    </span></td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 1.4; letter-spacing: 1px;  margin-top: 3px; color: #2b2b2b;">P.S. 為維持公正獨立，綠色和平不接受企業、政府資助，<strong>100%倚賴如您一般熱心的市民<a href="{external_url~https://act.gp/2OQniHV~main_link_1}">捐助支持</a></strong>，以積極行動帶來正面改變！</span></td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- end main story -->
+    <!-- social -->
+    <table class="mobile" align="center" cellspacing="0" cellpadding="0" border="0" width="600" style="margin: 0 auto;" bgcolor="#ffffff">
+        <tbody>
+            <tr>
+                <td style="background-color: rgb(255,255,255);" align="left" height="20" valign="top" width="100"></td>
+            </tr>
+            <tr>
+                <td align="center" width="100%">
+                    <span><a href="{external_url~https://www.facebook.com/greenpeacehk/~sns_facebook} " target="_blank " title="綠色和平在Facebook ">
+                            <img src="https://api.greenpeace.org.hk/general/email/images/036-facebook.png" alt="" border="0" width="24"></a></span>
+                    <span style="padding: 0 8px;"></span>
+                    <span><a href="{external_url~https://www.instagram.com/greenpeace_hk/~sns_instagram} " target="_blank " title="綠色和平在instagram ">
+                            <img src="https://api.greenpeace.org.hk/general/email/images/029-instagram.png" alt="" border="0" width="24"></a></span>
+                    <span style="padding: 0 8px;"></span>
+                    <span><a href="{external_url~http://www.youtube.com/user/GreenpeaceChina~sns_youtube} " target="_blank " title="綠色和平在YouTube ">
+                            <img src="https://api.greenpeace.org.hk/general/email/images/001-youtube.png" alt="" border="0" width="24"></a></span>
+                    <span style="padding: 0 8px;"></span>
+                    <span><a href="{external_url~https://twitter.com/greenpeace_hk~sns_twitter} " target="_blank " title="綠色和平在Twitter ">
+                            <img src="https://api.greenpeace.org.hk/general/email/images/008-twitter.png" alt="" border="0" width="24"></a></span>
+                    <span style="padding: 0 8px;"></span>
+                    <span><a href="{external_url~https://medium.com/greenpeace-east-asia~sns_medium} " target="_blank " title="綠色和平在Medium ">
+                            <img src="https://api.greenpeace.org.hk/general/email/images/medium-icon.png" alt="" border="0" width="24"></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(255,255,255);" align="left" height="20" valign="top" width="100"></td>
+            </tr>
+            <tr>
+                <td align="left" style="width: 90%; margin: 0 auto; padding: 0px;">
+                    <img src="https://secured-static.greenpeace.org/hk/Global/hk/artworks/ebulletins/2019/01/email-line.png" style="width:100%;" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- end social -->
+    <!--
+    footer
+    -->
+    <table class="mobile" align="center" cellspacing="0" cellpadding="0" border="0" width="600" style="margin: 0 auto;" bgcolor="#ffffff">
+        <tbody>
+            <tr>
+                <td align="left" valign="top" width="100%">
+                    <table class="fullCenter" style="border-collapse:collapse; " align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tbody>
+                            <tr>
+                                <td style="padding-left: 10px; padding-right: 10px; ">
+                                    <table border="0 " cellpadding="0 " cellspacing="0 " class="container" style="margin: 0 auto; padding-top: 5px; padding-bottom: 5px; padding-left: 0px; padding-right: 0px; " width="100% ">
+                                        <tbody>
+                                            <tr>
+                                                <td style="text-align: center; font-size: 11px; line-height: 1.5em; color: rgba(0,0,0,.65); ">
+                                                    <span style="padding-right: 8px; color: rgba(0,0,0,.65);">會員查詢: (852) 2854-8318 </span><br />
+                                                    <a href="mailto:donor.services.hk@greenpeace.org " style="text-decoration: none; letter-spacing: 0px; " title="會員查詢"><span>donor.services.hk@greenpeace.org</span></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center; font-size: 11px; line-height: 1.5em; color: rgba(0,0,0,.65); ">
+                                                    <span style="padding-right: 8px; color: rgba(0,0,0,.65);">一般查詢: (852) 2854-8300 </span><br />
+                                                    <a href="mailto:enquiry.hk@greenpeace.org " style="text-decoration: none; letter-spacing: 0px; " title="一般查詢"><span>enquiry.hk@greenpeace.org</span></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" height="10" valign="top" width="100%"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px; padding-right: 10px; ">
+                                    <table border="0 " cellpadding="0 " cellspacing="0 " class="container" style="margin: 0 auto; padding-top: 5px; padding-bottom: 5px; padding-left: 0px; padding-right: 0px; " width="100% ">
+                                        <tbody>
+                                            <tr>
+                                                <td style="text-align: center; font-size: 11px; line-height: 1.5em; color: rgba(0,0,0,.65); ">
+                                                    <span style="color: rgba(0,0,0,.65);">Copyright &copy;2019 綠色和平</span><br />
+                                                    <span style="color: rgba(0,0,0,.65);">香港九龍新蒲崗太子道東698號寶光商業中心10樓</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" height="20" valign="top" width="100%"></td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px; padding-right: 10px; text-align: center;">
+                                    <table border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; padding: 5px 0px; font-size: 11px; line-height: 1.4; " width="100% ">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" style="text-align: center; width: 100%; " valign="top ">
+                                                    <span style="padding: 0 3px; font-size: 11px; ">
+                                                        <a href="{external_url~http://www.greenpeace.org/hk/~footer_link_home} " style="text-decoration: none; color: rgba(0,0,0,.65); " target="_blank " title="瀏覽綠色和平主頁 ">主頁</a>
+                                                    </span>
+                                                    <span style="padding: 0 5px; color: rgba(0,0,0,.65);">|</span>
+                                                    <span style="padding: 0 3px; font-size: 11px; ">
+                                                        <a href="{external_url~https://act.greenpeace.org/page/4663/donate/1?ea.tracking.id=fromemail&ref=footer_donate_link~footer_donate_link} " style="text-decoration: none; color: rgba(0,0,0,.65); " target="_blank " title="捐款支持 ">捐款支持</a>
+                                                    </span>
+                                                    <span style="padding: 0 5px; color: rgba(0,0,0,.65);">|</span>
+                                                    <span style="padding: 0 3px; font-size: 11px; ">
+                                                        <a href="{external_url~https://act.greenpeace.org/page/33596/subscriptions/1~footer_subscribe} " style="text-decoration: none; color: rgba(0,0,0,.65); " target="_blank " title="訂閱 ">訂閱</a>
+                                                    </span>
+                                                    <span style="padding: 0 5px; color: rgba(0,0,0,.65);">|</span>
+                                                    <span style="padding: 0 3px; font-size: 11px; ">
+                                                        <a href="{unsubscribe_url~15677~348728~https://act.greenpeace.org~pb}" style="text-decoration: none; color: rgba(0,0,0,.65); " title="取消訂閱 ">取消訂閱</a>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" height="20" valign="top" width="100%"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--
+    end footer
+    -->
+    <p>&nbsp;</p>
+</body>
+
+</html>

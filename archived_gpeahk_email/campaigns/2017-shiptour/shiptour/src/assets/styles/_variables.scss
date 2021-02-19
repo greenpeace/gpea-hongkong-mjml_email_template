@@ -1,0 +1,107 @@
+// -----------------------------------------------------------------------------
+// font families
+// -----------------------------------------------------------------------------
+$font-header: Microsoft YaHei,
+Microsoft JhengHei,
+LiHei Pro,
+PingFang TC,
+Heiti TC,
+Helvetica,
+Arial,
+sans-serif;
+$font-content: Microsoft JhengHei,
+Microsoft YaHei,
+PingFang TC,
+Heiti TC,
+Helvetica,
+Arial,
+sans-serif;
+$font-default: PingFang TC,
+Heiti TC,
+LiHei Pro,
+Microsoft JhengHei,
+Microsoft YaHei,
+Helvetica,
+Arial,
+sans-serif;
+// -----------------------------------------------------------------------------
+// colors
+// -----------------------------------------------------------------------------
+$theme-green: #559f0c;
+$uvu-green: #73ba1e;
+$theme-orange: #eb4839;
+$orange: #ff9009;
+$ocean: #0077be;
+$dg: #005f67;
+//
+$error: #ff6666;
+$cta: #ff6600;
+//
+$gp-green: #73BE1E;
+$gp-sec-green: #005C42;
+$gp-banner-yellow: #FFD200;
+//
+$t-white: rgba(255, 255, 255, 0.1);
+$t-black: rgba(0, 0, 0, 0.1);
+// -----------------------------------------------------------------------------
+// animation timing functions
+// -----------------------------------------------------------------------------
+// animation-timing-function: linear;
+$ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+$linear: cubic-bezier(0, 0, 1, 1);
+$easeIn: cubic-bezier(0.42, 0, 1, 1);
+$easeOut: cubic-bezier(0, 0, 0.58, 1);
+$easeInOut: cubic-bezier(0.42, 0, 0.58, 1);
+$easeInSine: cubic-bezier(0.47, 0, 0.745, 0.715);
+$easeOutSine: cubic-bezier(0.39, 0.575, 0.565, 1);
+$easeInOutSine: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+$easeInQuad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+$easeOutQuad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+$easeInOutQuad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+$easeInCubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+$easeOutCubic: cubic-bezier(0.215, 0.61, 0.355, 1);
+$easeInOutCubic: cubic-bezier(0.645, 0.045, 0.355, 1);
+$easeInQuart: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+$easeOutQuart: cubic-bezier(0.165, 0.84, 0.44, 1);
+$easeInOutQuart: cubic-bezier(0.77, 0, 0.175, 1);
+$easeInQuint: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+$easeOutQuint: cubic-bezier(0.23, 1, 0.32, 1);
+$easeInOutQuint: cubic-bezier(0.86, 0, 0.07, 1);
+$easeInExpo: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+$easeOutExpo: cubic-bezier(0.19, 1, 0.22, 1);
+$easeInOutExpo: cubic-bezier(1, 0, 0, 1);
+$easeInCirc: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+$easeOutCirc: cubic-bezier(0.075, 0.82, 0.165, 1);
+$easeInOutCirc: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+$easeInBack: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+$easeInOutBack: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+// Colors.
+$primary-color: #559f0c;
+$white: #FFFFFF;
+$black: #000000;
+$font-color: #0a0a0a;
+// Sizes.
+$font-size: 1.6rem;
+$line-height: 2;
+$heading-margin: 1rem;
+// Block
+$block-padding: 100px;
+// Buttons.
+$btn-padding: 8px 30px;
+$btn-bg-color: $primary-color;
+$btn-text-color: #FFF;
+$btn-hover-text-color: #FFF;
+$btn-hover-bg-color: darken($btn-bg-color, 5%);
+$btn-white-bg-color: $white;
+$btn-white-text-color: $black;
+$btn-white-hover-text-color: $btn-white-text-color;
+$btn-white-hover-bg-color: #DEDEDE;
+$btn-black-bg-color: $black;
+$btn-black-text-color: $white;
+$btn-black-hover-text-color: #FFF;
+$btn-black-hover-bg-color: lighten($btn-black-bg-color, 5%);
+$btn-border-radius: 8px;
+$btn-shadow: 1;
+$headings: ( h1: 2.75rem, h2: 2rem, h3: 1.125rem, h4: 1rem, h5: 0.9rem, h6: 0.75rem);
+$headings-margin-bottom: ( h1: 1em, h2: 1em, h3: 1em, h4: 10px, h5: 10px, h6: 10px)

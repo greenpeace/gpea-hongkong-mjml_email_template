@@ -1,0 +1,549 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="x-apple-disable-message-reformatting; width=device-width,initial-scale=1,maximum-scale=1," />
+    <style type="text/css">
+    * {
+        border-radius: 0;
+        border: none;
+        outline: none;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        -webkit-padding-before: 0;
+        -webkit-padding-start: 0;
+        -webkit-padding-end: 0;
+        -webkit-padding-after: 0;
+    }
+
+    /* WAT IS THIS?! We inherit box-sizing: border-box; from our <html> selector Apparently this is a bit better than applying box-sizing: border-box; directly to the * selector */
+    *,
+    *:before,
+    *:after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+    }
+
+    * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        -webkit-font-smoothing: antialiased;
+        background-color: #eeeeee;
+        font-family: 'Microsoft JhengHei', 'Heiti TC', Helvetica, sans-serif !important;
+        font-size: 100%;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    html {
+        width: 100%;
+    }
+
+    p {
+        padding: 0 !important;
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+
+    a {
+        color: #58b006;
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: #467F0D;
+    }
+
+    table[class=mobile] {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    </style>
+    <!-- @media only screen and (max-width: 640px){*/-->
+    <style type="text/css">
+    @media only screen and (max-width: 640px) {
+        body {
+            width: auto !important;
+        }
+
+        table[class=full] {
+            width: 100% !important;
+            clear: both;
+        }
+
+        table[class=mobile] {
+            width: 100% !important;
+            padding-left: 10px;
+            padding-right: 10px;
+            clear: both;
+        }
+
+        table[class=fullCenter] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+        }
+
+        td[class=fullCenter] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+        }
+
+        td[class=fullCenterDisplay] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+            display: inline-block;
+        }
+
+        td[class=mobile] {
+            width: 100% !important;
+            padding: 0 !important;
+            text-align: center !important
+        }
+    }
+    </style>
+    <!--@media only screen and (max-width: 479px){-->
+    <style type="text/css">
+    @media only screen and (max-width: 479px) {
+        body {
+            width: auto !important;
+        }
+
+        table[class=full] {
+            width: 100% !important;
+            clear: both;
+        }
+
+        table[class=mobile] {
+            width: 100% !important;
+            padding-left: 10px;
+            padding-right: 10px;
+            clear: both;
+        }
+
+        table[class=fullCenter] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+        }
+
+        td[class=fullCenter] {
+            width: 100% !important;
+            text-align: center !important;
+            clear: both;
+        }
+
+        td[class=mobile] {
+            width: 100% !important;
+            padding: 0 !important;
+            text-align: center !important
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <!-- template -->
+    <!--
+        <tr>
+         <td align="left" height="16" valign="top" width="100%"></td>
+        </tr>
+    -
+        <span  style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 20px; line-height: 1; font-weight: bold; color: #443e39;">
+          headline
+        </span>
+    --
+        <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 16px; font-weight: bold;line-height: 1.5em;color: #58b006; text-decoration: underline;letter-spacing: 1px;">
+          <a href="{external_url~https://act.gp/2P3wOuy~main_btn_1}">
+        </span>
+    --
+        <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 2em; margin-top: 4px; color: #0a0a0a;"> 
+          demo 
+        </spon>
+    --
+    -->
+    <!-- end of template -->
+    <!-- preview text -->
+    <div style="display: none; opacity: 0;">
+        <span>一起要求Oreo兌現護林承諾！</span>
+    </div>
+    <!-- end preview -->
+    <!--  logo -->
+    <table class="mobile" style="background-color: rgb(255,255,255);" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tbody>
+            <tr>
+                <td align="left" valign="top" width="100%">
+                    <table style="background-color: rgb(255,255,255);" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="left" height="4" valign="top" width="100%" style="border-top: 4px solid #66cc00;"></td>
+                            </tr>
+                            <tr>
+                                <td align="left" height="16" valign="top" width="100%"></td>
+                            </tr>
+                            <tr>
+                                <td align="center" width="100%">
+                                    <table class="fullCenter" style="border-collapse:collapse; " align="center" border="0" cellpadding="0" cellspacing="0" width="100
+                                        <tbody>
+                                            <tr>
+                                                <td align=" center" valign="top" width="100%">
+                                        <table class="fullCenter" style="border-collapse:collapse; " align="center" border="0" cellpadding="0" cellspacing="0" width="100
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class=" fullCenter" valign="top" width="100%" <a href="#">
+                                            <img alt="Greenpeace 綠色和平" border="0" src="https://api.greenpeace.org.hk/general/email/images/Greenpeace_HK_green.png" style="width: 200px; border: 0px none;" />
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </td>
+    </tr>
+    <tr>
+        <td align="left" height="16" valign="top" width="100%"></td>
+    </tr>
+    </tbody>
+    </table>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    <!--  end logo -->
+    <!-- banner -->
+    <table class="mobile" style="background-color: rgb(255,255,255);" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tbody>
+            <tr>
+                <td align="left" style="padding: 0px;">
+                    <a href="{external_url~https://act.gp/2Qh7ocC~main_img_1}" target="_blank"><img src="https://secured-static.greenpeace.org/hk/Global/hk/photos/forests/2018/11/penguin_launch_banner_final.jpg" style="width:100%;" /></a>
+                    </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--
+    end banner
+      -->
+    <!-- main story -->
+    <table class="mobile" style="background-color: rgb(255,255,255);" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tbody>
+            <tr>
+                <td class="fullCenter" align="center" valign="top" width="600">
+                    <table style="background-color: rgb(255,255,255); border-collapse:collapse; " align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span  style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 20px; line-height: 1; font-weight: bold; color: #443e39;">一起要求Oreo兌現護林承諾！</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 2em; margin-top: 4px;
+    color: #0a0a0a;">{salutation~HK Dear Chi first_name}</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif;  font-size: 13px; line-height: 2em; margin-top: 4px;
+    color: #0a0a0a;">愛護森林的您，當然不希望推土機夷平一片片珍貴印尼雨林，將瀕危紅毛猩猩趕上絕路。可惜當消費品牌持續使用毀林棕櫚油，每個享受鬆脆曲奇的歡聚時刻，可能使雨林更脆弱。
+</span>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 13px; line-height: 2em; margin-top: 4px; color: #333;">儘管香港與印尼相隔千里，正是您一直守護環境的心意，使綠色和平能夠延續護林使命：我們的最新地圖分析發現，Oreo生產商億滋國際（Mondelēz International）的22間棕櫚油供應商，<strong>兩年間清空了超過70,000公頃（約3,700個維園面積）雨林，當中近25,000公頃更是紅毛猩猩棲息地。</strong></span></td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 13px; line-height: 2em; margin-top: 4px; color: #333;">作為消費者，作為地球公民和心繫環境生態現在與未來的您我，我們有責任，而且絕對有能力推動業界龍頭Oreo「黑白分明」，不只倚賴寬鬆的RSPO可持續認證標準，而是與<a href="{external_url~https://act.gp/2Qag6cD~main_link_1}" target="_blank">主要毀林棕櫚油來源豐益國際（Wilmar）</a>斷絕來往，並履行護林承諾，繼而實現棕櫚油業界真正改革！</span></td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 16px; font-weight: bold; line-height: 1.5em;color: #58b006; text-decoration: underline;letter-spacing: 1px;"><a href="{external_url~https://act.gp/2QhCz7s~main_btn_1}">Oreo助長毀林睇真啲</a></span></td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="fullCenter" valign="top" width="100%">
+                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 16px; font-weight: bold; line-height: 1.5em;color: #58b006; text-decoration: underline;letter-spacing: 1px;"><a href="{external_url~https://act.gp/2QixbAY~main_btn_2}">向Oreo發聲：停止使用毀林棕櫚油</a></span></td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- end main story -->
+    <!--  first block  -->
+    <table class="mobile" style="background-color: rgb(255,255,255);" class="mobile" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tbody>
+            <tr>
+                <td class="fullCenter" align="center" valign="top" width="600">
+                    <table class="fullCenter" style="background-color: rgb(255,255,255); border-collapse:collapse; " align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td class="fullCenter" align="center" valign="top" width="600">
+                                    <table class="full" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td class="mobile" align="left" valign="top">
+                                                    <table class="full" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="mobile" style="background-image: url(https://secured-static.greenpeace.org/hk/Global/hk/photos/oceans/2018/11/20181114-waste.jpg); height: 200px; background-size: cover;  background-repeat: no-repeat; border-collapse:collapse; background-position: 50% 50%!important;
+    " align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span class="black-text heading_title" style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 20px; line-height: 1; font-weight: bold; color: #222; letter-spacing: 1px;">垃圾徵費即將試行，are you ready？</span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 13px; line-height: 2em; margin-top: 4px;
+    color: #0a0a0a;">政府上周向立法會提交《都市固體廢物收費條例草案》，最快2020年實施並陸續試行。綠色和平等環保團體相信，立法有助實現2022年都市固體廢物減少四成的目標，而且您我只要精明減廢，一樣能夠「慳荷包」！</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 16px; font-weight: bold; line-height: 1.5em;color: #58b006; text-decoration: underline;letter-spacing: 1px;"><a href="{external_url~https://act.gp/2QgZJef~sub_btn_1}">一文睇清垃圾徵費三件事</a></span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="mobile" style="background-image: url(https://secured-static.greenpeace.org/hk/Global/hk/photos/oceans/2018/11/anyone.JPG); height: 200px; background-size: cover;  background-repeat: no-repeat; border-collapse:collapse; background-position: 50% 50%!important;
+    " align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 20px; line-height: 1; font-weight: bold; color: #222; letter-spacing: 1px;">外賣走塑6次換餐具，不如…</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 13px; line-height: 2em; margin-top: 4px; color: #333;">提供自攜餐具折扣更實際？綠色和平上周化身象徵任何市民都可以響應走塑的「任何人」，遞交33,000個聯署予美心MX、大家樂及大快活高層，促請三間連鎖快餐店回應訴求，進一步推出走塑措施。</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fullCenter" valign="top" width="100%">
+                                                                    <span style="font-family: 'Microsoft JhengHei', 'Heiti TC', sans-serif; font-size: 16px; font-weight: bold; line-height: 1.5em;color: #58b006; text-decoration: underline;letter-spacing: 1px;"><a href="{external_url~https://www.facebook.com/greenpeacehk/videos/1956535121104502~sub_btn_2}">「任何人」踩過界實況</a></span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--  end first block  -->
+    <!--
+    end content bg
+    -->
+    <!-- social -->
+    <table class="mobile" style="background-color: rgb(255,255,255);" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tbody>
+            <tr>
+                <td align="left" valign="top" width="100%">
+                    <table class="fullCenter" style="border-collapse:collapse; " align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tbody>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td align="center" width="100%">
+                                    <span><a href="{external_url~https://www.facebook.com/greenpeacehk/~sns_facebook} " target="_blank " title="綠色和平在Facebook ">
+                        <img src="https://api.greenpeace.org.hk/general/email/images/001-facebook.png" alt="" border="0" width="24"></a>&nbsp;&nbsp;&nbsp;</span>
+                                    <span style="padding: 0 8px;"></span>
+                                    <span><a href="{external_url~https://www.instagram.com/greenpeace_hk/~sns_instagram} " target="_blank " title="綠色和平在instagram ">
+                        <img src="https://api.greenpeace.org.hk/general/email/images/002-instagram.png" alt="" border="0" width="24"></a>&nbsp;&nbsp;&nbsp;</span>
+                                    <span style="padding: 0 8px;"></span>
+                                    <span><a href="{external_url~http://www.youtube.com/user/GreenpeaceChina~sns_youtube} " target="_blank " title="綠色和平在YouTube ">
+                        <img src="https://api.greenpeace.org.hk/general/email/images/003-youtube.png" alt="" border="0" width="24"></a>&nbsp;&nbsp;&nbsp;</span>
+                                    <span style="padding: 0 8px;"></span>
+                                    <span><a href="{external_url~https://twitter.com/greenpeace_hk~sns_twitter} " target="_blank " title="綠色和平在Twitter ">
+                        <img src="https://api.greenpeace.org.hk/general/email/images/004-twitter.png" alt="" border="0" width="24"></a></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 16px;" class="fullCenter" align="left" valign="top" width="100%">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- end social -->
+    <!--
+    footer
+    -->
+    <table class="mobile" style="background-color: #f6f6f6;" align="center" bgcolor="#f6f6f6" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tbody>
+            <tr>
+                <td align="left" valign="top" width="100%">
+                    <table class="fullCenter" style="border-collapse:collapse; " align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                        <tbody>
+                            <tr>
+                                <td align="left" height="20" valign="top" width="100%" bgcolor="#f6f6f6 " style="background-color: #f6f6f6;"></td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#f6f6f6 " style="background-color: #f6f6f6; padding-left: 10px; padding-right: 10px; ">
+                                    <table bgcolor="#f6f6f6 " border="0 " cellpadding="0 " cellspacing="0 " class="container" style="background-color: #f6f6f6; padding-top: 5px; padding-bottom: 5px; padding-left: 0px; padding-right: 0px; " width="100% ">
+                                        <tbody>
+                                            <tr>
+                                                <td style="text-align: center; font-size: 11px; line-height: 1.5em; color: #333; ">
+                                                    <span style="padding-right: 8px; color: #333;">會員查詢: (852) 2854-8318 </span>
+                                                    <a href="mailto:donor.services.hk@greenpeace.org " style="text-decoration: none; letter-spacing: 0px; " title="會員查詢">donor.services.hk@greenpeace.org</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center; font-size: 11px; line-height: 1.5em; color: #333; ">
+                                                    <span style="padding-right: 8px; color: #333;">一般查詢: (852) 2854-8300 </span>
+                                                    <a href="mailto:enquiry.hk@greenpeace.org " style="text-decoration: none; letter-spacing: 0px; " title="一般查詢">enquiry.hk@greenpeace.org</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" height="10" valign="top" width="100%" style="background-color: #f6f6f6;"></td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#f6f6f6 " style="background-color: #f6f6f6; padding-left: 10px; padding-right: 10px; ">
+                                    <table bgcolor="#f6f6f6 " border="0 " cellpadding="0 " cellspacing="0 " class="container" style="text-align: center; background-color: #f6f6f6; padding-top: 5px; padding-bottom: 5px; padding-left: 0px; padding-right: 0px; " width="100% ">
+                                        <tbody>
+                                            <tr>
+                                                <td style="font-size: 11px; line-height: 1.5em; color: #333; ">Copyright &copy;2018 綠色和平</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-size: 11px; line-height: 1.5em; color: #333; ">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-size: 11px; line-height: 1.5em; color: #333; ">香港九龍新蒲崗太子道東698號寶光商業中心10樓</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" height="20" valign="top" width="100%" bgcolor="#f6f6f6 " style="background-color: #f6f6f6;"></td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#f6f6f6 " style="background-color: #f6f6f6; padding-left: 10px; padding-right: 10px; text-align: center;">
+                                    <table bgcolor="#f6f6f6 " border="0 " cellpadding="0 " cellspacing="0 " style="background-color: #f6f6f6; padding: 5px 0px; font-size: 11px; line-height: 1em; " width="100% ">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" style="text-align: center; width: 100%; " valign="top ">
+                                                    <span style="padding: 0 3px; font-size: 11px; ">
+                              <a href="{external_url~http://www.greenpeace.org/hk/~footer_link_home} " style="text-decoration: none; color: #333; " target="_blank " title="瀏覽綠色和平主頁 ">主頁</a>
+                            </span>
+                                                    <span style="padding: 0 5px; color: #333;">|</span>
+                                                    <span style="padding: 0 3px; font-size: 11px; ">
+                              <a href="{external_url~https://act.greenpeace.org/page/4663/donate/1?ea.tracking.id=fromemail~footer_donate_link} " style="text-decoration: none; color: #333; " target="_blank " title="捐款支持 ">捐款支持</a>
+                            </span>
+                                                    <span style="padding: 0 5px; color: #333;">|</span>
+                                                    <span style="padding: 0 3px; font-size: 11px; ">
+                              <a href="{external_url~http://www.greenpeace.org/hk/get-involved/subscribe/~footer_subscripte} " style="text-decoration: none; color: #333; " target="_blank " title="訂閱 ">訂閱</a>
+                            </span>
+                                                    <span style="padding: 0 5px; color: #333;">|</span>
+                                                    <span style="padding: 0 3px; font-size: 11px; ">
+                              <a href="{unsubscribe_action~58085~https://act.greenpeace.org/ea-action/action?ea.client.id=1853&ea.campaign.id=58085}" style="text-decoration: none; color: #333; " title="取消訂閱 ">取消訂閱</a>
+                            </span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" height="20" valign="top" width="100%" style="background-color: #f6f6f6;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--
+    end footer
+    -->
+    <p>&nbsp;</p>
+</body>
+
+</html>

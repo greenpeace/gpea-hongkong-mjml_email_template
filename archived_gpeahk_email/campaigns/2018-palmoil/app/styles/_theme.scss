@@ -1,0 +1,180 @@
+.oreo.main {
+  strong {
+    font-weight: bold;
+    color: $brand-o-sky-blue;
+  }
+
+  .hero__headline {
+    h1 {
+      position: relative;
+      font-weight: bold;
+      color: #fff;
+    }
+  }
+
+  .barWrapper {
+    .progress-bar {
+      @extend %brand-styleguide;
+    }
+  }
+
+  .enform {
+    .en__component--contactblock {
+      display: block;
+
+      .en__contactDetails {
+        display: none;
+      }
+
+      .en__contactSubject {
+        padding: 0px !important;
+      }
+
+      .en__contact__detail {
+        padding: 0px !important;
+      }
+
+      .en__contactDetails__row.en__contactDetails__row--2 {
+        display: none;
+      }
+
+      .en__contactMessage.en__contactMessage--typePlainText {
+        textarea {
+          width: 100%;
+          min-height: 80px;
+          font-size: 11px !important;
+        }
+      }
+    }
+
+    .en__submit button {
+      @extend %brand-styleguide;
+    }
+  }
+
+  .section__banner {
+    &.banner--first {
+      background-image: url('https://api.greenpeace.org.hk/2018/palmoil/images/GP0STSCJZ_Web_size_with_credit_line.jpg');
+    }
+
+    &.banner--second {
+      background-image: url('https://secured-static.greenpeace.org/hk/Global/hk/code/2018/palmoil/images/GP0STRVIX_Medium_res_v2.jpg');
+    }
+
+    &.banner--third {
+      background-image: url('https://secured-static.greenpeace.org/hk/Global/hk/code/2018/palmoil/images/GP0STPH66_Medium_res.jpg');
+    }
+
+    &.banner--fourth {
+      background-image: url('https://secured-static.greenpeace.org/hk/Global/hk/code/2018/palmoil/images/GP04NJD_Medium_res_v3.jpg');
+    }
+
+    &.banner--fifth {
+      background-image: url('https://api.greenpeace.org.hk/2018/palmoil/images/GP04U3E_Web_size_with_credit_line.jpg');
+    }
+  }
+
+  .section__content {
+    p {
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border-bottom: 2px solid $brand-o-sky-blue;
+      }
+    }
+  }
+
+  .mobile-sign-now {
+    span {
+      @extend %brand-styleguide;
+    }
+
+    &:after {
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 100px;
+      right: 5px;
+      bottom: 5px;
+      background-image: url('https://api.greenpeace.org.hk/2018/palmoil/images/cookie_layer.png');
+      transform-style: preserve-3d;
+      animation: flipping 3s ease-in-out infinite both;
+    }
+  }
+}
+
+.animation {
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+
+  &--infinite {
+    animation-iteration-count: infinite;
+  }
+
+  &--up-down {
+    animation-name: upDown;
+  }
+
+}
+
+@keyframes flipping {
+  0% {
+    transform: rotateY(0);
+  }
+
+  50% {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(-15px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-15px);
+  }
+
+}
+
+
+
+.button {
+  display: inline-block;
+  padding: .5rem 1rem;
+
+  svg {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
+  &--primary {
+    background-color: #fff;
+  }
+
+  &--rounded {
+    border-radius: 999px;
+  }
+
+  &--scroll {
+    bottom: 3rem;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+
+    @include for-mobile-only {
+      display: none;
+    }
+  }
+
+}

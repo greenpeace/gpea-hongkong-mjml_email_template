@@ -1,0 +1,83 @@
+@import './mixins';
+$facebook: rgb(59, 89, 182);
+$facebook-chatbot: #0084ff;
+$instagram: #4e433c;
+$youtube: #ff3333;
+$whatsapp: #25D366;
+// theme
+$bg-forest: #008045;
+$bg-green: #7EA942;
+$bg-orange: #D74023;
+$bg-yellow: #E6C50D;
+$bg-black: #1A1A1A;
+$bg-white: #ffffff;
+// grayscale
+$white :#ffffff;
+$grey10 :#f7f8f9;
+$grey20 :#f2f2f2;
+$grey30 :#f9f5ef;
+$grey40 :#dddddd;
+$grey50 :#ababa4;
+$grey60 :#969493;
+$grey70 :#565453;
+$grey80 :#31302b;
+$black :#171614;
+$asideBoxShadow: 30px 0px 60px 5px rgba(0, 0, 0, 0.45);
+// Breakpoints
+// mobile first
+@mixin for-mobile-only {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+
+@mixin for-tablet-up {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-up {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin for-big-desktop-up {
+  @media (min-width: 1500px) {
+    @content;
+  }
+}
+
+// desktop first
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+}

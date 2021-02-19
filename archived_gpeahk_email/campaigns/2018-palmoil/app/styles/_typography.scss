@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+// Google Font
+$font-header: 'Noto Sans TC',
+Microsoft YaHei,
+Microsoft JhengHei,
+PingFang TC,
+Heiti TC,
+Helvetica,
+Arial,
+sans-serif;
+$font-content: 'Noto Sans TC',
+Microsoft JhengHei,
+Microsoft YaHei,
+PingFang TC,
+Heiti TC,
+Helvetica,
+Arial,
+sans-serif;
+// font content
+:root {
+  font-size: 16px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-content;
+  line-height: 1.42857;
+  //    font-size: calc(18px + 5.4 * ((100vw - 1400px) / 280));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-header;
+}
+
+// Default
+input,
+select,
+textarea {
+  font-size: 16px !important;
+}
+
+button {
+  border: none;
+  outline: none;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+::-webkit-input-placeholder {
+  color: #bbb;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #bbb;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #bbb;
+}
+
+:-ms-input-placeholder {
+  color: #bbb;
+}
+
+/* letter spacing */
+
+.no-letter-spacing {
+  letter-spacing: 0px !important
+}
+
+.letter-spacing-1 {
+  letter-spacing: 1px !important
+}
+
+.letter-spacing-2 {
+  letter-spacing: 2px !important
+}
+
+.letter-spacing-3 {
+  letter-spacing: 3px !important
+}
+
+.letter-spacing-4 {
+  letter-spacing: 4px !important
+}
+
+.letter-spacing-5 {
+  letter-spacing: 5px !important
+}
+
+.letter-spacing-6 {
+  letter-spacing: 6px !important
+}
+
+.letter-spacing-7 {
+  letter-spacing: 7px !important
+}
+
+.letter-spacing-8 {
+  letter-spacing: 8px !important
+}
+
+.letter-spacing-9 {
+  letter-spacing: 9px !important
+}
+
+.letter-spacing-10 {
+  letter-spacing: 10px !important
+}
+
+/* font weight */
+
+.font-weight-100 {
+  font-weight: 100 !important
+}
+
+.font-weight-400 {
+  font-weight: 400 !important
+}
+
+.font-weight-600 {
+  font-weight: 600 !important
+}
+
+.font-weight-700 {
+  font-weight: 700 !important
+}
+
+.font-weight-800 {
+  font-weight: 800 !important
+}
+
+.font-weight-900 {
+  font-weight: 900 !important
+}

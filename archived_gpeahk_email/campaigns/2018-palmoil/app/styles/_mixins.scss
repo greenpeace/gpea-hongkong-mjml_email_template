@@ -1,0 +1,208 @@
+/* px-to-rem-mixins by Angela Giese https://github.com/angelagiese/px-to-rem-mixins */
+// usage, x is the pixel size needed: @include font-size(x); 
+@mixin font-size($sizeValue: 14) {
+  font-size: $sizeValue + px;
+  font-size: ($sizeValue / 16) + rem;
+}
+
+// usage, x is the pixel size needed: @include line-height(x);
+@mixin line-height($sizeValue: 20) {
+  line-height: $sizeValue + px;
+  line-height: ($sizeValue / 16) + rem;
+}
+
+//
+%fullHeight {
+  height: calc(100vh - 120px);
+  min-height: 100vh;
+}
+
+%slideRight {
+  position: relative;
+  will-change: transform;
+  width: 90%;
+  height: 100%;
+  transform: translateX(-105%);
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  transition: all .28s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  pointer-events: none;
+  box-shadow: 10px 0 45px rgba(0, 0, 0, 0.5);
+}
+
+%slideRightActive {
+  transform: none;
+  pointer-events: auto;
+}
+
+//allZero
+%full {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+//fullBackground
+%fullBackground {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+//pageOverlay
+%pageOverlay {
+  position: fixed;
+  min-height: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+//flexCenter
+%flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%flexSpaceAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+//absoluteCenter
+%absoluteCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+//visuallyhidden
+%visuallyhidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+%clearfix {
+  *zoom: 1;
+
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+// clearfix
+@mixin circle($width, $color, $border-width) {
+  width: $width;
+  height: $width;
+  border-radius: 50%;
+  border: $border-width solid $color;
+}
+
+// animations
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+//
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+// transitions
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+// opacity
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+// Push auto margin auto
+@mixin push--auto {
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
+
+//--------------------------------------------------------------------------------
+// ------------ Metarial Design Boxshadow Mixin
+//--------------------------------------------------------------------------------
+// Created by @KingRayhan
+// @url rayhan.info
+@mixin mboxshadow($depth:1) {
+  @if $depth==1 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+  @else if $depth==2 {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  @else if $depth==3 {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  @else if $depth==4 {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  @else if $depth==5 {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}

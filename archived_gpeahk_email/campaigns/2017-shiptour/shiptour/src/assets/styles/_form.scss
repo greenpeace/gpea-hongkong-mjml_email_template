@@ -1,0 +1,211 @@
+.modal {
+  &.active {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    .modal--close {
+      display: inline-block;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      cursor: pointer;
+      z-index: 1;
+      color: #888;
+    }
+  }
+}
+
+#enform {
+  position: relative;
+  background-image: url('https://secured-static.greenpeace.org/hk/Global/hk/code/2017/shiptour/images/GP0STR2S0_s.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+}
+
+.form--container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+  min-width: 320px;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 0;
+  .form--inner {
+    position: -webkit-sticky;
+    align-self: center;
+    height: auto;
+    width: 90%;
+    max-width: 320px;
+    padding: 40px 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 15px 1px rgba(0, 0, 0, .1);
+    background-color: #fff;
+    margin: 0 auto;
+    .form--header {
+      text-align: justify;
+      h2 {
+        letter-spacing: 5px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 13px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  form {
+    position: relative;
+    .en__component {
+      .en__component--formblock {
+        padding-bottom: 50px;
+      }
+    }
+  }
+}
+
+.form--container {
+  .en__field {
+    position: relative;
+    width: 100%;
+    box-shadow: none;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+    .en__field__label {
+      padding: 0;
+      margin: 0;
+      font-size: 13px;
+    }
+    .en__field__element {
+      width: 100%;
+      .en__field__input:not(.en__field__input--checkbox) {
+        width: 100%;
+        height: auto;
+        padding: 3px 5px;
+        box-shadow: none;
+        outline: none;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -webkit-border-radius: 0px;
+        border-bottom: 1px solid #0a0a0a;
+        background-color: transparent;
+        color: #0a0a0a;
+      }
+      .en__field__input--select {
+        border: none;
+        outline: none;
+        box-shadow: none;
+        border-bottom: 1px solid #0a0a0a;
+        border-radius: 0px;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        color: #0a0a0a;
+        padding-left: 5px;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzQuNDIgODcuMjEiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZGRkfTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5zZWxlY3QtYXJyb3ctZ3JheTwvdGl0bGU+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMCAwbDg3LjIxIDg3LjIxTDE3NC40MiAwSDB6IiBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiLz48L2c+PC9zdmc+);
+        background-repeat: no-repeat;
+        background-size: 10px auto;
+        background-position: calc(100% - 5px) center;
+      }
+      .en__field__input,
+      .en__field__input--select {
+        &:focus {
+          border-bottom: 1px solid #22315c;
+        }
+        &.invalid {
+          border-bottom: 1px solid #ff6666;
+        }
+        &.valid {
+          border-bottom: 1px solid #22315c;
+        }
+      }
+    }
+  } // submit
+  .en__submit {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin: 10px 0;
+    button {
+      border: none;
+      background-color: #559f0c;
+      color: #fff;
+      width: 100%;
+      cursor: pointer;
+      padding: 10px;
+    }
+  } // submit
+  .en__field--email-ok-hongkong {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    label:nth-child(1) {
+      display: none;
+    }
+    .en__field__element--checkbox {}
+    .en__field__item {
+      display: flex;
+      #en__field_supporter_questions_7275 {
+        width: 13px;
+        height: auto;
+        flex-shrink: 0;
+        display: inline-block;
+        margin-right: 5px;
+      }
+      .en__field__label--item {
+        font-size: 11px;
+        color: #888;
+        display: inline-block;
+        max-width: 100%;
+        margin: 0;
+        background: none;
+        top: initial;
+        left: 20px;
+        pointer-events: none;
+      }
+    }
+  }
+}
+
+form .en__field__error {
+  font-size: 11px;
+  color: #ff6666;
+  position: absolute;
+  bottom: -15px;
+}
+
+form .en__component--column {
+  min-width: 0;
+}
+
+form .en__component--contactblock {
+  padding: 0;
+  display: none;
+}
+
+.en__errorHeader {
+  display: none;
+}
+
+.en__errorList {
+  display: none;
+}

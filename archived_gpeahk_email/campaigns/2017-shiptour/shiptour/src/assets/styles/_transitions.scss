@@ -1,0 +1,152 @@
+// modal
+.modal-enter-active,
+.modal-leave-active {
+  -webkit-transition: opacity 350ms;
+  transition: opacity 350ms;
+}
+
+.modal-enter,
+.modal-leave-to {
+  opacity: 0;
+}
+
+.modal-leave,
+.modal-enter-to {
+  opacity: 1;
+}
+
+// fade
+.fade-group-leave-to {
+  opacity: 0;
+  position: absolute;
+}
+
+.fade-group-move {
+  transition: transform 1.5s;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 400ms;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+// slide
+.slide-leave-active {
+  transition: opacity 0.6s ease;
+  opacity: 0;
+  animation: slide-out 0.6s ease-out forwards;
+}
+
+.slide-leave {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-enter-active {
+  animation: slide-in 0.4s ease-in forwards;
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+// slide-left slide-right
+.slide-left-enter,
+.slide-right-leave-active {
+  opacity: 0;
+  -webkit-transform: translate(30px, 0);
+  transform: translate(30px, 0);
+}
+
+.slide-left-leave-active,
+.slide-right-enter {
+  opacity: 0;
+  -webkit-transform: translate(-30px, 0);
+  transform: translate(-30px, 0);
+}
+
+// collapse
+.collapse-enter,
+.collapse-leave-to {
+  height: 0;
+  opacity: 0;
+}
+
+.collapse-enter-active,
+.collapse-leave-active {
+  transition: all 0.3s ease-in;
+}
+
+.company-move {
+  -webkit-transition: all 600ms ease-in-out 50ms;
+  transition: all 600ms ease-in-out 50ms;
+}
+
+.company-enter-active {
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+
+.company-leave-active {
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  position: absolute;
+  z-index: 0;
+}
+
+.company-enter,
+.company-leave-to {
+  opacity: 0;
+}
+
+.company-enter {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+// dropdown
+.dropdown {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 350ms;
+  transition: height 350ms;
+}
+
+.dropdown-enter,
+.dropdown-leave-to {
+  opacity: 0;
+}
+
+.dropdown-leave,
+.dropdown-enter-to {
+  opacity: 1;
+}
+
+.dropdown-enter-active,
+.dropdown-leave-active {
+  transition: opacity 200ms ease-in-out;
+}
+
+.dropdown-enter-active {
+  transition-delay: 100ms;
+}

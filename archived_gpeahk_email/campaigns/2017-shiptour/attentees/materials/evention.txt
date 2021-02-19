@@ -1,0 +1,18 @@
+I. Accounts
+EVENTION back-end system website link: https://bo.eventionapp.com/ 
+User login: greenpeace@evention.com
+PW: g@1234
+Remark: Please use Chrome, Firefox and Edge.
+ 
+EVENTION front-end iPad APP (APP download link): http://a.apptask.com/evention
+User login: H0@gp.com (same password for 15 accounts , H0-H14)
+PW: g@1234
+Remark: Please trust the “Apptask Limited”.
+Settings> General> Device management> Apptask Limited> Trust 
+
+https://bo.eventionapp.com/greenpeace/checkquota?timeslot_date=1
+https://bo.eventionapp.com/greenpeace/checkquota?timeslot_date=2
+https://bo.eventionapp.com/greenpeace/checkquota?timeslot_date=3
+https://bo.eventionapp.com/greenpeace/checkquota?timeslot_date=4
+https://bo.eventionapp.com/greenpeace/checkquota?timeslot_date=5
+https://bo.eventionapp.com/greenpeace/checkquota?timeslot_date=6

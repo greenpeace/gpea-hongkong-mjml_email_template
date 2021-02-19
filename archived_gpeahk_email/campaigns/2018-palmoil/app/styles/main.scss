@@ -1,0 +1,587 @@
+@import 'nojs',
+'reset',
+'globalVariables',
+'mixins',
+'typography',
+'base',
+'form';
+
+// bower:scss
+// endbower
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+// https://coolors.co/141414-b80c09-ffba08-248232-2ba84a
+$theme-black: #141414;
+$theme-white: #ffffff;
+$styleguide-red: #ED1C14;
+$styleguide-black: #231F20;
+$styleguide-gradient-yellow: #FFDE00;
+$styleguide-gradient-red: #ED1C24;
+$theme-red: #B80C09;
+$theme-red-1: #F71735;
+$theme-red-light: #FF0022;
+// $theme-yellow: #FFBF00;
+$theme-yellow: $styleguide-gradient-yellow;
+$theme-blue: #011627;
+$theme-forest: #248232;
+$theme-green: #2BA84A;
+$p-strong-color: $styleguide-gradient-yellow;
+$cta-color: #FF8800;
+//
+$brand-o-blue: #036dd0;
+$brand-o-sky-blue: #15B5D9;
+
+%gradient-orange {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  background-color: #FF8800;
+  background-image: linear-gradient(to bottom, #FFBF00, #FF8800);
+  background-repeat: repeat-x;
+  border-color: #FF8800;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active,
+  &.disabled,
+  &[disabled] {
+    color: #FFFFFF;
+    background-color: #FF8800;
+  }
+}
+
+%gradient-styleguide {
+  background: linear-gradient(to right, rgb(237, 28, 36)30%, rgb(237, 28, 36) 51%, #B80C09 100%);
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active,
+  &.disabled,
+  &[disabled] {
+    color: #FFFFFF;
+    background-position: right center;
+  }
+}
+
+%red-styleguide {
+  background: linear-gradient(to right, rgb(237, 28, 36) 0%, #B80C09 100%);
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active,
+  &.disabled,
+  &[disabled] {
+    color: #FFFFFF;
+    background-position: right center;
+  }
+}
+
+%brand-styleguide {
+  background: linear-gradient(to right, $brand-o-sky-blue 0%, $brand-o-blue 100%);
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active,
+  &.disabled,
+  &[disabled] {
+    color: #FFFFFF;
+    background-position: right center;
+  }
+}
+
+//
+body [data-aos] {
+  transition-timing-function: cubic-bezier(.250, .250, .750, .750);
+  transition-duration: 4000ms;
+}
+
+//
+.container {
+  max-width: 1400px;
+  @include push--auto;
+  padding: 0 1rem;
+}
+
+.desktop-hidden {
+  @include for-desktop-up {
+    display: none !important;
+  }
+}
+
+.mobile-hidden {
+  @include for-mobile-only {
+    display: none !important;
+  }
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+  }
+
+  .gp-logo {
+    a {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    img {
+      width: 100%;
+      max-width: 200px;
+    }
+  }
+}
+
+.footer {
+  background-color: $theme-black;
+  color: #fff;
+  padding: 6rem 0;
+  @include font-size(13);
+
+  .container {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @include for-mobile-only {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .footer-text {}
+
+  .footer-nav {
+    text-align: right;
+
+    li+li {
+      margin-top: 1rem;
+    }
+  }
+
+  .footer-copyright {
+    grid-column: 1 / -1;
+  }
+
+  .footer-text,
+  .footer-nav,
+  .footer-copyright {
+    margin-bottom: 1rem;
+
+    @include for-mobile-only {
+      text-align: center;
+    }
+  }
+}
+
+.main {
+  strong {
+    font-weight: bold;
+    color: $p-strong-color;
+  }
+}
+
+.main {
+  &__hero {
+    min-height: calc(100vh + 120px);
+    position: relative;
+    padding-top: 50px;
+    margin-bottom: -50px;
+  }
+
+  &__wrapper {
+    height: auto;
+    width: 100%;
+    min-height: calc(100vh - 120px);
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 2rem;
+
+    @include for-mobile-only {
+      height: auto;
+      flex-flow: column-reverse;
+    }
+  }
+}
+
+.content {
+  margin: 0 auto;
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.enform {
+  display: flex;
+  flex-flow: column;
+
+  .en__submit button {
+    @include font-size(20);
+    letter-spacing: 8px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    @extend %red-styleguide;
+  }
+}
+
+/* bar */
+.enWidget {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 13px !important;
+  padding: 15px 0 !important;
+}
+
+.enWidget__progress {
+  border-radius: 0px !important;
+}
+
+.enWidget__fill__count {
+  font-size: 14px;
+}
+
+.barWrapper {
+  color: $theme-white;
+
+  .progress {
+    border-radius: 0;
+    overflow: visible;
+    display: flex;
+    height: 8px;
+    font-size: 14px;
+    background-color: #e9ecef;
+    margin-top: 8px;
+  }
+
+  .progress-bar {
+    width: 0;
+    -webkit-transition: width 1.5s ease-in-out;
+    transition: width 1.5s ease-in-out;
+    @extend %gradient-styleguide;
+  }
+
+  #ticker {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .barTarget p {
+    font-size: 14px;
+    margin: 8px 0;
+  }
+}
+
+/* end of bar */
+//
+.rangtan__profile {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-bottom: 1rem;
+
+  img {
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%; //centers the image
+    height: 100%;
+    width: auto;
+  }
+}
+
+.hero {
+  &__bg {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // background-image: linear-gradient(rgba(255, 222, 0, 0.4), rgba(237, 28, 36, 0.2) 40%, $theme-black 95%), url('https://secured-static.greenpeace.org/hk/Global/hk/code/2018/palmoil/images/GP04N39_Medium_res_v4.jpg');
+    background-image: linear-gradient(transparent, $theme-black 95%), url('https://secured-static.greenpeace.org/hk/Global/hk/code/2018/palmoil/images/GP04N39_Medium_res_v4.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+
+    @include for-mobile-only {
+      position: fixed;
+      // background-image: linear-gradient(rgba(255, 222, 0, 0.4), rgba(237, 28, 36, 0.2) 40%, $theme-black 95%), url('https://secured-static.greenpeace.org/hk/Global/hk/code/2018/palmoil/images/GP04N39_Medium_res_mobile_v4.jpg');
+      background-image: url('https://secured-static.greenpeace.org/hk/Global/hk/code/2018/palmoil/images/GP04N39_Medium_res_mobile_v4.jpg');
+      background-size: cover;
+      background-position: center center; // transform: translateZ(0);
+      will-change: transform;
+      height: 100vh;
+      overflow-x: hidden;
+      overflow-y: auto;
+      perspective: 2px;
+
+      &:after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transform: translateZ(-1px) scale(1.5);
+        background-size: 100%;
+        z-index: -1;
+      }
+    }
+  }
+
+  &__headline {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0 10px;
+
+    h1 {
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 0 2px 10px rgba(22, 22, 22, 0.8);
+
+      @include for-mobile-only {
+        @include font-size(30);
+      }
+
+      @include for-desktop-up {
+        @include font-size(40);
+      }
+
+      @include for-big-desktop-up {
+        @include font-size(50);
+      }
+    }
+  }
+
+  &__img {
+    display: none;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+
+    @include for-mobile-only {
+      display: none;
+    }
+  }
+
+  &__text {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 4rem;
+    max-width: 780px;
+    padding: 30px 10px;
+
+    p {
+      color: #fff;
+      @include font-size(16);
+    }
+
+    p+p {
+      margin-top: 2rem;
+    }
+  }
+}
+
+.sub {
+  padding-top: 50px;
+  background-color: $theme-black;
+}
+
+.section {
+  &.aos-init {
+    .section__banner {
+      transform: translateY(80px);
+      filter: grayscale(100%);
+      transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+      transition: 1.4s transform, filter 2.2s;
+    }
+  }
+
+  &.aos-animate {
+    .section__banner {
+      transform: translateY(0px);
+      filter: grayscale(0);
+    }
+  }
+
+  &__content {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+
+    p {
+      position: relative;
+      display: inline-block;
+      color: $theme-white;
+      line-height: 2;
+      @include font-size(18);
+      padding: 12px 0 14px;
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border-bottom: 2px solid $theme-yellow;
+      }
+
+      @include for-mobile-only {
+        @include font-size(14);
+      }
+    }
+  }
+
+  &__banner {
+    position: relative;
+    height: 40vw;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    @include for-mobile-only {
+      height: 60vw;
+    }
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 10vw;
+
+      @include for-mobile-only {
+        height: 30px;
+      }
+    }
+
+    &:before {
+      top: 0;
+      left: 0;
+      background: linear-gradient(180deg, $theme-black 30%, transparent);
+    }
+
+    &:after {
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(0deg, $theme-black 30%, transparent);
+    }
+
+    &.banner--first {
+      background-image: url('https://secured-static.greenpeace.org/hk/Global/hk/code/2018/palmoil/images/GP01YOA_Medium_res.jpg');
+    }
+
+    &.banner--second {
+      background-image: url('https://secured-static.greenpeace.org/hk/Global/hk/code/2018/palmoil/images/GP0STRVIX_Medium_res_v2.jpg');
+    }
+
+    &.banner--third {
+      background-image: url('https://secured-static.greenpeace.org/hk/Global/hk/code/2018/palmoil/images/GP0STPH66_Medium_res.jpg');
+    }
+
+    &.banner--fourth {
+      background-image: url('https://secured-static.greenpeace.org/hk/Global/hk/code/2018/palmoil/images/GP04NJD_Medium_res_v3.jpg');
+    }
+
+    &.banner--fifth {
+      background-image: url('https://secured-static.greenpeace.org/hk/Global/hk/code/2018/palmoil/images/GP04U3E_Web_size_with_credit_line.jpg');
+    }
+
+    .cover {
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      min-height: 100%;
+      filter: grayscale(100%);
+    }
+  }
+}
+
+// sub
+.mobile-sign-now {
+  display: none;
+  position: relative;
+  transition: opacity 0.4s ease-in-out;
+  opacity: 0;
+
+  &.visible {
+    opacity: 1;
+  }
+
+  span {
+    cursor: pointer;
+    color: $theme-white;
+    @extend %red-styleguide
+  }
+
+  @include for-mobile-only {
+    z-index: 1;
+    display: block;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    height: 120px;
+
+    span {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      @include font-size(20);
+      font-weight: bold;
+      letter-spacing: 8px;
+      font-family: Microsoft JhengHei, Microsoft YaHei, Helvetica, Arial, sans-serif;
+      line-height: 2;
+      width: 100%;
+      padding: 8px 0;
+      padding-right: 70px;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      height: 120px;
+      width: 100px;
+      background-image: url('https://secured-static.greenpeace.org/hk/Global/hk/code/2018/palmoil/images/rangtan.png');
+      background-size: cover;
+      background-position: center center;
+    }
+  }
+}
+
+// mobile signup now
+
+
+@import 'theme';
