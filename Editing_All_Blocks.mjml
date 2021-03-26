@@ -50,13 +50,17 @@ Copy End */ -->
     <mj-section text-align="center" padding="0px">
       <mj-column>
         <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/1200x400.png?text=1200x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px" padding-bottom="20px"></mj-image>
+        <mj-text align="center"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
+        <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/800x500.png?text=800x500+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px" padding-bottom="20px"></mj-image>
+        <mj-text align="center"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
+        <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/800x400.png?text=800x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px" padding-bottom="20px"></mj-image>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 1. Hero Image End */ -->
     <!-- /* Content Block 2. Single Column Left ALign Copy w/ CTA Center Align Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Left Align Headline (optional, 36pt 20 chars max) </mj-text>
+        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Left Align Headline (optional, 36pt) </mj-text>
         <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Single Column Copy 16pt </mj-text>
         <mj-text> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
         <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="left" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Discover green tips during lockdown</mj-button>
@@ -68,7 +72,7 @@ Copy w/ CTA Center Align End */ -->
 Copy w/ CTA Left Align Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px"> Left Align Headline (optional, 36pt 20 chars max) </mj-text>
+        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px"> Left Align Headline (optional, 36pt) </mj-text>
         <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Single Column Copy 16pt </mj-text>
         <mj-text> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
         <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="left" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Discover green tips during lockdown</mj-button>
@@ -80,7 +84,7 @@ Copy w/ CTA Left Align End */ -->
 w/ Text CTA Link Left Aligned Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px"> Left Align Headline (optional, 36pt 20 chars max) </mj-text>
+        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px"> Left Align Headline (optional, 36pt) </mj-text>
         <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. </mj-text>
         <mj-text color="#074365" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="10px">
           <a href="https://www.greenpeace.org/eastasia/" target="_blank"> Call to action</a>
@@ -96,7 +100,7 @@ w/ Text CTA Link Left Aligned End */ -->
 Copy w/ Headline Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px"> Center Align Headline (optional, 36pt 20 chars max) </mj-text>
+        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px"> Center Align Headline (optional, 36pt) </mj-text>
         <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="10px"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
       </mj-column>
     </mj-section>
@@ -106,7 +110,7 @@ Copy w/ Headline End */ -->
 Copy w/ Headline Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text padding-top="10px" color="#074365" align="center" font-weight="bold" font-size="36px" line-height="42px" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Center Align Headline (optional, 36pt 20 chars max) </mj-text>
+        <mj-text padding-top="10px" color="#074365" align="center" font-weight="bold" font-size="36px" line-height="42px" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Center Align Headline (optional, 36pt) </mj-text>
         <mj-text color="#000" align="center" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="10px"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
       </mj-column>
     </mj-section>
@@ -301,13 +305,13 @@ Copy + Img w/ CTA End */ -->
     <!-- /* Content Block 15. Three Column Product End */ -->
     <!-- /* Content Block 16. FR message Start */ -->
     <mj-section background-color="#fff" padding-bottom="10px" padding-top="10px" padding-left="20px" padding-right="20px">
-      <mj-column width="100%" background-color="#fff" padding="20px 12px" border="2px solid #ff8100">
-        <!-- Your columns go here -->
-        <mj-text color="#000" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif">
+      <mj-column width="100%" background-color="#fff" padding="20px 12px" border="2px solid #66cc00">
+        <mj-image src="https://www.greenpeace.org/static/planet4-hongkong-stateless/2021/02/8213fc79-icons8-calendar.gif" alt="" align="center" border="none" width="48px" padding-top="20px" padding-bottom="20px"></mj-image>
+        <mj-text color="#000" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="10px">
           <p style="font-size: 20px; font-weight: bold">Q: 綠色和平不接受政商界資助的意義？</p>
           <p>A: 綠色和平與絕大部分非牟利組織不同，因為我們從不接受政府或企業的捐款，所有經費均來自公眾捐款， 雖然爭取公眾捐款需要的時間和資源，較向企業籌款為多，卻確保我們的財政自主和穩定性，可以避免任何不必要的顧慮或制肘，以公正獨立的身份持續推動環境工作。</p>
         </mj-text>
-        <mj-button background-color="#ff8100" color="#fff" width="100%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">捐助支持</mj-button>
+        <mj-button background-color="#66cc00" color="#fff" width="100%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">捐助支持</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 16. FR message End */ -->
