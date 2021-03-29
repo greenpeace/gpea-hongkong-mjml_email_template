@@ -8,9 +8,10 @@
       <mj-button line-height="1.5" font-weight="bold" align="center" padding="20px" border-radius="4px" font-family="Roboto, Noto Sans TC, Arial, sans-serif" />
       <mj-divider border-color="lightgrey" border-width="1px" padding-top="30px" padding-bottom="30px" />
     </mj-attributes>
-    <mj-title>Greenpeace East Asia</mj-title>
-    <mj-style> @media (min-width:480px) { .rightPad10 { padding-left: 0px !important; padding-right: 10px !important; } .leftPad10 { padding-left: 10px !important; padding-right: 0px !important; } } </mj-style>
-    <mj-style> @media (max-width:480px) { .lrPad20 { padding-left: 20px !important; padding-right: 20px !important; } .mobHide { display: none !important; } } </mj-style>
+    <mj-title>GPEA Email Blocks Template</mj-title>
+    <mj-style inline="inline"> @media (min-width:480px) { .rightPad10 { padding-left: 0px !important; padding-right: 10px !important; } .leftPad10 { padding-left: 10px !important; padding-right: 0px !important; } } </mj-style>
+    <mj-style inline="inline"> @media (max-width:480px) { .lrPad20 { padding-left: 20px !important; padding-right: 20px !important; } .mobHide { display: none !important; } } </mj-style>
+    <mj-style inline="inline"> .body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); } </mj-style>
   </mj-head>
   <mj-all padding="0px" />
   <mj-body background-color="#fff">
@@ -20,10 +21,10 @@
       </div>
     </mj-raw>
     <!-- /* Content Block Standard Header Start */ -->
-    <mj-section background-color="#fff" padding-top="32px" padding-bottom="8px" border-top="2px #6c0 solid">
+    <mj-section background-color="#fff" padding-top="32px" padding-bottom="8px" border-top="6px #6c0 solid">
       <!-- Logo -->
       <mj-column>
-        <mj-image width="200px" align="center" src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/6b6b5efa-b41c-4c15-b36a-5fddb37415a5.png" href="https://www.greenpeace.org/eastasia/" padding="0px" alt="綠色和平 Greenpeace">
+        <mj-image width="240px" align="center" src="https://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/6b6b5efa-b41c-4c15-b36a-5fddb37415a5.png" href="https://www.greenpeace.org/eastasia/" padding="0px" alt="綠色和平 Greenpeace">
         </mj-image>
         <!-- Logo -->
     </mj-section>
@@ -51,17 +52,17 @@ Copy End */ -->
       <mj-column>
         <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/1200x400.png?text=1200x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px" padding-bottom="20px"></mj-image>
         <mj-text align="center"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
-        <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/800x500.png?text=800x500+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px" padding-bottom="20px"></mj-image>
-        <mj-text align="center"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
         <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/800x400.png?text=800x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px" padding-bottom="20px"></mj-image>
+        <mj-text align="center"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
+        <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/800x600.png?text=800x600+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px" padding-bottom="20px"></mj-image>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 1. Hero Image End */ -->
     <!-- /* Content Block 2. Single Column Left ALign Copy w/ CTA Center Align Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Left Align Headline (optional, 36pt) </mj-text>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Single Column Copy 16pt </mj-text>
+        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px"> Left Align Headline (optional, 36pt) </mj-text>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5"> Single Column Copy 16pt </mj-text>
         <mj-text> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
         <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="left" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Discover green tips during lockdown</mj-button>
       </mj-column>
@@ -73,9 +74,9 @@ Copy w/ CTA Left Align Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
         <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px"> Left Align Headline (optional, 36pt) </mj-text>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Single Column Copy 16pt </mj-text>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5"> Single Column Copy 16pt </mj-text>
         <mj-text> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
-        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="left" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Discover green tips during lockdown</mj-button>
+        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="left" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Discover green tips during lockdown</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 3. Single Column
@@ -85,11 +86,11 @@ w/ Text CTA Link Left Aligned Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
         <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px"> Left Align Headline (optional, 36pt) </mj-text>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. </mj-text>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="10px">
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. </mj-text>
+        <mj-text color="#074365" align="left" font-weight="bold" font-size="16px" line-height="1.5" padding-bottom="10px">
           <a href="https://www.greenpeace.org/eastasia/" target="_blank"> Call to action</a>
         </mj-text>
-        <mj-text color="#074365" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="10px">
+        <mj-text color="#074365" align="left" font-size="16px" line-height="1.5" padding-bottom="10px">
           <a href="https://www.greenpeace.org/eastasia/" target="_blank"> Call to action</a>
         </mj-text>
       </mj-column>
@@ -101,7 +102,7 @@ Copy w/ Headline Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
         <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px"> Center Align Headline (optional, 36pt) </mj-text>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="10px"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-bottom="10px"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 5. Single Column Center Align
@@ -110,8 +111,8 @@ Copy w/ Headline End */ -->
 Copy w/ Headline Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text padding-top="10px" color="#074365" align="center" font-weight="bold" font-size="36px" line-height="42px" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Center Align Headline (optional, 36pt) </mj-text>
-        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="10px"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
+        <mj-text padding-top="10px" color="#074365" align="center" font-weight="bold" font-size="36px" line-height="42px"> Center Align Headline (optional, 36pt) </mj-text>
+        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" padding-bottom="10px"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 6. Single Column Center Align
@@ -119,48 +120,48 @@ Copy w/ Headline End */ -->
     <!-- /* Content Block 7. Grouped Two Column Img Copy w/ CTA Left Align Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="0px"> Left Align Headline (36pt) Grouped Two Col </mj-text>
+        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" padding-top="10px" padding-bottom="0px"> Left Align Headline (36pt) Grouped Two Col </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#fff" padding-top="0px" padding-left="0px" padding-right="0px" padding-bottom="20px">
       <mj-group>
         <mj-column padding-top="0px" padding-left="0px" padding-right="0px">
           <mj-image src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" alt="ACT NOW" align="center" padding-left="20px" padding-right="10px" padding-bottom="0px" padding-top="4px"></mj-image>
-          <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px"> Single Column Copy Bold 16pt </mj-text>
-          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-right="0px"> In critical times, compassion, courage and community bind us. Let’s take care of each other, and unite for a safe and just world for everyone. </mj-text>
+          <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" padding-top="10px"> Single Column Copy Bold 16pt </mj-text>
+          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-right="0px"> In critical times, compassion, courage and community bind us. Let’s take care of each other, and unite for a safe and just world for everyone. </mj-text>
         </mj-column>
         <mj-column padding-left="0px" padding-right="0px">
           <mj-image src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" alt="ACT NOW" align="center" padding-left="10px" padding-right="20px" padding-bottom="0px" padding-top="5px"></mj-image>
-          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-weight="bold" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="10px" padding-top="10px"> Single Column Copy Bold 16pt </mj-text>
-          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="10px"> In critical times, compassion, courage and community bind us. Let’s take care of each other, and unite for a safe and just world for everyone. </mj-text>
+          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-weight="bold" padding-left="10px" padding-top="10px"> Single Column Copy Bold 16pt </mj-text>
+          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-left="10px"> In critical times, compassion, courage and community bind us. Let’s take care of each other, and unite for a safe and just world for everyone. </mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
     <mj-section background-color="#fff" padding-top="0px">
       <mj-column padding-bottom="0px">
-        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
+        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 7. Grouped Two Column Img Copy w/ CTA Left Align End */ -->
     <!-- /* Content Block 8. Grouped Two Column Img Copy w/ CTA Left Align Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="0px"> Left Align Headline (36pt) Grouped Two Col 2x CTA </mj-text>
+        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" padding-top="10px" padding-bottom="0px"> Left Align Headline (36pt) Grouped Two Col 2x CTA </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#fff" padding-top="0px" padding-left="0px" padding-right="0px" padding-bottom="20px">
       <mj-group>
         <mj-column padding-top="0px" padding-left="0px" padding-right="0px">
           <mj-image src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" alt="ACT NOW" align="center" padding-left="20px" padding-right="10px" padding-bottom="0px" padding-top="5px"></mj-image>
-          <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Single Column Copy Bold 16pt </mj-text>
-          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-right="0px"> In critical times, compassion, courage and community bind us. Let’s take care of each other, and unite for a safe and just world for everyone. </mj-text>
-          <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
+          <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5"> Single Column Copy Bold 16pt </mj-text>
+          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-right="0px"> In critical times, compassion, courage and community bind us. Let’s take care of each other, and unite for a safe and just world for everyone. </mj-text>
+          <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
         </mj-column>
         <mj-column padding-left="0px" padding-right="0px">
           <mj-image src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" alt="ACT NOW" align="center" padding-left="10px" padding-right="20px" padding-bottom="0px" padding-top="5px"></mj-image>
-          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-weight="bold" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="10px"> Single Column Copy Bold 16pt </mj-text>
-          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="10px"> In critical times, compassion, courage and community bind us. Let’s take care of each other, and unite for a safe and just world for everyone. </mj-text>
-          <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
+          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-weight="bold" padding-left="10px"> Single Column Copy Bold 16pt </mj-text>
+          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-left="10px"> In critical times, compassion, courage and community bind us. Let’s take care of each other, and unite for a safe and just world for everyone. </mj-text>
+          <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -169,21 +170,21 @@ Copy w/ Headline End */ -->
 Copy + Img w/ CTA Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="0px"> Be inspired </mj-text>
+        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" padding-top="10px" padding-bottom="0px"> Be inspired </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#fff" padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="20px">
       <mj-column>
         <mj-image padding="5px 10px 10px 20px" src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" fluid-on-mobile="true" width="270px" alt="ACT NOW" align="left" css-class="lrPad20"></mj-image>
-        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="20px" padding-right="20px"> Vege self cooking at home </mj-text>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="20px" padding-right="20px"> Learn from celebrity chef Joey Leung on his secret vegetarian recipe. He also offers tips on plastics-free grocery shopping. </mj-text>
-        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 20px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
+        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" padding-left="20px" padding-right="20px"> Vege self cooking at home </mj-text>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-left="20px" padding-right="20px"> Learn from celebrity chef Joey Leung on his secret vegetarian recipe. He also offers tips on plastics-free grocery shopping. </mj-text>
+        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 20px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
       </mj-column>
       <mj-column>
         <mj-image padding="5px 20px 10px 10px" src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" fluid-on-mobile="true" width="270px" alt="ACT NOW" align="left" css-class="lrPad20"></mj-image>
-        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="10px" padding-right="20px" css-class="lrPad20"> Discover local biodiversity </mj-text>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="10px" padding-right="20px" css-class="lrPad20"> Think that Hong Kong is just a city for money? Our columnist Ma Shi takes you onto a biodiversity adventure in Hong Kong. </mj-text>
-        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 20px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
+        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" padding-left="10px" padding-right="20px" css-class="lrPad20"> Discover local biodiversity </mj-text>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-left="10px" padding-right="20px" css-class="lrPad20"> Think that Hong Kong is just a city for money? Our columnist Ma Shi takes you onto a biodiversity adventure in Hong Kong. </mj-text>
+        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 20px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
       </mj-column>
     </mj-section>
     <!--           /* Content Block 9.0 Two Column
@@ -192,24 +193,24 @@ Copy + Img w/ CTA End */ -->
 Copy + Img w/ CTA Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="0px"> Be inspired </mj-text>
+        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" padding-top="10px" padding-bottom="0px">Be inspired </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#fff" padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="20px">
       <mj-column>
         <mj-image padding="5px 10px 10px 20px" src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" fluid-on-mobile="true" width="270px" alt="ACT NOW" align="left" css-class="lrPad20"></mj-image>
-        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="20px" padding-right="20px"> Vege self cooking at home </mj-text>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="20px" padding-right="20px"> Learn from celebrity chef Joey Leung on his secret vegetarian recipe. He also offers tips on plastics-free grocery shopping. </mj-text>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="20px" padding-right="20px" padding-bottom="10px">
-          <a href="http://greenpeace.org" target="_blank">Watch Now</a>
+        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" padding-left="20px" padding-right="20px"> Vege self cooking at home </mj-text>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-left="20px" padding-right="20px"> Learn from celebrity chef Joey Leung on his secret vegetarian recipe. He also offers tips on plastics-free grocery shopping. </mj-text>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-left="20px" padding-right="20px" padding-bottom="10px">
+          <a href="https://greenpeace.org" target="_blank">Watch Now</a>
         </mj-text>
       </mj-column>
       <mj-column>
         <mj-image padding="5px 20px 10px 10px" src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" fluid-on-mobile="true" width="270px" alt="ACT NOW" align="left" css-class="lrPad20"></mj-image>
-        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="10px" padding-right="20px" css-class="lrPad20"> Discover local biodiversity </mj-text>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="10px" padding-right="20px" css-class="lrPad20"> Think that Hong Kong is just a city for money? Our columnist Ma Shi takes you onto a biodiversity adventure in Hong Kong. </mj-text>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-left="10px" padding-right="20px" css-class="lrPad20" padding-bottom="10px">
-          <a href="http://greenpeace.org" target="_blank">Take the adventure</a>
+        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" padding-left="10px" padding-right="20px" css-class="lrPad20"> Discover local biodiversity </mj-text>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-left="10px" padding-right="20px" css-class="lrPad20"> Think that Hong Kong is just a city for money? Our columnist Ma Shi takes you onto a biodiversity adventure in Hong Kong. </mj-text>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-left="10px" padding-right="20px" css-class="lrPad20" padding-bottom="10px">
+          <a href="https://greenpeace.org" target="_blank">Take the adventure</a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -221,9 +222,9 @@ Copy + Img w/ CTA End */ -->
         <mj-image src="https://via.placeholder.com/560x560.png?text=560x560+Retina+Image" alt="ACT NOW" align="center" width="280px" fluid-on-mobile="true" padding-left="0px" padding-right="20px" padding-bottom="0px" padding-top="10px" css-class="lrPad20"></mj-image>
       </mj-column>
       <mj-column>
-        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="20px"> Left Headline (optional, 16pt 35 chars max) </mj-text>
-        <mj-text color="#000" align="left" font-weight="normal" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="20px"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
-        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
+        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" padding-top="10px" padding-bottom="20px"> Left Headline (optional, 16pt 35 chars max) </mj-text>
+        <mj-text color="#000" align="left" font-weight="normal" font-size="16px" line-height="1.5" padding-bottom="20px"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
+        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 10. Two Column Img Copy w/ CTA Left Align End */ -->
@@ -233,50 +234,50 @@ Copy + Img w/ CTA End */ -->
         <mj-image src="https://via.placeholder.com/560x560.png?text=560x560+Retina+Image" width="280px" fluid-on-mobile="true" alt="ACT NOW" align="center" padding-left="20px" padding-right="0px" padding-bottom="10px" padding-top="10px" css-class="lrPad20"></mj-image>
       </mj-column>
       <mj-column>
-        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="20px"> Right Headline (optional, 16pt 35 chars max) </mj-text>
-        <mj-text color="#000" align="left" font-weight="normal" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="20px"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
-        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
+        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" padding-top="10px" padding-bottom="20px"> Right Headline (optional, 16pt 35 chars max) </mj-text>
+        <mj-text color="#000" align="left" font-weight="normal" font-size="16px" line-height="1.5" padding-bottom="20px"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
+        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 11. Two Column Img Copy w/ CTA Right Align Start */ -->
     <!-- /* Content Block 12. CTA Center Align Start */ -->
     <mj-section background-color="#fff" padding="0px">
       <mj-column>
-        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
+        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 12. CTA Center Align End */ -->
     <!--/* Content Block 13. CTA Left Align Start */ -->
     <mj-section background-color="#fff" padding="0px">
       <mj-column padding="0px">
-        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="left" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
+        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="left" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
       </mj-column>
     </mj-section>
     <mj-section background-color="#fff" padding="0px">
       <mj-column padding="0px">
-        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="right" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
+        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="right" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
       </mj-column>
     </mj-section>
     <!--/* Content Block 13. CTA Left Align END */ -->
     <!--           /* Content Block 14. Donation Receipt Start */ -->
     <mj-section background-color="#fff" padding-bottom="15px" padding-bottom="15px">
       <mj-column>
-        <mj-text padding-top="10px" padding-bottom="3px" color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> DONATION RECEIPT </mj-text>
+        <mj-text padding-top="10px" padding-bottom="3px" color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px"> DONATION RECEIPT </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#fff" padding-top="0px">
       <mj-column>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" line-height="16px" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="0px"> Greenpeace East Asia </mj-text>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" line-height="16px" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="20px"> Received from: <br> Mr Nick Epstein</br>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" line-height="16px" padding-bottom="0px"> Greenpeace East Asia </mj-text>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" line-height="16px" padding-bottom="20px"> Received from: <br> Mr Nick Epstein</br>
         </mj-text>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" line-height="16px" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="20px"> nick.epstein@greenpeace.org <br> 143414422 </br>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" line-height="16px" padding-bottom="20px"> nick.epstein@greenpeace.org <br> 143414422 </br>
         </mj-text>
       </mj-column>
       <mj-column>
         <mj-spacer height="34px" css-class="mobHide"></mj-spacer>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" line-height="16px" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="20px"> Receipt No: DON-2020-00188782 <br> Date: 2/04/2020</br>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" line-height="16px" padding-bottom="20px"> Receipt No: DON-2020-00188782 <br> Date: 2/04/2020</br>
         </mj-text>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" line-height="16px" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="10px"> Total Donation: HKD100.00 <br> Donation Date: 01/04/2020</br>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" line-height="16px" padding-bottom="10px"> Total Donation: HKD100.00 <br> Donation Date: 01/04/2020</br>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -286,20 +287,20 @@ Copy + Img w/ CTA End */ -->
       <mj-column>
         <mj-image src="https://via.placeholder.com/360x360.png?text=360x360" alt="" align="center" border="none" width="180px" padding-left="0px" padding-right="0px" padding-bottom="15px" padding-top="10px" fluid-on-mobile="true"></mj-image>
         <mj-text font-weight="normal" align="center" color="#000" font-size="28px" padding-left="5px" padding-right="5px" padding-bottom="10px" padding-top="10px" font-family="Verdana, Noto Sans TC, Arial, sans-serif"> Three Col Heading (28pt) </mj-text>
-        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" padding-left="5px" padding-right="5px" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Lorem ipsum, dolor consectetur adipisicing elit. </mj-text>
-        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
+        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" padding-left="5px" padding-right="5px"> Lorem ipsum, dolor consectetur adipisicing elit. </mj-text>
+        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
       </mj-column>
       <mj-column>
         <mj-image src="https://via.placeholder.com/360x360.png?text=360x360" alt="" align="center" border="none" width="180px" padding-left="0px" padding-right="0px" padding-bottom="15px" padding-top="10px" fluid-on-mobile="true"></mj-image>
         <mj-text font-weight="normal" align="center" color="#000" font-size="28px" padding-left="5px" padding-right="5px" padding-bottom="10px" padding-top="10px" font-family="Verdana, Noto Sans TC, Arial, sans-serif"> Three Col Heading (28pt) </mj-text>
-        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" padding-left="5px" padding-right="5px" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Lorem ipsum, dolor consectetur adipisicing elit. </mj-text>
-        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
+        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" padding-left="5px" padding-right="5px"> Lorem ipsum, dolor consectetur adipisicing elit. </mj-text>
+        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
       </mj-column>
       <mj-column>
         <mj-image src="https://via.placeholder.com/360x360.png?text=360x360" alt="" align="center" border="none" width="180px" padding-left="0px" padding-right="0px" padding-bottom="15px" padding-top="10px" fluid-on-mobile="true"></mj-image>
         <mj-text font-weight="normal" align="center" color="#000" font-size="28px" padding-left="5px" padding-right="5px" padding-bottom="10px" padding-top="10px" font-family="Verdana, Noto Sans TC, Arial, sans-serif"> Three Col Heading (28pt) </mj-text>
-        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" padding-left="5px" padding-right="5px" font-family="Roboto, Noto Sans TC, Arial, sans-serif"> Lorem ipsum, dolor consectetur adipisicing elit. </mj-text>
-        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Read On</mj-button>
+        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" padding-left="5px" padding-right="5px"> Lorem ipsum, dolor consectetur adipisicing elit. </mj-text>
+        <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 15. Three Column Product End */ -->
@@ -307,11 +308,11 @@ Copy + Img w/ CTA End */ -->
     <mj-section background-color="#fff" padding-bottom="10px" padding-top="10px" padding-left="20px" padding-right="20px">
       <mj-column width="100%" background-color="#fff" padding="20px 12px" border="2px solid #66cc00">
         <mj-image src="https://www.greenpeace.org/static/planet4-hongkong-stateless/2021/02/8213fc79-icons8-calendar.gif" alt="" align="center" border="none" width="48px" padding-top="20px" padding-bottom="20px"></mj-image>
-        <mj-text color="#000" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="10px">
+        <mj-text color="#000" font-size="16px" line-height="1.5" padding-bottom="10px">
           <p style="font-size: 20px; font-weight: bold">Q: 綠色和平不接受政商界資助的意義？</p>
           <p>A: 綠色和平與絕大部分非牟利組織不同，因為我們從不接受政府或企業的捐款，所有經費均來自公眾捐款， 雖然爭取公眾捐款需要的時間和資源，較向企業籌款為多，卻確保我們的財政自主和穩定性，可以避免任何不必要的顧慮或制肘，以公正獨立的身份持續推動環境工作。</p>
         </mj-text>
-        <mj-button background-color="#66cc00" color="#fff" width="100%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">捐助支持</mj-button>
+        <mj-button background-color="#66cc00" color="#fff" width="100%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">捐助支持</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 16. FR message End */ -->
@@ -319,48 +320,48 @@ Copy + Img w/ CTA End */ -->
     <mj-section background-color="#fff" padding-bottom="10px" padding-top="10px" padding-left="20px" padding-right="20px">
       <mj-column width="100%" background-color="#fff" padding="20px 12px" border="1px solid #eee">
         <!-- Your columns go here -->
-        <mj-text color="#000" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" align="center">
+        <mj-text color="#000" font-size="16px" line-height="1.5" align="center">
           <p>姓名: [Full Name]</p>
           <p>2021年捐款金額: $0</p>
           <p>建議捐款金額: 每日約$3小額捐款（1月31日前）</p>
         </mj-text>
-        <mj-button background-color="#ff8100" color="#fff" width="80%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="0px 20px 10px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">每日 $3 小額捐款</mj-button>
+        <mj-button background-color="#ff8100" color="#fff" width="80%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="0px 20px 10px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">每日 $3 小額捐款</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 17. Suggested amount End */ -->
     <!-- /* Content Block 18. HK Share Start */ -->
     <mj-section background-color="#fff" padding="20px">
       <mj-column width="100%" padding="0px">
-        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" css-class="lrPad20">守護大嶼，促請政府公允規劃，您願意號召身邊的親友一起加入嗎？</mj-text>
+        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" css-class="lrPad20">守護大嶼，促請政府公允規劃，您願意號召身邊的親友一起加入嗎？</mj-text>
       </mj-column>
       <mj-column padding="0px">
-        <mj-button background-color="#4267B2" color="#fff" width="120px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.facebook.com/sharer/sharer.php?u=https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Facebook</mj-button>
+        <mj-button background-color="#4267B2" color="#fff" width="120px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.facebook.com/sharer/sharer.php?u=https://www.greenpeace.org/eastasia/">Facebook</mj-button>
       </mj-column>
       <mj-column padding="0px">
-        <mj-button background-color="#25d366" color="#fff" width="120px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://api.whatsapp.com/send?text=https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Whatsapp</mj-button>
+        <mj-button background-color="#25d366" color="#fff" width="120px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://api.whatsapp.com/send?text=https://www.greenpeace.org/eastasia/">Whatsapp</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 18. HK Share End */ -->
     <!-- /* Content Block 19. TW Share Start */ -->
     <mj-section background-color="#fff" padding="20px">
       <mj-column width="100%" padding="0px">
-        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" css-class="lrPad20">您願意號召身邊的親友一起加入嗎？</mj-text>
+        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" css-class="lrPad20">您願意號召身邊的親友一起加入嗎？</mj-text>
       </mj-column>
       <mj-column padding="0px">
-        <mj-button background-color="#4267B2" color="#fff" width="120px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.facebook.com/sharer/sharer.php?u=https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Facebook</mj-button>
+        <mj-button background-color="#4267B2" color="#fff" width="120px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.facebook.com/sharer/sharer.php?u=https://www.greenpeace.org/eastasia/">Facebook</mj-button>
       </mj-column>
       <mj-column padding="0px">
-        <mj-button background-color="#00B900" color="#fff" width="120px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Line</mj-button>
+        <mj-button background-color="#00B900" color="#fff" width="120px" font-size="16px" line-height="1.5" font-weight="bold" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Line</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 19. TW Share End */ -->
     <!-- /* Content Block 20. Thank you Donate */ -->
     <mj-section background-color="#fff" padding-bottom="15px" padding-bottom="15px">
       <mj-column width="100%" padding="0px">
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" css-class="lrPad20">在守護大嶼的路上，我們迫切需要您的力量！您的支持能幫助我們，促使政府重新審視和規劃使用棕地等，滿足市民住屋需求的同時，保留具有生態及社會價值的海洋。香港的未來，由您我並肩守護！</mj-text>
+        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" css-class="lrPad20">在守護大嶼的路上，我們迫切需要您的力量！您的支持能幫助我們，促使政府重新審視和規劃使用棕地等，滿足市民住屋需求的同時，保留具有生態及社會價值的海洋。香港的未來，由您我並肩守護！</mj-text>
       </mj-column>
       <mj-column padding="0px">
-        <mj-button background-color="#FF8100" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">捐助支持</mj-button>
+        <mj-button background-color="#FF8100" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px" inner-padding="12px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">捐助支持</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 20. FR message End */ -->
@@ -368,12 +369,12 @@ Copy + Img w/ CTA End */ -->
     <mj-section background-color="#ecf0f1" padding-bottom="10px" padding-top="10px" padding-left="20px" padding-right="20px">
       <mj-column width="100%" padding-top="20px" padding-bottom="20px" border="1px solid #eee">
         <!-- Your columns go here -->
-        <mj-text color="#074365" align="center" font-weight="bold" font-size="28px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="10px">您有3分鐘的時間嗎？</mj-text>
-        <mj-text color="#000" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" align="center">
+        <mj-text color="#074365" align="center" font-weight="bold" font-size="28px" line-height="1.5" padding-top="10px" padding-bottom="10px">您有3分鐘的時間嗎？</mj-text>
+        <mj-text color="#000" font-size="12px" line-height="1.5" align="center">
           <p>整裝待發迎接2021年的，當然還有綠色和平項目團隊！邀請你填寫3分鐘問卷發表寶貴意見，我們定必細心聆聽，並按此調整來年項目方向，同時讓活動規劃及會員服務更貼近你的需求，一起實現更多為地球許下的願望。</p>
         </mj-text>
-        <mj-text color="#000" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" align="center">
-          <a href="http://greenpeace.org" target="_blank">填寫3分鐘項目問卷</a>
+        <mj-text color="#000" font-size="16px" line-height="1.5" align="center">
+          <a href="https://greenpeace.org" target="_blank">填寫3分鐘項目問卷</a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -385,14 +386,14 @@ Copy + Img w/ CTA End */ -->
           <mj-image src="https://via.placeholder.com/560x560.png?text=200x200+Retina+Image" width="200px" align="center" padding-left="20px" padding-right="0px" padding-top="10px"></mj-image>
         </mj-column>
         <mj-column width="66%">
-          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="0px">
+          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-bottom="0px">
             <p>氣候 / 應對氣候危機，亞洲晉身進擊的巨人</p>
           </mj-text>
-          <mj-text color="#000" align="left" font-size="14px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="0px" padding-bottom="0px" css-class="mobHide">
+          <mj-text color="#000" align="left" font-size="12px" line-height="1.5" padding-top="0px" padding-bottom="0px" css-class="mobHide">
             <p>當科學家費煞思量探索海洋萬米深淵的奧秘，早有企業聞風而至攻佔地盤。</p>
           </mj-text>
-          <mj-text color="#000" align="left" font-size="14px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="0px" padding-bottom="0px">
-            <p><a href="http://greenpeace.org" target="_blank">[閱讀更多]</a></p>
+          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-top="0px" padding-bottom="0px">
+            <p><a href="https://greenpeace.org" target="_blank">[閱讀更多]</a></p>
           </mj-text>
         </mj-column>
       </mj-group>
@@ -402,15 +403,15 @@ Copy + Img w/ CTA End */ -->
     <mj-section background-color="#fff" padding-top="10px" padding-bottom="10px">
       <mj-column>
         <mj-image src="https://www.greenpeace.org/static/planet4-hongkong-stateless/2021/02/8213fc79-icons8-calendar.gif" alt="" align="center" border="none" width="48px"></mj-image>
-        <mj-text color="#000" align="center" font-size="20px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="0px" font-weight="bold">
+        <mj-text color="#000" align="center" font-size="20px" line-height="1.5" padding-bottom="0px" font-weight="bold">
           <p>2021年2月27日 星期六</p>
           <p>11am- 12pm</p>
         </mj-text>
         <mj-divider padding-top="8px" />
-        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="20px">
-          <p>這是您進入Zoom線上分享會的個人鏈結。<br /> 密碼將於活動當天透過電郵和短訊傳送給你。<br /> 如欲邀請好友參加是次活動，請分享此訪客報名鏈結。</p>
+        <mj-text color="#000" align="center" font-size="16px" line-height="1.5" padding-bottom="20px">
+          <p>這是您進入Zoom線上分享會的個人鏈結。<br />密碼將於活動當天透過電郵和短訊傳送給你。<br />如欲邀請好友參加是次活動，請分享此訪客報名鏈結。</p>
         </mj-text>
-        <mj-text color="#000" align="left" font-size="14px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-top="10px" padding-bottom="10px"> 為確保您的網絡安全及活動順利舉行，請注意以下事項： <ul>
+        <mj-text color="#000" align="left" font-size="12px" line-height="1.5" padding-top="10px" padding-bottom="10px"> 為確保您的網絡安全及活動順利舉行，請注意以下事項： <ul>
             <li>請勿將個人鏈結公開，或傳給陌生人</li>
             <li>請先下載應用程式（<a href="https://itunes.apple.com/us/app/id546505307" target="_blank" style="color:#074365; text-decoration:underline;">IOS</a>、<a href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings" target="_blank" style="color:#074365; text-decoration:underline;">Android</a>、<a href="https://zoom.us/client/latest/Zoom.pkg" target="_blank" style="color:#074365; text-decoration:underline;">電腦</a>）</li>
             <li>活動將準時於早上11時正開始，請提早3-5分鐘進入Zoom</li>
@@ -420,7 +421,7 @@ Copy + Img w/ CTA End */ -->
         </mj-text>
         <mj-divider padding-top="8px" />
         <mj-image src="https://www.greenpeace.org/static/planet4-hongkong-stateless/2021/02/d8d6e645-icons8-calendar-80.png" alt="" align="center" border="none" width="48px"></mj-image>
-        <mj-text color="#000" align="center" font-size="24px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" padding-bottom="0px" font-weight="bold">
+        <mj-text color="#000" align="center" font-size="24px" line-height="1.5" padding-bottom="0px" font-weight="bold">
           <p>2021年2月27日 星期六</p>
           <p>11am - 12pm</p>
         </mj-text>
@@ -431,32 +432,101 @@ Copy + Img w/ CTA End */ -->
     <!-- /* Content Block 25. YES NO */ -->
     <mj-section background-color="#fff" padding-top="10px" padding-bottom="10px">
       <mj-group>
-        <mj-column width="50%" padding="10px">
-          <mj-button background-color="#f96d8c" color="#fff" width="90%" font-size="20px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="16px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">Yes</mj-button>
-          <mj-text color="#666" align="center" font-size="14px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" css-class="lrPad20" padding-top="8px">立即登記</mj-text>
+        <mj-column width="50%" padding="4px">
+          <mj-button background-color="#f96d8c" color="#fff" width="100%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 16px 10px 16px" inner-padding="16px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">單次捐款</mj-button>
+          <mj-text color="#666" align="center" font-size="12px" line-height="1.5" css-class="lrPad20" padding-top="8px">做善事、支持環境工作，更享扣稅優惠！</mj-text>
         </mj-column>
-        <mj-column width="50%" padding="10px">
-          <mj-button background-color="#fff" color="#f96d8c" border="1px solid #f96d8c" width="90%" font-size="20px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="16px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/" font-family="Roboto, Noto Sans TC, Arial, sans-serif">No</mj-button>
-          <mj-text color="#666" align="center" font-size="14px" line-height="1.5" font-family="Roboto, Noto Sans TC, Arial, sans-serif" css-class="lrPad20" padding-top="8px">未能出席<br />但願意支持守護北極項目</mj-text>
+        <mj-column width="50%" padding="4px">
+          <mj-button background-color="#fff" color="#f96d8c" border="1px solid #f96d8c" width="100%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 16px 10px 16px" inner-padding="16px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">先了解更多</mj-button>
+          <mj-text color="#666" align="center" font-size="12px" line-height="1.5" css-class="lrPad20" padding-top="8px">即睇2021慈善捐款減稅懶人包</mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
-    <!-- /* Content Block 25. YES NO */ -->
+    <!-- /* Content Block 25. YES NO End */ -->
+    <!-- /* Content Block 26. Gallery 1 */ -->
+    <mj-section background-color="#fff" padding-top="0px" padding-bottom="0px" padding-left="4px" padding-right="4px">
+      <mj-group>
+        <mj-column width="33.33%" padding="4px">
+          <mj-image src="https://via.placeholder.com/400x400.png?text=400x400+Retina+Image" align="center" padding="0"></mj-image>
+        </mj-column>
+        <mj-column width="33.33%" padding="4px">
+          <mj-image src="https://via.placeholder.com/400x400.png?text=400x400+Retina+Image" align="center" padding="0"></mj-image>
+        </mj-column>
+        <mj-column width="33.33%" padding="4px">
+          <mj-image src="https://via.placeholder.com/400x400.png?text=400x400+Retina+Image" align="center" padding="0"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section background-color="#fff" padding-top="0px" padding-bottom="0px" padding-left="4px" padding-right="4px">
+      <mj-group>
+        <mj-column width="50%" padding="4px">
+          <mj-image src="https://via.placeholder.com/800x600.png?text=400x400+Retina+Image" align="center" padding="0"></mj-image>
+        </mj-column>
+        <mj-column width="50%" padding="4px">
+          <mj-image src="https://via.placeholder.com/800x600.png?text=400x400+Retina+Image" align="center" padding="0"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section background-color="#fff" padding-top="0px" padding-bottom="0px" padding-left="0px" padding-right="0px">
+      <mj-group>
+        <mj-column width="50%">
+          <mj-image align="center" src="https://via.placeholder.com/800x600.png?text=800x600+Retina+Image" alt="" />
+        </mj-column>
+        <mj-column width="50%">
+          <mj-image align="center" src="https://via.placeholder.com/800x600.png?text=800x600+Retina+Image" alt="" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- /* Content Block 26. Gallery 1 End */ -->
+    <!-- /* Content Block 27. List item */ -->
+    <mj-section background-color="#fff" padding-top="10px" padding-bottom="10px">
+      <mj-group>
+        <mj-column vertical-align="middle" width="20%" padding="4px">
+          <mj-image width="40px" padding="0" align="right" src="https://www.greenpeace.org/static/planet4-hongkong-stateless/2020/03/02d1ea6d-tick.gif" />
+        </mj-column>
+        <mj-column width="80%" padding="4px">
+          <mj-text align="left" font-size="14px" line-height="1.5">您意識到氣候危機對環境與人類的威脅，並願意了解更多！</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section background-color="#fff" padding-top="10px" padding-bottom="10px">
+      <mj-group>
+        <mj-column vertical-align="middle" width="20%" padding="4px">
+          <mj-image width="40px" padding="0" align="right" src="https://www.greenpeace.org/static/planet4-hongkong-stateless/2020/03/02d1ea6d-tick.gif" />
+        </mj-column>
+        <mj-column width="80%" padding="4px">
+          <mj-text align="left" font-size="14px" line-height="1.5">您願意透過實際行動，例如改變個人習慣，支持氣候行動！</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section background-color="#fff" padding-top="10px" padding-bottom="10px">
+      <mj-group>
+        <mj-column vertical-align="middle" width="20%" padding="4px">
+          <mj-image width="40px" padding="0" align="right" src="https://www.greenpeace.org/static/planet4-hongkong-stateless/2021/03/7d2fb6ab-tick-circle.gif" />
+        </mj-column>
+        <mj-column width="80%" padding="4px">
+          <mj-text align="left" font-size="14px" line-height="1.5">您願意今天就捐助$500港幣或以上，加入我們減緩氣候危機，保護您與身邊人的唯一家園嗎？</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- /* Content Block 27. List item End */ -->
+    <!-- /* Content Block 28. Gallery */ -->
+    <!-- /* Content Block 28. Gallery End */ -->
     <!-- Footer Start-->
     <mj-section padding="0px" background-color="#fff" padding="20px">
       <!--Social Icons-->
       <mj-column>
         <mj-divider />
         <mj-social icon-size="25px" mode="horizontal" align="left" padding-left="8px">
-          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/b2b4450e-c93b-4c63-90fd-d88b355ed0f4.jpg" padding="0px 4px 4px 16px" href="https://www.facebook.com/greenpeacehk/" target="_blank">
+          <mj-social-element src="https://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/b2b4450e-c93b-4c63-90fd-d88b355ed0f4.jpg" padding="0px 4px 4px 16px" href="https://www.facebook.com/greenpeacehk/" target="_blank">
           </mj-social-element>
-          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/7981574e-f49f-4267-a745-f9be52ebb3b0.jpg" padding="0px 4px 4px 16px" href="https://www.instagram.com/greenpeace_hk/" target="_blank">
+          <mj-social-element src="https://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/7981574e-f49f-4267-a745-f9be52ebb3b0.jpg" padding="0px 4px 4px 16px" href="https://www.instagram.com/greenpeace_hk/" target="_blank">
           </mj-social-element>
-          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/eca3ae2b-016f-4ad2-9447-1987c82d3b55.jpg" padding="0px 4px 4px 16px" href="https://www.youtube.com/user/GreenpeaceChina" target="_blank">
+          <mj-social-element src="https://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/eca3ae2b-016f-4ad2-9447-1987c82d3b55.jpg" padding="0px 4px 4px 16px" href="https://www.youtube.com/user/GreenpeaceChina" target="_blank">
           </mj-social-element>
-          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/a6649ed4-94bd-475f-8607-1d895fa23aed.jpg" padding="0px 4px 4px 16px" href="https://twitter.com/greenpeace_hk" target="_blank">
+          <mj-social-element src="https://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/a6649ed4-94bd-475f-8607-1d895fa23aed.jpg" padding="0px 4px 4px 16px" href="https://twitter.com/greenpeace_hk" target="_blank">
           </mj-social-element>
-          <mj-social-element src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/428bfc94-352d-41f5-b2e9-1fd2089832fb.png" padding="0px 4px 4px 16px" href="https://medium.com/greenpeace-east-asia" target="_blank">
+          <mj-social-element src="https://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/428bfc94-352d-41f5-b2e9-1fd2089832fb.png" padding="0px 4px 4px 16px" href="https://medium.com/greenpeace-east-asia" target="_blank">
           </mj-social-element>
         </mj-social>
       </mj-column>
@@ -466,7 +536,7 @@ Copy + Img w/ CTA End */ -->
     <mj-section background-color="#fff" padding="0px 20px 0px 20px">
       <!-- Logo -->
       <mj-column>
-        <mj-image width="200px" align="left" src="http://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/6b6b5efa-b41c-4c15-b36a-5fddb37415a5.png" href="https://www.greenpeace.org/eastasia/" padding="20px 0px 10px 0px" alt="Greenpeace">
+        <mj-image width="200px" align="left" src="https://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/6b6b5efa-b41c-4c15-b36a-5fddb37415a5.png" href="https://www.greenpeace.org/eastasia/" padding="20px 0px 10px 0px" alt="Greenpeace">
         </mj-image>
       </mj-column>
       <!-- Logo -->
@@ -474,8 +544,8 @@ Copy + Img w/ CTA End */ -->
     <!-- Logo -->
     <mj-section background-color="#fff" padding-bottom="10px" padding-top="10px" padding-left="0px" padding-right="0px">
       <mj-column>
-        <mj-text color="#000" font-size="16px" align="left" padding-bottom="0px" padding-top="0px" font-family="Roboto, Noto Sans TC, Arial, sans-serif">
-          <p>© %%xtyear%% Greenpeace</p>
+        <mj-text color="#000" font-size="16px" align="left" padding-bottom="0px" padding-top="0px">
+          <p>© GREENPEACE %%xtyear%%</p>
           <p>10/F, Stelux House, 698 Prince Edward Road East, San Po Kong, Kowloon, Hong Kong </p>
         </mj-text>
       </mj-column>
@@ -484,10 +554,11 @@ Copy + Img w/ CTA End */ -->
     <mj-section background-color="#fff" padding-bottom="20px" padding-top="10px" padding-left="0px" padding-right="0px" border-bottom="1px lightgrey solid">
       <!--ACT EXPLORE -->
       <mj-column>
-        <mj-text color="#B2B2B2" font-size="16px" line-height="1" line-height="19px" font-weight="normal" align="left" padding-bottom="10px" padding-top="0px" font-family="Roboto, Noto Sans TC, Arial, sans-serif">
+        <mj-text color="#B2B2B2" font-size="16px" line-height="1" line-height="19px" font-weight="normal" align="left" padding-bottom="10px" padding-top="0px">
           <a href="%%profile_center_url%%" target="_blank" style="text-decoration: underline; color: #B2B2B2;">Update your preferences or unsubscribe</a>
         </mj-text>
       </mj-column>
     </mj-section>
     <!--- Footer End -->
   </mj-body>
+</mjml>
