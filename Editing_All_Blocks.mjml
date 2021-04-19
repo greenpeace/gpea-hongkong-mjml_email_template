@@ -38,23 +38,14 @@ Copy Start */ -->
     </mj-section>
     <!-- /* Content Block 0. Single Column Center Align
 Copy End */ -->
-    <!-- /* Content Block 00. Single Column Left Align
-Copy Start */ -->
-    <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
-      <mj-column>
-        <mj-text align="center"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- /* Content Block 00. Single Column Center Align
-Copy End */ -->
     <!-- /* Content Block 1. Hero Image Start */ -->
-    <mj-section text-align="center" padding="0px">
+    <mj-section text-align="center" padding-top="20px" padding-bottom="20px">
       <mj-column>
         <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/1200x400.png?text=1200x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px" padding-bottom="20px"></mj-image>
         <mj-text align="center"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
-        <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/800x400.png?text=800x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px" padding-bottom="20px"></mj-image>
-        <mj-text align="center"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
-        <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/800x600.png?text=800x600+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px" padding-bottom="20px"></mj-image>
+        <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/800x400.png?text=800x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px"></mj-image>
+        <mj-divider />
+        <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/800x600.png?text=800x600+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px"></mj-image>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 1. Hero Image End */ -->
@@ -87,26 +78,16 @@ w/ Text CTA Link Left Aligned Start */ -->
       <mj-column>
         <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px"> Left Align Headline (optional, 36pt) </mj-text>
         <mj-text color="#000" align="left" font-size="16px" line-height="1.5"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. </mj-text>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="16px" line-height="1.5" padding-bottom="10px">
-          <a href="https://www.greenpeace.org/eastasia/" target="_blank"> Call to action</a>
+        <mj-text color="#074365" align="left" line-height="1.5" padding-bottom="10px">
+          <a href="https://www.greenpeace.org/eastasia/" target="_blank">Call to action</a>
         </mj-text>
-        <mj-text color="#074365" align="left" font-size="16px" line-height="1.5" padding-bottom="10px">
-          <a href="https://www.greenpeace.org/eastasia/" target="_blank"> Call to action</a>
+        <mj-text color="#074365" align="left" line-height="1.5" padding-bottom="10px">
+          <a href="https://www.greenpeace.org/eastasia/" target="_blank">Call to action</a>
         </mj-text>
       </mj-column>
     </mj-section>
     <!--           /* Content Block 4. Single Column Copy
 w/ Text CTA Link Left Aligned End */ -->
-    <!-- /* Content Block 5. Single Column Left Align
-Copy w/ Headline Start */ -->
-    <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
-      <mj-column>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px"> Center Align Headline (optional, 36pt) </mj-text>
-        <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-bottom="10px"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- /* Content Block 5. Single Column Center Align
-Copy w/ Headline End */ -->
     <!-- /* Content Block 6. Single Column Center Align
 Copy w/ Headline Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
@@ -120,7 +101,7 @@ Copy w/ Headline End */ -->
     <!-- /* Content Block 7. Grouped Two Column Img Copy w/ CTA Left Align Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" padding-top="10px" padding-bottom="0px"> Left Align Headline (36pt) Grouped Two Col </mj-text>
+        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" padding-top="10px" padding-bottom="0px">Content Block 7 Left Align Headline (36pt) Grouped Two Col</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#fff" padding-top="0px" padding-left="0px" padding-right="0px" padding-bottom="20px">
@@ -146,7 +127,7 @@ Copy w/ Headline End */ -->
     <!-- /* Content Block 8. Grouped Two Column Img Copy w/ CTA Left Align Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" padding-top="10px" padding-bottom="0px"> Left Align Headline (36pt) Grouped Two Col 2x CTA </mj-text>
+        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" padding-top="10px" padding-bottom="0px">Content Block 8 Left Align Headline (36pt) Grouped Two Col</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#fff" padding-top="0px" padding-left="0px" padding-right="0px" padding-bottom="20px">
@@ -170,7 +151,7 @@ Copy w/ Headline End */ -->
 Copy + Img w/ CTA Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" padding-top="10px" padding-bottom="0px"> Be inspired </mj-text>
+        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" padding-top="10px" padding-bottom="0px">Content Block 9.0</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#fff" padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="20px">
@@ -193,7 +174,7 @@ Copy + Img w/ CTA End */ -->
 Copy + Img w/ CTA Start */ -->
     <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
       <mj-column>
-        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" padding-top="10px" padding-bottom="0px">Be inspired </mj-text>
+        <mj-text color="#074365" align="left" font-weight="bold" font-size="36px" line-height="42px" padding-top="10px" padding-bottom="0px">Content Block 9</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#fff" padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="20px">
@@ -222,7 +203,7 @@ Copy + Img w/ CTA End */ -->
         <mj-image src="https://via.placeholder.com/560x560.png?text=560x560+Retina+Image" alt="ACT NOW" align="center" width="280px" fluid-on-mobile="true" padding-left="0px" padding-right="20px" padding-bottom="0px" padding-top="10px" css-class="lrPad20"></mj-image>
       </mj-column>
       <mj-column>
-        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" padding-top="10px" padding-bottom="20px"> Left Headline (optional, 16pt 35 chars max) </mj-text>
+        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" padding-top="10px" padding-bottom="20px">Content Block 10 (optional, 16pt 35 chars max) </mj-text>
         <mj-text color="#000" align="left" font-weight="normal" font-size="16px" line-height="1.5" padding-bottom="20px"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
         <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
       </mj-column>
@@ -234,7 +215,7 @@ Copy + Img w/ CTA End */ -->
         <mj-image src="https://via.placeholder.com/560x560.png?text=560x560+Retina+Image" width="280px" fluid-on-mobile="true" alt="ACT NOW" align="center" padding-left="20px" padding-right="0px" padding-bottom="10px" padding-top="10px" css-class="lrPad20"></mj-image>
       </mj-column>
       <mj-column>
-        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" padding-top="10px" padding-bottom="20px"> Right Headline (optional, 16pt 35 chars max) </mj-text>
+        <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" padding-top="10px" padding-bottom="20px">Contect Block 11 (optional, 16pt 35 chars max) </mj-text>
         <mj-text color="#000" align="left" font-weight="normal" font-size="16px" line-height="1.5" padding-bottom="20px"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
         <mj-button background-color="#F96D8C" color="#fff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" padding="10px 20px 10px 20px" inner-padding="20px 20px" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
       </mj-column>
