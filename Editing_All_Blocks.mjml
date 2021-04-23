@@ -31,18 +31,18 @@
     <!-- /* Content Block Standard Header End */ -->
     <!-- /* Content Block 0. Single Column Left Align
 Copy Start */ -->
-    <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
+    <mj-section background-color="#fff" padding-top="20px" padding-bottom="0px">
       <mj-column>
-        <mj-text align="left"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
+        <mj-text align="left"> Single Column Left Align Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat.</mj-text>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 0. Single Column Center Align
 Copy End */ -->
     <!-- /* Content Block 1. Hero Image Start */ -->
-    <mj-section text-align="center" padding-top="20px" padding-bottom="20px">
+    <mj-section text-align="center" padding-top="0px" padding-bottom="0px">
       <mj-column>
-        <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/1200x400.png?text=1200x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px" padding-bottom="20px"></mj-image>
-        <mj-text align="center"> Single Column Copy 16pt Placerat vel, pulvinar et risus. Cras tincidunt mi et turpis eleifend, at rutrum sem interdum. In tristique justo nulla, eu laoreet dui posuere fermentum. Vivamus fringilla justo ac ornare condimentum. In nec est ligula. Quisque euismod, justo eu euismod feugiat. </mj-text>
+        <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/1200x400.png?text=1200x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px"></mj-image>
+        <mj-divider />
         <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/800x400.png?text=800x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px"></mj-image>
         <mj-divider />
         <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/800x600.png?text=800x600+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px"></mj-image>
@@ -287,7 +287,7 @@ Copy + Img w/ CTA End */ -->
     <!-- /* Content Block 15. Three Column Product End */ -->
     <!-- /* Content Block 16. FR message Start */ -->
     <mj-section background-color="#fff" padding-bottom="10px" padding-top="10px" padding-left="20px" padding-right="20px">
-      <mj-column width="100%" background-color="#fff" padding="20px 12px" border="2px solid #66cc00">
+      <mj-column width="100%" background-color="#FFFBF1" padding="20px 12px">
         <mj-image src="https://www.greenpeace.org/static/planet4-hongkong-stateless/2021/02/8213fc79-icons8-calendar.gif" alt="" align="center" border="none" width="48px" padding-top="20px" padding-bottom="20px"></mj-image>
         <mj-text color="#000" font-size="16px" line-height="1.5" padding-bottom="10px">
           <p style="font-size: 20px; font-weight: bold">Q: 綠色和平不接受政商界資助的意義？</p>
