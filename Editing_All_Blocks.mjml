@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
-    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto" />
-    <mj-font name="Noto Sans TC" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC" />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" />
+    <mj-font name="Noto Sans TC" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;900&display=swap" />
     <mj-attributes>
       <mj-section border-left="1px lightgrey solid" border-right="1px lightgrey solid" />
       <mj-text color="#000" font-size="16px" line-height="1.5" padding="0px 20px 20px 20px" font-family="Roboto, Noto Sans TC, Arial, sans-serif" />
