@@ -224,19 +224,19 @@ Copy + Img w/ CTA End */ -->
     <!-- /* Content Block 12. CTA Center Align Start */ -->
     <mj-section background-color="#ffffff" padding="0px">
       <mj-column>
-        <mj-button background-color="#66cc00" color="#ffffff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
+        <mj-button background-color="#66cc00" color="#ffffff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="center" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Align Center Button</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 12. CTA Center Align End */ -->
     <!--/* Content Block 13. CTA Left Align Start */ -->
     <mj-section background-color="#ffffff" padding="0px">
       <mj-column padding="0px">
-        <mj-button background-color="#66cc00" color="#ffffff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="left" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
+        <mj-button background-color="#66cc00" color="#ffffff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="left" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Align Left Button</mj-button>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0px">
       <mj-column padding="0px">
-        <mj-button background-color="#66cc00" color="#ffffff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="right" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Read On</mj-button>
+        <mj-button background-color="#66cc00" color="#ffffff" width="90%" font-size="16px" line-height="1.5" font-weight="bold" align="right" border-radius="4px" href="https://www.greenpeace.org/eastasia/">Align Right Button</mj-button>
       </mj-column>
     </mj-section>
     <!--/* Content Block 13. CTA Left Align END */ -->
