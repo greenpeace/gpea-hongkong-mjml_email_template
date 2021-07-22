@@ -38,10 +38,16 @@ Copy Start */ -->
     </mj-section>
     <!-- /* Content Block 0. Single Column Center Align
 Copy End */ -->
+    <!-- /* Content Block 1a. Hero Image with border Start */ -->
+    <mj-section text-align="center" padding-top="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-image align="center" border="none" padding="1px" src="https://via.placeholder.com/1200x400.png?text=1200x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- /* End of Content Block 1a. Hero Image with border Start */ -->
     <!-- /* Content Block 1. Hero Image Start */ -->
     <mj-section text-align="center" padding-top="0px" padding-bottom="0px">
       <mj-column>
-        <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/1200x400.png?text=1200x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px"></mj-image>
         <mj-divider />
         <mj-image align="center" border="none" padding="0px" src="https://via.placeholder.com/800x400.png?text=800x400+Retina+Image" href="https://www.greenpeace.org/eastasia/" alt="Greenpeace" target="_blank" title="" width="600px"></mj-image>
         <mj-divider />
