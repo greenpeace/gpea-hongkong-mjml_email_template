@@ -302,6 +302,16 @@ Copy + Img w/ CTA End */ -->
       </mj-column>
     </mj-section>
     <!-- /* Content Block 16. FR message End */ -->
+    <!-- /* Content Block 16.1. FR message Green BG Start */ -->
+    <mj-section background-color="#ffffff" padding-bottom="10px" padding-top="10px" padding-left="20px" padding-right="20px">
+      <mj-column width="100%" background-color="#66cc00" padding="20px 12px">
+        <mj-text color="#ffffff" font-size="16px" line-height="1.5" padding-bottom="0px">
+          <p>綠色和平與絕大部分非牟利組織不同，因為我們從不接受政府或企業的捐款，所有經費均來自公眾捐款。</p>
+        </mj-text>
+        <mj-button background-color="#ff8100" color="#ffffff" font-size="16px" line-height="1.5" font-weight="bold" align="center" border-radius="4px" padding-top="12px" padding-bottom="8px" href="https://www.greenpeace.org/eastasia/">捐助支持</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /* Content Block 16.1. FR message Green BG End */ -->
     <!-- /* Content Block 17. Suggested amount Start */ -->
     <mj-section background-color="#ffffff" padding-bottom="10px" padding-top="10px" padding-left="20px" padding-right="20px">
       <mj-column width="100%" background-color="#ffffff" padding="20px 12px" border="1px solid #eee">
