@@ -4,7 +4,15 @@ This project is for hosting the GPEA Marketing Cloud Email template. It's better
 
 ## Setup
 
+1. Instal Packages
 ```
 yarn install
+
+```
+
+2. Replace all the URL `https://www.greenpeace.org/taiwan/` with your market homepage URL
+
+3. Generate the HTML
+```
 ./node_modules/.bin/mjml GPEA_MC_Blocks.mjml > GPEA_MC_Blocks.html
 ```
