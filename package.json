@@ -1,0 +1,11 @@
+{
+  "name": "gpea-hongkong-mjml_email_template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.gp:greenpeace/gpea-hongkong-mjml_email_template.git",
+  "author": "Chris Chan <cchan@greenpeace.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mjml": "^4.10.3"
+  }
+}
