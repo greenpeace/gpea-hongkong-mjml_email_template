@@ -49,6 +49,13 @@ Copy End */ -->
       </mj-column>
     </mj-section>
     <!-- /* End of Content Block 1a. Hero Image with border Start */ -->
+    <!-- /* Content Block 1b. Hero Image with space */ -->
+    <mj-section text-align="center" padding-top="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-image align="center" border="none" padding="1px 20% 1px 20%" src="https://via.placeholder.com/600x600.png?text=1200x400+Retina+Image" alt="Greenpeace" target="_blank"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- /* End of Content Block 1b. Hero Image with space */ -->
     <!-- /* Content Block 1. Hero Image Start */ -->
     <mj-section text-align="center" padding-top="0px" padding-bottom="0px">
       <mj-column>
@@ -65,7 +72,6 @@ Copy End */ -->
         <mj-text color="#074365" align="left" font-weight="bold" font-size="28px" line-height="34px"> Left Align Headline (optional, 36pt) </mj-text>
         <mj-text color="#000" align="left" font-size="16px" line-height="1.5"> Single Column Copy 16pt </mj-text>
         <mj-text> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia a assumenda nulla in quisquam optio quibusdam fugiat perspiciatis nobis, ad tempora culpa porro labore. Repudiandae accusamus obcaecati voluptatibus accusantium perspiciatis. </mj-text>
-
         <mj-button background-color="#ff8100" color="#ffffff" width="75%" font-size="16px" line-height="1.5" font-weight="bold" align="center" border-radius="50px" href="https://www.greenpeace.org/taiwan/">Discover green tips during lockdown</mj-button>
       </mj-column>
     </mj-section>
