@@ -147,7 +147,7 @@ Copy w/ Headline End */ -->
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0px">
       <mj-column padding-bottom="0px">
-        <mj-button background-color="#ff8100" color="#ffffff" width="75%" font-size="16px" line-height="1.5" font-weight="bold" align="center" border-radius="50px" href="https://www.greenpeace.org/taiwan/">Read On</mj-button>
+        <mj-button background-color="#ff8100" color="#ffffff" width="100%" font-size="16px" line-height="1.5" font-weight="bold" align="center" border-radius="50px" href="https://www.greenpeace.org/taiwan/">Read On</mj-button>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 7. Grouped Two Column Img Copy w/ CTA Left Align End */ -->
@@ -160,16 +160,16 @@ Copy w/ Headline End */ -->
     <mj-section background-color="#ffffff" padding-top="0px" padding-left="0px" padding-right="0px" padding-bottom="20px">
       <mj-group>
         <mj-column padding-top="0px" padding-left="0px" padding-right="0px">
-          <mj-image src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" alt="ACT NOW" align="center" padding-left="20px" padding-right="10px" padding-bottom="0px" padding-top="5px"></mj-image>
-          <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5"> Single Column Copy Bold 16pt </mj-text>
+          <mj-image src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" alt="ACT NOW" align="center" padding-left="20px" padding-right="10px" padding-bottom="0px" padding-top="4px"></mj-image>
+          <mj-text color="#000" align="left" font-weight="bold" font-size="16px" line-height="1.5" padding-top="8px"> Single Column Copy Bold 16pt </mj-text>
           <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-right="0px"> In critical times, compassion, courage and community bind us. Let’s take care of each other, and unite for a safe and just world for everyone. </mj-text>
-          <mj-button background-color="#ff8100" color="#ffffff" width="75%" font-size="16px" line-height="1.5" font-weight="bold" align="center" border-radius="50px" href="https://www.greenpeace.org/taiwan/">Read On</mj-button>
+          <mj-button background-color="#ff8100" color="#ffffff" width="100%" font-size="16px" line-height="1.5" font-weight="bold" align="center" border-radius="50px" href="https://www.greenpeace.org/taiwan/">Read On</mj-button>
         </mj-column>
         <mj-column padding-left="0px" padding-right="0px">
-          <mj-image src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" alt="ACT NOW" align="center" padding-left="10px" padding-right="20px" padding-bottom="0px" padding-top="5px"></mj-image>
-          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-weight="bold" padding-left="10px"> Single Column Copy Bold 16pt </mj-text>
+          <mj-image src="https://via.placeholder.com/540x360.png?text=540x360+Retina+Image" alt="Image here" align="center" padding-left="10px" padding-right="20px" padding-bottom="0px" padding-top="4px"></mj-image>
+          <mj-text color="#000" align="left" font-size="16px" line-height="1.5" font-weight="bold" padding-top="8px" padding-left="10px"> Single Column Copy Bold 16pt </mj-text>
           <mj-text color="#000" align="left" font-size="16px" line-height="1.5" padding-left="10px"> In critical times, compassion, courage and community bind us. Let’s take care of each other, and unite for a safe and just world for everyone. </mj-text>
-          <mj-button background-color="#ff8100" color="#ffffff" width="75%" font-size="16px" line-height="1.5" font-weight="bold" align="center" border-radius="50px" href="https://www.greenpeace.org/taiwan/">Read On</mj-button>
+          <mj-button background-color="#ff8100" color="#ffffff" width="100%" font-size="16px" line-height="1.5" font-weight="bold" align="center" border-radius="50px" href="https://www.greenpeace.org/taiwan/">Read On</mj-button>
         </mj-column>
       </mj-group>
     </mj-section>
