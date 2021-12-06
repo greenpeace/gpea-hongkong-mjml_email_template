@@ -52,10 +52,18 @@ Copy End */ -->
     <!-- /* Content Block 1b. Hero Image with space */ -->
     <mj-section text-align="center" padding-top="0px" padding-bottom="0px">
       <mj-column>
-        <mj-image align="center" border="none" padding="1px 20% 1px 20%" src="https://via.placeholder.com/600x600.png?text=1200x400+Retina+Image" alt="Greenpeace" target="_blank"></mj-image>
+        <mj-image align="center" border="none" padding="1px 15% 1px 15%" src="https://via.placeholder.com/600x600.png?text=1200x400+Retina+Image" alt="Greenpeace" target="_blank"></mj-image>
       </mj-column>
     </mj-section>
     <!-- /* End of Content Block 1b. Hero Image with space */ -->
+    <!-- /* Content Block 1c. Hero Image with caption */ -->
+    <mj-section text-align="center" padding-top="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-image align="center" border="none" padding="1px 10% 1px 10%" src="https://via.placeholder.com/600x600.png?text=1200x400+Retina+Image" alt="Greenpeace" target="_blank"></mj-image>
+        <mj-text align="center" color="gray" font-size="14px" padding-top="8px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /* End of Content Block 1c. Hero Image with caption */ -->
     <!-- /* Content Block 1. Hero Image Start */ -->
     <mj-section text-align="center" padding-top="0px" padding-bottom="0px">
       <mj-column>
