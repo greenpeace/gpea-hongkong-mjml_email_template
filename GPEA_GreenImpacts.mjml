@@ -6,7 +6,7 @@
       <mj-all font-family="Noto Sans TC, Arial, sans-serif"></mj-all>
       <mj-section border-left="1px lightgrey solid" border-right="1px lightgrey solid" />
       
-      <mj-text color="#000" font-size="13px" line-height="1.5" padding="0px 0px 15px 0px" font-family="Noto Sans TC, Arial, sans-serif" />
+      <mj-text color="#000" font-size="16px" line-height="1.5" padding="0px 0px 15px 0px" font-family="Noto Sans TC, Arial, sans-serif" />
       <mj-button css-class="custom-button" line-height="1.5" font-weight="bold" align="center" padding="12px 20px" inner-padding="12px 20px" border-radius="4px" font-family="Noto Sans TC, Arial, sans-serif" />
       <mj-divider border-color="lightgrey" border-width="1px" padding-top="30px" padding-bottom="30px" />
     </mj-attributes>
@@ -53,13 +53,17 @@
           <mj-text font-size="14px" align="center" color="white" padding="0">Green Impacts．Spring 2022</mj-text>
         </mj-column>
       </mj-section>
+      <mj-section background-color="#ffffff" padding-top="15px" padding-bottom="10px">
+        <mj-column padding="0 9%">
+          <mj-image src="https://image.greentw.greenpeace.org/lib/fe3211717564047d7c1278/m/1/05d91681-4f28-4aea-8eee-9a85d6b1e708.gif" border="1px solid #6c0" width="185px" padding-bottom="0" padding-top="0" />
+        </mj-column>
+      </mj-section>
     </mj-wrapper>
     
     <!-- /* Content Block Standard Header End */ -->
     <!-- /* Content Block 0. Headline Start */ -->
-    <mj-section background-color="#ffffff" padding-top="15px" padding-bottom="30px">
+    <mj-section background-color="#ffffff" padding-top="10px" padding-bottom="10px">
       <mj-column padding="0 9%">
-        <mj-image src="https://fakeimg.pl/185x105?text=185x105+gif" width="185px" padding-bottom="10px" padding-top="0" />
         <mj-text align="left">
           開始某些擁有眾人，中學違反還沒有台中實現球隊防治先進教育形式全部對方，有着遵守不禁今日暴力網頁課程溝通父母有利於，依然強調本次答應您現在歲月突出武器，特別是滿意網際網路臺灣人衣服次數，編號改進這一公里衝擊巨大聯盟大全東京面對報紙能源，手上聯繫苗栗會在上去說到依舊是一個只有不懂稿件表示限制那樣，明顯男女生氣電視劇城市老婆創新司機符合消費信箱，策略飯店數字魔獸心裡分為深深今年提交當時和平方面回到，動畫案件馬上，大型日記事實上積分，男子時間靈魂成果標準，並不是事務貼圖，崇拜培訓次。
         </mj-text>
@@ -68,13 +72,13 @@
     <!-- /* Content Block 0. Headline End */ -->
 
     <!-- /* Content Block 1. Block Title Start */ -->
-    <mj-section padding="10px 9%">
+    <mj-section padding="10px 9% 10px 9%">
       <mj-group>
         <mj-column width="1%" vertical-align="top" padding="0px 0 0 0">
-          <mj-spacer container-background-color="#6c0" height="21px" />
+          <mj-spacer container-background-color="#6c0" height="29px" />
         </mj-column>
         <mj-column width="99%" vertical-align="top">
-          <mj-text font-size="18px" line-height="1.2" padding-left="10px" font-weight="500" padding="0">成果匯報 Your Dose of Good News</mj-text>
+          <mj-text font-size="24px" line-height="1.2" padding-left="10px" font-weight="500" padding="0">成果匯報 Your Dose of Good News</mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -82,153 +86,114 @@
 
     <!-- /* Content Block 2a. Summary with Hero Image Start (plastics) */ -->
     <mj-wrapper>
-      <mj-section padding="10px 9%">
+      <!-- Issue Header Start -->
+      <mj-section padding="5px 9% 5px 9%">
         <mj-column>
-          <mj-text color="#afaa91" font-size="14px" padding-bottom="10px">● 減塑</mj-text>
-          <mj-text font-size="16px" padding-bottom="10px">減塑好開始！聯合國通過制訂《全球塑膠公約》</mj-text>
+          <mj-text color="#afaa91" padding="0">● 減塑</mj-text>
         </mj-column>
       </mj-section>
+      <!-- Issue Header End -->
+      <!-- Header 2 Start -->
+      <mj-section padding="5px 9% 5px 9%">
+        <mj-column>
+          <mj-text font-weight="500" padding="0">減塑好開始！聯合國通過制訂《全球塑膠公約》</mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- Header 2 End -->
+      <!-- Image Hero Start -->
       <mj-section>
         <mj-column>
           <mj-image border="none" padding="0" src="https://fakeimg.pl/1200x600/?text=1200x600+Retina+Image" href="https://www.greenpeace.org/taiwan/" alt="Greenpeace" target="_blank" title=""></mj-image>
         </mj-column>
       </mj-section>
+      <!-- Image Hero End -->
+      <!-- Text 1 Start -->
       <mj-section padding="10px 9%">
-        <mj-column padding-top="10px">
-          <mj-text align="left">你怎麼居民高考趕緊時尚天然遠程一時批發訪問一笑版權一切都提問，付出內存難得擴大簡體施工離線，只有無比一級事業美女上漲年代稱為現代在那裡操作市場查找從來沒，尺寸回家笑容精選發出成本回到繼續曝光一定會一股到處，生日寂寞一定貸款，平衡尚未經典市政府網址用於補充引導鎖定便利商店商家不論戀愛，不承擔號碼，輕易試驗，一路遠程，依法高興考核專利可能和他穿著協助請教選擇上帝利用舉辦，轉身動畫物業相信金屬精美，花蓮上下規則人物轉帖半年媽媽手上寶貝魯蛇豪華已有不得，監控說什麼開發語文廠商網際資。
+        <mj-column>
+          <mj-text align="left" padding="0">你怎麼居民高考趕緊時尚天然遠程一時批發訪問一笑版權一切都提問，付出內存難得擴大簡體施工離線，只有無比一級事業美女上漲年代稱為現代在那裡操作市場查找從來沒，尺寸回家笑容精選發出成本回到繼續曝光一定會一股到處，生日寂寞一定貸款，平衡尚未經典市政府網址用於補充引導鎖定便利商店商家不論戀愛，不承擔號碼，輕易試驗，一路遠程，依法高興考核專利可能和他穿著協助請教選擇上帝利用舉辦，轉身動畫物業相信金屬精美，花蓮上下規則人物轉帖半年媽媽手上寶貝魯蛇豪華已有不得，監控說什麼開發語文廠商網際資。
           </mj-text>
-          <mj-button background-color="transparent" color="#6c0" font-size="14px" font-weight="400" height="14px" width="170px" padding="0" inner-padding="0 0 5px 14px" border-bottom="1px solid #6c0" align="right" href="https://www.greenpeace.org/taiwan/" target="_blank" title="">閱讀更多 Read More →</mj-button>
         </mj-column>
       </mj-section>
+      <!-- Text 1 End -->
+      <!-- Read More Start -->
+      <mj-section padding="10px 9%">
+        <mj-column>
+          <mj-button background-color="transparent" border-radius="0" color="#6c0" font-size="16px" font-weight="400" height="14px" width="190px" padding="0" inner-padding="0 0 5px " border-bottom="1px solid #6c0" align="right" href="https://www.greenpeace.org/taiwan/" target="_blank" title="" text-align="right">閱讀更多 Read More →</mj-button>
+        </mj-column>
+      </mj-section>
+      <!-- Read More End -->
     </mj-wrapper>
     <!-- /* Content Block 2a. Summary with Hero Image End (plastics) */ -->
 
-    <!-- /* Content Block 2b. Summary with Hero Image Start (climate) */ -->
-    <mj-wrapper>
-      <mj-section padding="10px 9%">
-        <mj-column>
-          <mj-text color="#ffbe00" font-size="14px" padding-bottom="10px">● 氣候</mj-text>
-          <mj-text font-size="16px" padding-bottom="10px">減塑好開始！聯合國通過制訂《全球塑膠公約》</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section>
-        <mj-column>
-          <mj-image border="none" padding="0" src="https://fakeimg.pl/1200x600/?text=1200x600+Retina+Image" href="https://www.greenpeace.org/taiwan/" alt="Greenpeace" target="_blank" title=""></mj-image>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="10px 9%">
-        <mj-column padding-top="10px">
-          <mj-text align="left">你怎麼居民高考趕緊時尚天然遠程一時批發訪問一笑版權一切都提問，付出內存難得擴大簡體施工離線，只有無比一級事業美女上漲年代稱為現代在那裡操作市場查找從來沒，尺寸回家笑容精選發出成本回到繼續曝光一定會一股到處，生日寂寞一定貸款，平衡尚未經典市政府網址用於補充引導鎖定便利商店商家不論戀愛，不承擔號碼，輕易試驗，一路遠程，依法高興考核專利可能和他穿著協助請教選擇上帝利用舉辦，轉身動畫物業相信金屬精美，花蓮上下規則人物轉帖半年媽媽手上寶貝魯蛇豪華已有不得，監控說什麼開發語文廠商網際資。
-          </mj-text>
-          <mj-button background-color="transparent" color="#6c0" font-size="14px" font-weight="400" height="14px" width="170px" padding="0" inner-padding="0 0 5px 14px" border-bottom="1px solid #6c0" align="right" href="https://www.greenpeace.org/taiwan/" target="_blank" title="">閱讀更多 Read More →</mj-button>
-        </mj-column>
-      </mj-section>
-    </mj-wrapper>
-    <!-- /* Content Block 2b. Summary with Hero Image End (climate) */ -->
-
-    <!-- /* Content Block 2b. Summary with Hero Image Start (oceans) */ -->
-    <mj-wrapper>
-      <mj-section padding="10px 9%">
-        <mj-column>
-          <mj-text color="#008fe2" font-size="14px" padding-bottom="10px">● 海洋</mj-text>
-          <mj-text font-size="16px" padding-bottom="10px">減塑好開始！聯合國通過制訂《全球塑膠公約》</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section>
-        <mj-column>
-          <mj-image border="none" padding="0" src="https://fakeimg.pl/1200x600/?text=1200x600+Retina+Image" href="https://www.greenpeace.org/taiwan/" alt="Greenpeace" target="_blank" title=""></mj-image>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="10px 9%">
-        <mj-column padding-top="10px">
-          <mj-text align="left">你怎麼居民高考趕緊時尚天然遠程一時批發訪問一笑版權一切都提問，付出內存難得擴大簡體施工離線，只有無比一級事業美女上漲年代稱為現代在那裡操作市場查找從來沒，尺寸回家笑容精選發出成本回到繼續曝光一定會一股到處，生日寂寞一定貸款，平衡尚未經典市政府網址用於補充引導鎖定便利商店商家不論戀愛，不承擔號碼，輕易試驗，一路遠程，依法高興考核專利可能和他穿著協助請教選擇上帝利用舉辦，轉身動畫物業相信金屬精美，花蓮上下規則人物轉帖半年媽媽手上寶貝魯蛇豪華已有不得，監控說什麼開發語文廠商網際資。
-          </mj-text>
-          <mj-button background-color="transparent" color="#6c0" font-size="14px" font-weight="400" height="14px" width="170px" padding="0" inner-padding="0 0 5px 14px" border-bottom="1px solid #6c0" align="right" href="https://www.greenpeace.org/taiwan/" target="_blank" title="">閱讀更多 Read More →</mj-button>
-        </mj-column>
-      </mj-section>
-    </mj-wrapper>
-    <!-- /* Content Block 2b. Summary with Hero Image End (oceans) */ -->
-
-    <!-- /* Content Block 2d. Summary with Hero Image Start (story) */ -->
-    <mj-wrapper>
-      <mj-section padding="10px 9%">
-        <mj-column>
-          <mj-text color="#6c0" font-size="14px" padding-bottom="10px">● 組織故事</mj-text>
-          <mj-text font-size="16px" padding-bottom="10px">減塑好開始！聯合國通過制訂《全球塑膠公約》</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section>
-        <mj-column>
-          <mj-image border="none" padding="0" src="https://fakeimg.pl/1200x600/?text=1200x600+Retina+Image" href="https://www.greenpeace.org/taiwan/" alt="Greenpeace" target="_blank" title=""></mj-image>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="10px 9%">
-        <mj-column padding-top="10px">
-          <mj-text align="left">你怎麼居民高考趕緊時尚天然遠程一時批發訪問一笑版權一切都提問，付出內存難得擴大簡體施工離線，只有無比一級事業美女上漲年代稱為現代在那裡操作市場查找從來沒，尺寸回家笑容精選發出成本回到繼續曝光一定會一股到處，生日寂寞一定貸款，平衡尚未經典市政府網址用於補充引導鎖定便利商店商家不論戀愛，不承擔號碼，輕易試驗，一路遠程，依法高興考核專利可能和他穿著協助請教選擇上帝利用舉辦，轉身動畫物業相信金屬精美，花蓮上下規則人物轉帖半年媽媽手上寶貝魯蛇豪華已有不得，監控說什麼開發語文廠商網際資。
-          </mj-text>
-          <mj-button background-color="transparent" color="#6c0" font-size="14px" font-weight="400" height="14px" width="170px" padding="0" inner-padding="0 0 5px 14px" border-bottom="1px solid #6c0" align="right" href="https://www.greenpeace.org/taiwan/" target="_blank" title="">閱讀更多 Read More →</mj-button>
-        </mj-column>
-      </mj-section>
-    </mj-wrapper>
-    <!-- /* Content Block 2d. Summary with Hero Image End (story) */ -->
-    
     <!-- /* Content Block 3. Article Links Collection Start */ -->
+    <!-- Header 3 Start -->
     <mj-section padding="10px 9%">
       <mj-column>
-        <mj-text font-size="16px" color="#6c0" font-weight="500" align="center">更多成果故事</mj-text>
-        <mj-text font-size="16px" font-weight="500"><a href="https://www.greenpeace.org/taiwan/" target="_blank" title="" style="color:black; text-decoration:underline;">可口可樂減塑新政 香港能否睇齊「2030年四分一飲品改重用包裝」？</a></mj-text>
-        <mj-text font-size="16px" font-weight="500"><a href="https://www.greenpeace.org/taiwan/" target="_blank" title="" style="color:black; text-decoration:underline;">公眾團結力量大，成功搶救阿根廷海，中止石油企業探勘計畫</a></mj-text>
+        <mj-text font-size="22px" color="#6c0" font-weight="500" align="center" padding="0">更多成果故事</mj-text>
       </mj-column>
     </mj-section>
+    <!-- Header 3 End -->
+    <!-- Text 2 Start -->
+    <mj-section padding="10px 9%">
+      <mj-column>
+        <mj-text font-weight="500" line-height="1.3">
+        <a href="https://www.greenpeace.org/taiwan/" target="_blank" title="" style="color:black; text-decoration:underline;">公眾團結力量大，成功搶救阿根廷海，中止石油企業探勘計畫</a>
+        <br><br>
+        <a href="https://www.greenpeace.org/taiwan/" target="_blank" title="" style="color:black; text-decoration:underline;">公眾團結力量大，成功搶救阿根廷海，中止石油企業探勘計畫</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Text 2 End -->
+    
     <!-- /* Content Block 3. Article Links Collection End */ -->
 
     <!-- /* Content Block 1. Block Title Start */ -->
     <mj-section padding="10px 9%">
       <mj-group>
         <mj-column width="1%" vertical-align="top" padding="0px 0 0 0">
-          <mj-spacer container-background-color="#6c0" height="21px" />
+          <mj-spacer container-background-color="#6c0" height="29px" />
         </mj-column>
         <mj-column width="99%" vertical-align="top">
-          <mj-text font-size="18px" line-height="1.2" padding-left="10px" font-weight="500" padding="0">焦點故事 Spotlight</mj-text>
+          <mj-text font-size="24px" line-height="1.2" padding-left="10px" font-weight="500" padding="0">焦點故事 Spotlight</mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
     <!-- /* Content Block 1. Block Title End */ -->
 
-    <!-- /* Content Block 4. 2 Columns, Image left Start */ -->
+    <!-- /* Content Block 4. Image + Text 1, Image left Start */ -->
     <mj-section padding="10px 9%">
       <mj-column padding="0 10px">
-        <mj-image border="none" padding="0" src="https://fakeimg.pl/420x420/?text=+" href="https://www.greenpeace.org/taiwan/" alt="Greenpeace" target="_blank" title="" />
+        <mj-image border="none" padding="0 0 15px 0" src="https://fakeimg.pl/420x420/?text=+" href="https://www.greenpeace.org/taiwan/" alt="Greenpeace" target="_blank" title="" />
       </mj-column>
       <mj-column padding-left="10px">
-        <mj-text align="left">
+        <mj-text font-size="14px" align="left">
           <strong style="font-size:16px;font-weight:500">Sofia</strong> Alberta
         </mj-text>
         <mj-text align="left">辦理就好表情接收二十機械創新各國沉默生存瀏覽器，農業天使上下和諧經營許可證重要服裝可惜首頁羅東，加上同步發展外貿關注水晶如果你感謝更新支持，版本場所相當預防犯罪進一步差不多運輸，圖象一樣敵人幸福能否，因素等方面計算我的心眼裡，幾年刺激，當天新年部分任意一。
         </mj-text>
       </mj-column>
     </mj-section>
-    <!-- /* Content Block 4. 2 Columns, Image left End */ -->
+    <!-- /* Content Block 4. Image + Text 1, Image left End */ -->
 
-    <!-- /* Content Block 5. Belt Message and CTA Button Start */ -->
+    <!-- /* Content Block 5. Highlight Block 1 Start */ -->
     <mj-section background-color="#ffffff" padding-bottom="40px" padding-top="40px">
       <mj-column width="100%" background-color="#66cc00" padding="40px 9%">
-        <mj-text color="#ffffff" font-size="16px" line-height="1.5" padding-bottom="0px">
+        <mj-text color="#ffffff" line-height="1.5" padding-bottom="0px">
           <p>綠色和平與絕大部分非牟利組織不同，因為我們從不接受政府或企業的捐款，所有經費均來自公眾捐款。</p>
         </mj-text>
         <mj-button background-color="#ff8100" color="#ffffff" width="50%" font-size="16px" line-height="1.5" font-weight="bold" align="center" border-radius="4px" padding-top="12px" padding-bottom="8px" href="https://www.greenpeace.org/taiwan/">捐助支持</mj-button>
       </mj-column>
     </mj-section>
-    <!-- /* Content Block 5. Belt Message and CTA Button End */ -->
+    <!-- /* Content Block 5. Highlight Block 1 End */ -->
 
     <!-- /* Content Block 1. Block Title Start */ -->
     <mj-section padding="10px 9%">
       <mj-group>
         <mj-column width="1%" vertical-align="top" padding="0px 0 0 0">
-          <mj-spacer container-background-color="#6c0" height="21px" />
+          <mj-spacer container-background-color="#6c0" height="29px" />
         </mj-column>
         <mj-column width="99%" vertical-align="top">
-          <mj-text font-size="18px" line-height="1.2" padding-left="10px" font-weight="500" padding="0">精選圖輯 Impacts In Pictures</mj-text>
+          <mj-text font-size="24px" line-height="1.2" padding-left="10px" font-weight="500" padding="0">精選圖輯 Impacts In Pictures</mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -237,13 +202,13 @@
     <!-- /* Content Block 6. Text Paragraph with Title Start */ -->
     <mj-section padding="10px 9%">
       <mj-column width="99%" vertical-align="top">
-        <mj-text font-size="14px" font-weight="500" color="#6c0" padding-bottom="5px">精選圖輯 Impacts In Pictures</mj-text>
-        <mj-text font-size="10px">元素表示全身看出恐怖共享版資料庫各項喜愛人士奧客，精神總經理青春破壞，涉及天地過去大賽我又平靜死亡告訴你專題水晶其他天使結構，臉上大型主角發言一下緩緩外觀，網咖評論石油美女規範同一理念強大體驗四個不敢，措施美容敵人確保鼓勵排名調節實現夥伴，不斷尤其是，檢。</mj-text>
+        <mj-text font-weight="500" color="#6c0" padding-bottom="5px">精選圖輯 Impacts In Pictures</mj-text>
+        <mj-text >元素表示全身看出恐怖共享版資料庫各項喜愛人士奧客，精神總經理青春破壞，涉及天地過去大賽我又平靜死亡告訴你專題水晶其他天使結構，臉上大型主角發言一下緩緩外觀，網咖評論石油美女規範同一理念強大體驗四個不敢，措施美容敵人確保鼓勵排名調節實現夥伴，不斷尤其是，檢。</mj-text>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 6. Text Paragraph with Title End */ -->
 
-    <!-- /* Content Block 7. 2 Columns Gallery Start */ -->
+    <!-- /* Content Block 7. 2 Columns Image Set Start */ -->
     <mj-section padding="5px 9% 5px 9%">
       <mj-group>
         <mj-column padding-right="5px">
@@ -254,29 +219,29 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <!-- /* Content Block 7. 2 Columns Gallery End */ -->
+    <!-- /* Content Block 7. 2 Columns Image Set End */ -->
     
-    <!-- /* Content Block 7a. Single Column Gallery Start */ -->
+    <!-- /* Content Block 7a. Single Column Image Set Start */ -->
     <mj-section padding="5px 9% 5px 9%">
       <mj-column>
           <mj-image border="none" padding="0" src="https://fakeimg.pl/460x250/?text=+" href="https://www.greenpeace.org/taiwan/" alt="Greenpeace" target="_blank" title="" />
         </mj-column>
     </mj-section>
-    <!-- /* Content Block 7a. Single Column Gallery End */ -->
+    <!-- /* Content Block 7a. Single Column Image Set End */ -->
 
-    <!-- /* Content Block 5b. Belt Message and CTA Button Align Center Start */ -->
+    <!-- /* Content Block 5b. Highlight Block 2 Start */ -->
     <mj-section background-color="#ffffff" padding-bottom="40px" padding-top="40px">
       <mj-column width="100%" background-color="#292F47" padding="40px 9%">
         <mj-text color="#ffffff" font-size="18px" line-height="1.5" padding-bottom="0px" align="center" font-weight="500">
           您有5秒時間嗎？
         </mj-text>
-        <mj-text color="#ffffff" font-size="16px" line-height="1.5" padding-bottom="15px" align="center">
+        <mj-text color="#ffffff" line-height="1.5" padding-bottom="15px" align="center">
           邀請您花5秒時間，讓我們更了解您感興趣的環保議題，為您呈上相關的環保消息和動態！日後您可以隨時透過電郵連結修改您的喜好設定。
         </mj-text>
         <mj-button background-color="#ff8100" color="#ffffff" width="50%" font-size="16px" line-height="1.5" font-weight="bold" align="center" border-radius="4px" padding-top="12px" padding-bottom="8px" href="https://www.greenpeace.org/taiwan/update/20277/臺灣女孩擔任綠色和平船艦水手，工作秘辛大公開/">工作秘辛大公開</mj-button>
       </mj-column>
     </mj-section>
-    <!-- /* Content Block 5b. Belt Message and CTA Button Align Center End */ -->
+    <!-- /* Content Block 5b. Highlight Block 2 End */ -->
 
 
     
