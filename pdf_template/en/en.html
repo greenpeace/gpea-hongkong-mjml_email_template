@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&amp;family=Poppins:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @page {
+        size: A4;
+      }
+      body {
+        margin: auto;
+        width: 560pt;
+        max-width: 100%;
+        font-family: 'Noto Sans TC', sans-serif;
+      }
+      table {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-collapse: collapse;
+        border-left: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+      }
+      table td {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        line-height: 1em;
+      }
+      table.main td {
+        padding-top: 3.5pt;
+        padding-bottom: 3.5pt;
+        font-size: 10.5pt;
+        color: black;
+      }
+      table.main td.title {
+        padding: 10.5pt 17.5pt 3.5pt 17.5pt;
+        color: #7fbe26;
+        font-size: 21pt;
+        font-weight: bold;
+      }
+      table.main td.title .date {
+        margin: 0;
+        font-size: 12pt;
+        font-weight: normal;
+      }
+      table.main td.title .desc {
+        font-size: 11.9pt;
+        color: black;
+        line-height: 1.58823529;
+        margin: 0;
+        font-weight: normal;
+      }
+      table.main td.label {
+        width: 50%;
+        padding-left: 56pt;
+      }
+      table.main td.info {
+        width: 66.5pt;
+      }
+      table.main td.content,
+      table.main td .content {
+        padding-left: 17.5pt;
+      }
+      table.main td.stamp {
+        vertical-align: bottom;
+      }
+      table.main td.stamp img {
+        width: 90pt;
+      }
+      table.main .bottom-row td {
+        vertical-align: bottom;
+        height: 70pt;
+        padding-bottom: 10pt;
+      }
+      table.main.en td.info {
+        width: 105pt;
+      }
+      table.main.en .bottom-row td {
+        padding-bottom: 5pt;
+      }
+      table.footer {
+        border-top: none;
+        border-bottom: 1px solid #ccc;
+      }
+      table.footer td {
+        padding: 0;
+      }
+      table.footer img {
+        display: block;
+        margin: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reciipt">
+      <table class="main en">
+        <tr>
+          <td class="title" colspan="3">
+            Donation receipt
+            <p class="date">&nbsp;</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">&nbsp;</td>
+          <td class="info">Receipt No:</td>
+          <td class="content">N000000000</td>
+        </tr>
+        <tr>
+          <td rowspan="4"></td>
+          <td class="info">Donation date:</td>
+          <td class="content">2022/12/31</td>
+        </tr>
+        <tr>
+          <td class="info">Donor's full name:</td>
+          <td class="content">王大明</td>
+        </tr>
+        <tr>
+          <td class="info">Type of donation:</td>
+          <td class="content">One-off Donation</td>
+        </tr>
+        <tr>
+          <td class="info">Donation amount:</td>
+          <td class="content">HK$ 10,000</td>
+        </tr>
+        <tr>
+          <td class="label">
+            Donor’s ID (If any): <span class="content">12345678</span>
+          </td>
+          <td class="info">Payment method:</td>
+          <td class="content">VISA</td>
+        </tr>
+        <tr class="bottom-row">
+          <td class="title" colspan="3">
+            Thank you!
+            <p class="desc">
+              This is a computer-generated document, no signature or stamp is
+              needed.
+            </p>
+          </td>
+        </tr>
+      </table>
+      <table class="footer">
+        <tr>
+          <td><img src="footer-en.svg" /></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
