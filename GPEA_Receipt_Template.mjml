@@ -21,7 +21,7 @@
     <mj-section background-color="#6c0" padding-top="15px" padding-bottom="15px">
       <!-- Logo -->
       <mj-column>
-        <mj-image width="240px" align="center" src="https://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/67825ad8-859c-4208-be02-5e388d161a9f.png" href="https://www.greenpeace.org/taiwan/" padding="0px">
+        <mj-image width="240px" align="center" src="https://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/67825ad8-859c-4208-be02-5e388d161a9f.png" padding="0px">
         </mj-image>
         <!-- Logo -->
     </mj-section>
@@ -37,69 +37,61 @@ Copy Start */ -->
     </mj-section>
     <mj-section text-align="center" padding-top="0px" padding-bottom="0px">
       <mj-column>
-        <mj-image align="center" border="none" padding="1px" src="https://via.placeholder.com/1200x400.png?text=1200x400+Retina+Image" href="https://www.greenpeace.org/taiwan/" alt="Greenpeace" target="_blank" title="" width="600px"></mj-image>
+        <mj-image align="center" border="none" padding="1px" src="https://via.placeholder.com/1200x400.png?text=1200x400+Retina+Image" width="600px"></mj-image>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 30. SF Donation Receipt Start */ -->
     <mj-section background-color="#ffffff" padding-top="15px" padding-bottom="15px">
       <mj-column>
-        <mj-text padding-top="20px" padding-bottom="4px" color="#074365" align="left" font-weight="bold" font-size="24px"> 您的電子捐款收據 <br /> Donation Receipt </mj-text>
+        <mj-text padding-top="20px" padding-bottom="4px" color="#074365" align="left" font-weight="bold" font-size="24px"> 您的電子捐款收據 Donation Receipt </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0px">
       <mj-column>
-        <mj-text> 捐款日期 Donation date: </mj-text>
+        <mj-text> 捐款日期: </mj-text>
       </mj-column>
       <mj-column>
-        <mj-text> Greenpeace East Asia </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#ffffff" padding-top="0px">
-      <mj-column>
-        <mj-text> 捐款日期 Donation date: </mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-text> Date </mj-text>
+        <mj-text> {!donation.Created_Date_Time__c} </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0px">
       <mj-column>
-        <mj-text> 捐款者全名 Donor's full name: </mj-text>
+        <mj-text> 捐款者全名: </mj-text>
       </mj-column>
       <mj-column>
-        <mj-text> Name </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#ffffff" padding-top="0px">
-      <mj-column>
-        <mj-text> 捐款計劃 Type of donation: </mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-text> One-off Donation </mj-text>
+        <mj-text> {!donor.Name} </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0px">
       <mj-column>
-        <mj-text> 捐款金額 Donation amount: </mj-text>
+        <mj-text> 捐款計劃: </mj-text>
       </mj-column>
       <mj-column>
-        <mj-text> Amount </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#ffffff" padding-top="0px">
-      <mj-column>
-        <mj-text> 捐款方式 Payment method: </mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-text> Payment </mj-text>
+        <mj-text> {!donation.Donation_Type__c} </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0px">
       <mj-column>
-        <mj-text> 收據編號 Receipt No: </mj-text>
+        <mj-text> 捐款金額: </mj-text>
       </mj-column>
       <mj-column>
-        <mj-text> Receipt No </mj-text>
+        <mj-text> {!donation.Amount__c} </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-top="0px">
+      <mj-column>
+        <mj-text> 捐款方式: </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text> {!donation.Payment_Method__c} </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-top="0px">
+      <mj-column>
+        <mj-text> 收據編號: </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text> {!donation.Name} / {!donation.Id_18_digit__c} </mj-text>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 30. SF Donation Receipt End */ -->
@@ -140,7 +132,7 @@ Copy Start */ -->
       <mj-column>
         <mj-text color="#000" font-size="16px" align="left" padding-bottom="0px" padding-top="0px">
           <p>© GREENPEACE</p>
-          <p>10/F, Stelux House, <br /> 698 Prince Edward Road East, San Po Kong, Kowloon, Hong Kong </p>
+          <p>10/F, Stelux House, 698 Prince Edward Road East, <br />San Po Kong, Kowloon, Hong Kong </p>
         </mj-text>
       </mj-column>
       <!--ACT EXPLORE -->
