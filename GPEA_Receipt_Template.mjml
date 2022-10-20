@@ -1,0 +1,150 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Noto Sans TC" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap" />
+    <mj-attributes>
+      <mj-all padding="0px" />
+      <mj-all font-family="Noto Sans TC, Arial, sans-serif"></mj-all>
+      <!--
+      <mj-section border-left="1px lightgrey solid" border-right="1px lightgrey solid" />
+-->
+      <mj-text color="#1a1a1a" font-size="16px" line-height="1.5" padding="0px 20px 20px 20px" font-family="Noto Sans TC, Arial, sans-serif" />
+      <mj-button css-class="custom-button" line-height="1.5" font-weight="bold" align="center" padding="12px 20px" inner-padding="12px 20px" border-radius="4px" font-family="Noto Sans TC, Arial, sans-serif" />
+      <mj-divider border-color="lightgrey" border-width="1px" padding-top="30px" padding-bottom="30px" />
+    </mj-attributes>
+    <mj-title>GPEA Email Blocks Template</mj-title>
+    <mj-style inline="inline"> @media (min-width:480px) { .rightPad10 { padding-left: 0px !important; padding-right: 10px !important; } .leftPad10 { padding-left: 10px !important; padding-right: 0px !important; } } </mj-style>
+    <mj-style inline="inline"> @media (max-width:480px) { .lrPad20 { padding-left: 20px !important; padding-right: 20px !important; } .mobHide { display: none !important; } } </mj-style>
+    <mj-style inline="inline"> .body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); } .link-nostyle { color: #66cc00;} </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    <!-- /* Content Block Standard Header Start */ -->
+    <mj-section background-color="#6c0" padding-top="15px" padding-bottom="15px">
+      <!-- Logo -->
+      <mj-column>
+        <mj-image width="240px" align="center" src="https://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/67825ad8-859c-4208-be02-5e388d161a9f.png" href="https://www.greenpeace.org/taiwan/" padding="0px">
+        </mj-image>
+        <!-- Logo -->
+    </mj-section>
+    <!-- /* Content Block Standard Header End */ -->
+    <!-- /* Content Block 0. Single Column Left Align
+Copy Start */ -->
+    <mj-section background-color="#ffffff" padding-top="20px" padding-bottom="0px">
+      <mj-column>
+        <mj-text padding-top="10px" color="#074365" align="left" font-weight="bold" font-size="24px">這裡是守護地球的前線陣地</mj-text>
+        <mj-text>感謝您，為地球作出最了不起的決定。再次歡迎您，並期待我們一同扭轉水浸眼眉的環境危機！</mj-text>
+        <mj-text>綠色和平東亞分部一直站在守護環境的最前線，為脆弱的地球發聲。您的捐款非常重要，因為我們從不接受任何政商界資助。全因有您，以及全球眾多像您一樣關注地球生態的人，我們的各項環境倡議工作才得以邁步向前。</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section text-align="center" padding-top="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-image align="center" border="none" padding="1px" src="https://via.placeholder.com/1200x400.png?text=1200x400+Retina+Image" href="https://www.greenpeace.org/taiwan/" alt="Greenpeace" target="_blank" title="" width="600px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- /* Content Block 30. SF Donation Receipt Start */ -->
+    <mj-section background-color="#ffffff" padding-top="15px" padding-bottom="15px">
+      <mj-column>
+        <mj-text padding-top="20px" padding-bottom="4px" color="#074365" align="left" font-weight="bold" font-size="24px"> 您的電子捐款收據 <br /> Donation Receipt </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-top="0px">
+      <mj-column>
+        <mj-text> 捐款日期 Donation date: </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text> Greenpeace East Asia </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-top="0px">
+      <mj-column>
+        <mj-text> 捐款日期 Donation date: </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text> Date </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-top="0px">
+      <mj-column>
+        <mj-text> 捐款者全名 Donor's full name: </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text> Name </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-top="0px">
+      <mj-column>
+        <mj-text> 捐款計劃 Type of donation: </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text> One-off Donation </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-top="0px">
+      <mj-column>
+        <mj-text> 捐款金額 Donation amount: </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text> Amount </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-top="0px">
+      <mj-column>
+        <mj-text> 捐款方式 Payment method: </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text> Payment </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-top="0px">
+      <mj-column>
+        <mj-text> 收據編號 Receipt No: </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text> Receipt No </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /* Content Block 30. SF Donation Receipt End */ -->
+    <!-- /* Content Block 31. SF Donation Receipt Other information Start */ -->
+    <mj-section background-color="#ffffff" padding-bottom="15px" padding-bottom="15px">
+      <mj-column>
+        <mj-text padding-top="10px" color="#074365" align="left" font-weight="bold" font-size="24px">想知更多綠色和平最新消息？ </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-top="0px">
+      <mj-column>
+        <mj-text>歡迎瀏覽我們的網址，或關注我們的社交媒體，取得我們環保項目的最新消息和動態：</mj-text>
+        <mj-text>如您想知道捐款過帳程序、收據發送方式等細節，您也可以按此了解更多。</mj-text>
+        <mj-text>如有任何查詢，歡迎您致電會員專屬熱線 (852) 2854 8318， 或來信至會員專屬電郵信箱 donor.services.hk@greenpeace.org， 我們將竭誠為您服務。 祝您有美好的一天！</mj-text>
+        <mj-text>綠色和平會員服務部</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /* Content Block 31. SF Donation Receipt Other information End */ -->
+    <!-- Footer Start-->
+    <mj-section padding="0px" background-color="#ffffff" padding="10px">
+      <!--Social Icons-->
+      <mj-column>
+        <mj-divider />
+      </mj-column>
+      <!--Social Icons-->
+    </mj-section>
+    <!--Header-->
+    <mj-section background-color="#ffffff" padding="0px 20px 0px 20px">
+      <!-- Logo -->
+      <mj-column>
+        <mj-image width="240px" align="left" src="https://image.greenhk.greenpeace.org/lib/fe351170756404747c1770/m/1/6b6b5efa-b41c-4c15-b36a-5fddb37415a5.png" href="https://www.greenpeace.org/taiwan/" padding="10px 0px 10px 0px" alt="Greenpeace">
+        </mj-image>
+      </mj-column>
+      <!-- Logo -->
+    </mj-section>
+    <!-- Logo -->
+    <mj-section background-color="#ffffff" padding-bottom="10px" padding-top="10px" padding-left="0px" padding-right="0px">
+      <mj-column>
+        <mj-text color="#000" font-size="16px" align="left" padding-bottom="0px" padding-top="0px">
+          <p>© GREENPEACE</p>
+          <p>10/F, Stelux House, <br /> 698 Prince Edward Road East, San Po Kong, Kowloon, Hong Kong </p>
+        </mj-text>
+      </mj-column>
+      <!--ACT EXPLORE -->
+    </mj-section>
+    <!--- Footer End -->
+  </mj-body>
+</mjml>
