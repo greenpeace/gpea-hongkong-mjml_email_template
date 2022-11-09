@@ -1,0 +1,23 @@
+{
+  "name": "gpea-hongkong-mjml_email_template",
+  "version": "1.0.0",
+  "description": "GPEA Marketing Cloud Email Templates",
+  "main": "index.js",
+  "scripts": {
+    "build-GPEA_MC_Blocks": "mjml GPEA_MC_Blocks.mjml -o GPEA_MC_Blocks.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/greenpeace/gpea-hongkong-mjml_email_template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greenpeace/gpea-hongkong-mjml_email_template/issues"
+  },
+  "homepage": "https://github.com/greenpeace/gpea-hongkong-mjml_email_template#readme",
+  "dependencies": {
+    "mjml": "^4.13.0"
+  }
+}
