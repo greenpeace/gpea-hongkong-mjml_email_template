@@ -30,20 +30,15 @@
 Copy Start */ -->
     <mj-section background-color="#ffffff" padding-top="20px" padding-bottom="0px">
       <mj-column>
-        <mj-text padding-top="10px" color="#074365" align="left" font-weight="bold" font-size="24px">這裡是守護地球的前線陣地</mj-text>
-        <mj-text>感謝您，為地球作出最了不起的決定。再次歡迎您，並期待我們一同扭轉水浸眼眉的環境危機！</mj-text>
-        <mj-text>綠色和平東亞分部一直站在守護環境的最前線，為脆弱的地球發聲。您的捐款非常重要，因為我們從不接受任何政商界資助。全因有您，以及全球眾多像您一樣關注地球生態的人，我們的各項環境倡議工作才得以邁步向前。</mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section text-align="center" padding-top="0px" padding-bottom="0px">
-      <mj-column>
-        <mj-image align="center" border="none" padding="1px" src="https://via.placeholder.com/1200x400.png?text=1200x400+Retina+Image" width="600px"></mj-image>
+        <mj-text>親愛的 {!donor.Name}：</mj-text>
+        <mj-text>感謝您，為地球作出最了不起的決定，加入綠色和平的大家庭，一同扭轉水浸眼眉的環境危機！</mj-text>
+        <mj-text>以下按您的要求，重新發送您的單次捐款電子收據。</mj-text>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 30. SF Donation Receipt Start */ -->
     <mj-section background-color="#ffffff" padding-top="15px" padding-bottom="15px">
       <mj-column>
-        <mj-text padding-top="20px" padding-bottom="4px" color="#074365" align="left" font-weight="bold" font-size="24px"> 您的電子捐款收據 Donation Receipt </mj-text>
+        <mj-text padding-bottom="4px" color="#074365" align="left" font-weight="bold" font-size="24px"> 您的電子捐款收據</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0px">
@@ -59,7 +54,7 @@ Copy Start */ -->
         <mj-text> 捐款者全名: </mj-text>
       </mj-column>
       <mj-column>
-        <mj-text> {!donor.Name} </mj-text>
+        <mj-text> {!donor.Receipt_Name_Formula__c} </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0px">
@@ -91,21 +86,17 @@ Copy Start */ -->
         <mj-text> 收據編號: </mj-text>
       </mj-column>
       <mj-column>
-        <mj-text> {!donation.Name} / {!donation.Id_18_digit__c} </mj-text>
+        <mj-text> {!donation.Name} </mj-text>
       </mj-column>
     </mj-section>
     <!-- /* Content Block 30. SF Donation Receipt End */ -->
     <!-- /* Content Block 31. SF Donation Receipt Other information Start */ -->
-    <mj-section background-color="#ffffff" padding-bottom="15px" padding-bottom="15px">
+    <mj-section background-color="#ffffff" padding-top="15px">
       <mj-column>
-        <mj-text padding-top="10px" color="#074365" align="left" font-weight="bold" font-size="24px">想知更多綠色和平最新消息？ </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#ffffff" padding-top="0px">
-      <mj-column>
-        <mj-text>歡迎瀏覽我們的網址，或關注我們的社交媒體，取得我們環保項目的最新消息和動態：</mj-text>
+        <mj-text>* 提示︰日後發出的相關電郵有機會被自動歸類為「垃圾郵件」或「推廣」。如要避免，您可以將我們加入成為您的聯絡人。</mj-text>
         <mj-text>如您想知道捐款過帳程序、收據發送方式等細節，您也可以按此了解更多。</mj-text>
-        <mj-text>如有任何查詢，歡迎您致電會員專屬熱線 (852) 2854 8318， 或來信至會員專屬電郵信箱 donor.services.hk@greenpeace.org， 我們將竭誠為您服務。 祝您有美好的一天！</mj-text>
+        <mj-text>如有任何查詢，歡迎您致電會員專屬熱線 (852) 2854 8318， 或來信至會員專屬電郵信箱 donor.services.hk@greenpeace.org， 我們將竭誠為您服務。</mj-text>
+        <mj-text>祝您有美好的一天！</mj-text>
         <mj-text>綠色和平會員服務部</mj-text>
       </mj-column>
     </mj-section>
